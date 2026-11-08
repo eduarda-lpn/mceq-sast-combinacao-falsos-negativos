@@ -1,0 +1,13 @@
+borda,modo,sca_data_1 (S1-1),fct_stats_2 (funcoes marcadas)
+incl,todas,42/54,36/63
+incl,mais_interna,42/54,25/63
+incl,maior_inicio,42/54,24/63
+ex_ini,todas,40/54,20/63
+ex_ini,mais_interna,39/54,18/63
+ex_ini,maior_inicio,40/54,17/63
+ex_fim,todas,42/54,16/63
+ex_fim,mais_interna,41/54,15/63
+ex_fim,maior_inicio,42/54,15/63
+ex_ambos,todas,40/54,12/63
+ex_ambos,mais_interna,39/54,12/63
+ex_ambos,maior_inicio,40/54,11/63

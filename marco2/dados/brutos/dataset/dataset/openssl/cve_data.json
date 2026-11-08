@@ -1,0 +1,363 @@
+{
+    "CVE-2016-2842": {
+        "cwe": "CWE-119",
+        "functions": [
+            {
+                "file": "crypto/bio/b_print.c",
+                "name": "_dopr",
+                "magma_info": {
+                    "fix_count": 4,
+                    "canary_count": 4
+                }
+            },
+            {
+                "file": "crypto/bio/b_print.c",
+                "name": "fmtstr",
+                "magma_info": {
+                    "fix_count": 3,
+                    "canary_count": 3
+                }
+            },
+            {
+                "file": "crypto/bio/b_print.c",
+                "name": "fmtint",
+                "magma_info": {
+                    "fix_count": 6,
+                    "canary_count": 6
+                }
+            },
+            {
+                "file": "crypto/bio/b_print.c",
+                "name": "fmtfp",
+                "magma_info": {
+                    "fix_count": 13,
+                    "canary_count": 13
+                }
+            },
+            {
+                "file": "crypto/bio/b_print.c",
+                "name": "doapr_outch",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 0
+                }
+            }
+        ]
+    },
+    "CVE-2016-2108": {
+        "cwe": "CWE-119",
+        "functions": [
+            {
+                "file": "crypto/asn1/a_int.c",
+                "name": "i2c_ibuf",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            },
+            {
+                "file": "crypto/asn1/a_type.c",
+                "name": "ASN1_TYPE_cmp",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 0
+                }
+            },
+            {
+                "file": "crypto/asn1/tasn_dec.c",
+                "name": "asn1_ex_c2i",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 0
+                }
+            },
+            {
+                "file": "crypto/asn1/tasn_enc.c",
+                "name": "asn1_ex_i2c",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 0
+                }
+            }
+        ]
+    },
+    "CVE-2016-6309": {
+        "cwe": "CWE-416",
+        "functions": [
+            {
+                "file": "ssl/statem/statem.c",
+                "name": "grow_init_buf",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2016-2109": {
+        "cwe": "CWE-399",
+        "functions": [
+            {
+                "file": "crypto/asn1/a_d2i_fp.c",
+                "name": "asn1_d2i_read_bio",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2016-2176": {
+        "cwe": "CWE-119",
+        "functions": [
+            {
+                "file": "crypto/x509/x509_obj.c",
+                "name": "X509_NAME_oneline",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2016-6304": {
+        "cwe": "CWE-399",
+        "functions": [
+            {
+                "file": "ssl/statem/extensions_srvr.c",
+                "name": "tls_parse_ctos_status_request",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2016-2105": {
+        "cwe": "CWE-189",
+        "functions": [
+            {
+                "file": "crypto/evp/encode.c",
+                "name": "EVP_EncodeUpdate",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2016-6303": {
+        "cwe": "CWE-787",
+        "functions": [
+            {
+                "file": "crypto/mdc2/mdc2dgst.c",
+                "name": "MDC2_Update",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2017-3730": {
+        "cwe": "CWE-476",
+        "functions": [
+            {
+                "file": "ssl/statem/statem_clnt.c",
+                "name": "tls_construct_cke_dhe",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            },
+            {
+                "file": "ssl/statem/statem_clnt.c",
+                "name": "tls_construct_cke_ecdhe",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2017-3735": {
+        "cwe": "CWE-119",
+        "functions": [
+            {
+                "file": "crypto/x509/v3_addr.c",
+                "name": "length_from_afi",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2016-0797": {
+        "cwe": "CWE-190",
+        "functions": [
+            {
+                "file": "crypto/bn/bn_local.h",
+                "name": "bn_expand",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2015-1790": {
+        "cwe": "CWE-476",
+        "functions": [
+            {
+                "file": "crypto/pkcs7/pk7_doit.c",
+                "name": "PKCS7_dataDecode",
+                "magma_info": {
+                    "fix_count": 2,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2015-0288": {
+        "cwe": "CWE-476",
+        "functions": [
+            {
+                "file": "crypto/x509/x509_req.c",
+                "name": "X509_to_X509_REQ",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2015-0208": {
+        "cwe": "CWE-476",
+        "functions": [
+            {
+                "file": "crypto/rsa/rsa_ameth.c",
+                "name": "rsa_item_verify",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2015-0286": {
+        "cwe": "CWE-17",
+        "functions": [
+            {
+                "file": "crypto/asn1/a_type.c",
+                "name": "ASN1_TYPE_cmp",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2015-0289": {
+        "cwe": "CWE-476",
+        "functions": [
+            {
+                "file": "crypto/pkcs7/pk7_doit.c",
+                "name": "PKCS7_dataInit",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            },
+            {
+                "file": "crypto/pkcs7/pk7_doit.c",
+                "name": "PKCS7_dataDecode",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            },
+            {
+                "file": "crypto/pkcs7/pk7_doit.c",
+                "name": "PKCS7_dataFinal",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            },
+            {
+                "file": "crypto/pkcs7/pk7_doit.c",
+                "name": "PKCS7_dataVerify",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2015-1788": {
+        "cwe": "CWE-399",
+        "functions": [
+            {
+                "file": "crypto/bn/bn_gf2m.c",
+                "name": "BN_GF2m_mod_inv_vartime",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2016-7052": {
+        "cwe": "CWE-476",
+        "functions": [
+            {
+                "file": "crypto/x509/x509_vfy.c",
+                "name": "get_crl_sk",
+                "magma_info": {
+                    "fix_count": 2,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2016-6308": {
+        "cwe": "CWE-399",
+        "functions": [
+            {
+                "file": "ssl/statem/statem_dtls.c",
+                "name": "dtls1_preprocess_fragment",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2016-6305": {
+        "cwe": "CWE-20",
+        "functions": [
+            {
+                "file": "ssl/record/rec_layer_s3.c",
+                "name": "ssl3_read_bytes",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2016-6302": {
+        "cwe": "CWE-20",
+        "functions": [
+            {
+                "file": "ssl/t1_lib.c",
+                "name": "tls_decrypt_ticket",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    }
+}

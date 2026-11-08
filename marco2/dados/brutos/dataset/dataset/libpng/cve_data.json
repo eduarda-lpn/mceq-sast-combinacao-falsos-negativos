@@ -1,0 +1,141 @@
+{
+    "CVE-2018-13785": {
+        "cwe": "CWE-369",
+        "functions": [
+            {
+                "file": "pngrutil.c",
+                "name": "png_check_chunk_length",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2019-7317": {
+        "cwe": "CWE-416",
+        "functions": [
+            {
+                "file": "png.c",
+                "name": "png_image_free_function",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 0
+                }
+            },
+            {
+                "file": "png.c",
+                "name": "png_image_free",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 0
+                }
+            },
+            {
+                "file": "pngerror.c",
+                "name": "png_safe_execute",
+                "magma_info": {
+                    "fix_count": 0,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2015-8472": {
+        "cwe": "CWE-119",
+        "functions": [
+            {
+                "file": "pngrutil.c",
+                "name": "png_handle_PLTE",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            },
+            {
+                "file": "pngset.c",
+                "name": "png_set_PLTE",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 0
+                }
+            }
+        ]
+    },
+    "CVE-2015-0973": {
+        "cwe": "CWE-119",
+        "functions": [
+            {
+                "file": "pngrutil.c",
+                "name": "png_combine_row",
+                "magma_info": {
+                    "fix_count": 3,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2014-9495": {
+        "cwe": "CWE-119",
+        "functions": [
+            {
+                "file": "png.c",
+                "name": "png_check_IHDR",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 0
+                }
+            },
+            {
+                "file": "pngrutil.c",
+                "name": "png_read_start_row",
+                "magma_info": {
+                    "fix_count": 0,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2013-6954": {
+        "cwe": "CWE-476",
+        "functions": [
+            {
+                "file": "pngrtran.c",
+                "name": "png_read_transform_info",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            },
+            {
+                "file": "pngset.c",
+                "name": "png_set_PLTE",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 0
+                }
+            }
+        ]
+    },
+    "unspecified": {
+        "cwe": "CWE-401",
+        "functions": [
+            {
+                "file": "png.c",
+                "name": "png_free_data",
+                "magma_info": {
+                    "fix_count": 0,
+                    "canary_count": 1
+                }
+            },
+            {
+                "file": "pngrutil.c",
+                "name": "png_handle_eXIf",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 0
+                }
+            }
+        ]
+    }
+}

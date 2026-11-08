@@ -1,0 +1,801 @@
+{
+    "CVE-2017-17123": {
+        "cwe": "CWE-476",
+        "functions": [
+            {
+                "file": "bfd/coffcode.h",
+                "name": "coff_slurp_reloc_table"
+            }
+        ]
+    },
+    "CVE-2017-16828": {
+        "cwe": "CWE-190",
+        "functions": [
+            {
+                "file": "binutils/dwarf.c",
+                "name": "display_debug_frames"
+            }
+        ]
+    },
+    "CVE-2017-12967": {
+        "cwe": "CWE-125",
+        "functions": [
+            {
+                "file": "bfd/tekhex.c",
+                "name": "getsym"
+            }
+        ]
+    },
+    "CVE-2018-6323": {
+        "cwe": "CWE-190",
+        "functions": [
+            {
+                "file": "bfd/elfcode.h",
+                "name": "elf_object_p"
+            }
+        ]
+    },
+    "CVE-2017-12450": {
+        "cwe": "CWE-787",
+        "functions": [
+            {
+                "file": "bfd/mach-o-i386.c",
+                "name": "bfd_mach_o_i386_canonicalize_one_reloc"
+            },
+            {
+                "file": "bfd/vms-alpha.c",
+                "name": "alpha_vms_object_p"
+            },
+            {
+                "file": "bfd/vms-alpha.c",
+                "name": "_bfd_vms_slurp_eihd"
+            },
+            {
+                "file": "bfd/vms-alpha.c",
+                "name": "_bfd_vms_slurp_egsd"
+            },
+            {
+                "file": "bfd/vms-alpha.c",
+                "name": "_bfd_vms_slurp_eeom"
+            },
+            {
+                "file": "bfd/vms-alpha.c",
+                "name": "alpha_vms_slurp_relocs"
+            },
+            {
+                "file": "bfd/vms-alpha.c",
+                "name": "image_set_ptr"
+            },
+            {
+                "file": "binutils/rddbg.c",
+                "name": "read_symbol_stabs_debugging_info"
+            }
+        ]
+    },
+    "CVE-2017-12458": {
+        "cwe": "CWE-125",
+        "functions": [
+            {
+                "file": "bfd/mach-o.c",
+                "name": "bfd_mach_o_read_symtab_strtab"
+            },
+            {
+                "file": "bfd/nlmcode.h",
+                "name": "nlm_swap_auxiliary_headers_in"
+            },
+            {
+                "file": "bfd/section.c",
+                "name": "bfd_make_section_with_flags"
+            },
+            {
+                "file": "bfd/vms-alpha.c",
+                "name": "evax_bfd_print_emh"
+            }
+        ]
+    },
+    "CVE-2017-17125": {
+        "cwe": "CWE-125",
+        "functions": [
+            {
+                "file": "binutils/nm.c",
+                "name": "sort_symbols_by_size"
+            },
+            {
+                "file": "binutils/nm.c",
+                "name": "print_symbol"
+            },
+            {
+                "file": "binutils/objdump.c",
+                "name": "compare_symbols"
+            },
+            {
+                "file": "binutils/objdump.c",
+                "name": "objdump_print_symname"
+            }
+        ]
+    },
+    "CVE-2017-14940": {
+        "cwe": "CWE-476",
+        "functions": [
+            {
+                "file": "bfd/dwarf2.c",
+                "name": "scan_unit_for_symbols"
+            }
+        ]
+    },
+    "CVE-2017-15025": {
+        "cwe": "CWE-369",
+        "functions": [
+            {
+                "file": "bfd/dwarf2.c",
+                "name": "decode_line_info"
+            }
+        ]
+    },
+    "CVE-2017-14974": {
+        "cwe": "CWE-476",
+        "functions": [
+            {
+                "file": "bfd/elf32-i386.c",
+                "name": "elf_i386_get_synthetic_symtab"
+            },
+            {
+                "file": "bfd/elf64-x86-64.c",
+                "name": "elf_x86_64_get_synthetic_symtab"
+            }
+        ]
+    },
+    "CVE-2017-12449": {
+        "cwe": "CWE-125",
+        "functions": [
+            {
+                "file": "bfd/mach-o.c",
+                "name": "bfd_mach_o_read_symtab_strtab"
+            },
+            {
+                "file": "bfd/nlmcode.h",
+                "name": "nlm_swap_auxiliary_headers_in"
+            },
+            {
+                "file": "bfd/section.c",
+                "name": "bfd_make_section_with_flags"
+            },
+            {
+                "file": "bfd/vms-alpha.c",
+                "name": "evax_bfd_print_emh"
+            }
+        ]
+    },
+    "CVE-2017-16832": {
+        "cwe": "CWE-190",
+        "functions": [
+            {
+                "file": "bfd/peicode.h",
+                "name": "pe_bfd_read_buildid"
+            }
+        ]
+    },
+    "CVE-2017-14934": {
+        "cwe": "CWE-131",
+        "functions": [
+            {
+                "file": "binutils/dwarf.c",
+                "name": "process_debug_info"
+            }
+        ]
+    },
+    "CVE-2017-12456": {
+        "cwe": "CWE-125",
+        "functions": [
+            {
+                "file": "bfd/mach-o-i386.c",
+                "name": "bfd_mach_o_i386_canonicalize_one_reloc"
+            },
+            {
+                "file": "bfd/vms-alpha.c",
+                "name": "_bfd_vms_slurp_eihd"
+            },
+            {
+                "file": "bfd/vms-alpha.c",
+                "name": "_bfd_vms_slurp_egsd"
+            },
+            {
+                "file": "bfd/vms-alpha.c",
+                "name": "_bfd_vms_slurp_eeom"
+            },
+            {
+                "file": "bfd/vms-alpha.c",
+                "name": "alpha_vms_slurp_relocs"
+            },
+            {
+                "file": "bfd/vms-alpha.c",
+                "name": "image_set_ptr"
+            },
+            {
+                "file": "binutils/rddbg.c",
+                "name": "read_symbol_stabs_debugging_info"
+            }
+        ]
+    },
+    "CVE-2017-12457": {
+        "cwe": "CWE-476",
+        "functions": [
+            {
+                "file": "bfd/mach-o.c",
+                "name": "bfd_mach_o_read_symtab_strtab"
+            },
+            {
+                "file": "bfd/nlmcode.h",
+                "name": "nlm_swap_auxiliary_headers_in"
+            },
+            {
+                "file": "bfd/section.c",
+                "name": "bfd_make_section_with_flags"
+            },
+            {
+                "file": "bfd/vms-alpha.c",
+                "name": "evax_bfd_print_emh"
+            }
+        ]
+    },
+    "CVE-2017-16826": {
+        "cwe": "CWE-119",
+        "functions": [
+            {
+                "file": "bfd/coffcode.h",
+                "name": "coff_slurp_line_table"
+            }
+        ]
+    },
+    "CVE-2017-13757": {
+        "cwe": "CWE-125",
+        "functions": [
+            {
+                "file": "bfd/elf32-i386.c",
+                "name": "elf_i386_get_synthetic_symtab"
+            },
+            {
+                "file": "bfd/elf64-x86-64.c",
+                "name": "elf_x86_64_get_synthetic_symtab"
+            }
+        ]
+    },
+    "CVE-2017-15021": {
+        "cwe": "CWE-125",
+        "functions": [
+            {
+                "file": "bfd/opncls.c",
+                "name": "bfd_get_debug_link_info_1"
+            }
+        ]
+    },
+    "CVE-2017-17121": {
+        "cwe": "CWE-119",
+        "functions": [
+            {
+                "file": "bfd/coff-i386.c",
+                "name": "coff_i386_reloc"
+            }
+        ]
+    },
+    "CVE-2017-17126": {
+        "cwe": "CWE-119",
+        "functions": [
+            {
+                "file": "binutils/readelf.c",
+                "name": "load_debug_section"
+            }
+        ]
+    },
+    "CVE-2017-12451": {
+        "cwe": "CWE-125",
+        "functions": [
+            {
+                "file": "bfd/coff-rs6000.c",
+                "name": "_bfd_xcoff_read_ar_hdr"
+            },
+            {
+                "file": "bfd/coff-rs6000.c",
+                "name": "_bfd_xcoff_openr_next_archived_file"
+            }
+        ]
+    },
+    "CVE-2017-14129": {
+        "cwe": "CWE-125",
+        "functions": [
+            {
+                "file": "bfd/dwarf2.c",
+                "name": "read_section"
+            }
+        ]
+    },
+    "CVE-2017-15938": {
+        "cwe": "CWE-119",
+        "functions": [
+            {
+                "file": "bfd/dwarf2.c",
+                "name": "find_abstract_instance_name"
+            }
+        ]
+    },
+    "CVE-2017-12455": {
+        "cwe": "CWE-125",
+        "functions": [
+            {
+                "file": "bfd/mach-o.c",
+                "name": "bfd_mach_o_read_symtab_strtab"
+            },
+            {
+                "file": "bfd/nlmcode.h",
+                "name": "nlm_swap_auxiliary_headers_in"
+            },
+            {
+                "file": "bfd/section.c",
+                "name": "bfd_make_section_with_flags"
+            },
+            {
+                "file": "bfd/vms-alpha.c",
+                "name": "evax_bfd_print_emh"
+            }
+        ]
+    },
+    "CVE-2017-12452": {
+        "cwe": "CWE-125",
+        "functions": [
+            {
+                "file": "bfd/mach-o-i386.c",
+                "name": "bfd_mach_o_i386_canonicalize_one_reloc"
+            },
+            {
+                "file": "bfd/vms-alpha.c",
+                "name": "_bfd_vms_slurp_eihd"
+            },
+            {
+                "file": "bfd/vms-alpha.c",
+                "name": "_bfd_vms_slurp_egsd"
+            },
+            {
+                "file": "bfd/vms-alpha.c",
+                "name": "_bfd_vms_slurp_eeom"
+            },
+            {
+                "file": "bfd/vms-alpha.c",
+                "name": "alpha_vms_slurp_relocs"
+            },
+            {
+                "file": "bfd/vms-alpha.c",
+                "name": "image_set_ptr"
+            },
+            {
+                "file": "binutils/rddbg.c",
+                "name": "read_symbol_stabs_debugging_info"
+            }
+        ]
+    },
+    "CVE-2017-14729": {
+        "cwe": "CWE-119",
+        "functions": [
+            {
+                "file": "bfd/elf32-i386.c",
+                "name": "elf_i386_get_synthetic_symtab"
+            },
+            {
+                "file": "bfd/elf64-x86-64.c",
+                "name": "elf_x86_64_get_synthetic_symtab"
+            }
+        ]
+    },
+    "CVE-2018-19932": {
+        "cwe": "CWE-190",
+        "functions": [
+            {
+                "file": "bfd/elf.c",
+                "name": "rewrite_elf_program_header"
+            }
+        ]
+    },
+    "CVE-2017-12799": {
+        "cwe": "CWE-119",
+        "functions": [
+            {
+                "file": "bfd/elf.c",
+                "name": "elf_read_notes"
+            }
+        ]
+    },
+    "CVE-2017-12453": {
+        "cwe": "CWE-125",
+        "functions": [
+            {
+                "file": "bfd/mach-o-i386.c",
+                "name": "bfd_mach_o_i386_canonicalize_one_reloc"
+            },
+            {
+                "file": "bfd/vms-alpha.c",
+                "name": "_bfd_vms_slurp_eihd"
+            },
+            {
+                "file": "bfd/vms-alpha.c",
+                "name": "_bfd_vms_slurp_egsd"
+            },
+            {
+                "file": "bfd/vms-alpha.c",
+                "name": "_bfd_vms_slurp_eeom"
+            },
+            {
+                "file": "bfd/vms-alpha.c",
+                "name": "alpha_vms_slurp_relocs"
+            },
+            {
+                "file": "bfd/vms-alpha.c",
+                "name": "image_set_ptr"
+            },
+            {
+                "file": "binutils/rddbg.c",
+                "name": "read_symbol_stabs_debugging_info"
+            }
+        ]
+    },
+    "CVE-2017-15020": {
+        "cwe": "CWE-125",
+        "functions": [
+            {
+                "file": "bfd/dwarf1.c",
+                "name": "parse_die"
+            },
+            {
+                "file": "bfd/dwarf1.c",
+                "name": "parse_line_table"
+            }
+        ]
+    },
+    "CVE-2017-15023": {
+        "cwe": "CWE-476",
+        "functions": [
+            {
+                "file": "bfd/dwarf2.c",
+                "name": "read_formatted_entries"
+            }
+        ]
+    },
+    "CVE-2017-17124": {
+        "cwe": "CWE-119",
+        "functions": [
+            {
+                "file": "bfd/coffgen.c",
+                "name": "_bfd_coff_read_string_table"
+            }
+        ]
+    },
+    "CVE-2017-14939": {
+        "cwe": "CWE-125",
+        "functions": [
+            {
+                "file": "bfd/dwarf2.c",
+                "name": "decode_line_info"
+            }
+        ]
+    },
+    "CVE-2017-12459": {
+        "cwe": "CWE-787",
+        "functions": [
+            {
+                "file": "bfd/mach-o.c",
+                "name": "bfd_mach_o_read_symtab_strtab"
+            },
+            {
+                "file": "bfd/nlmcode.h",
+                "name": "nlm_swap_auxiliary_headers_in"
+            },
+            {
+                "file": "bfd/section.c",
+                "name": "bfd_make_section_with_flags"
+            },
+            {
+                "file": "bfd/vms-alpha.c",
+                "name": "evax_bfd_print_emh"
+            }
+        ]
+    },
+    "CVE-2017-16831": {
+        "cwe": "CWE-190",
+        "functions": [
+            {
+                "file": "bfd/coffgen.c",
+                "name": "_bfd_coff_get_external_symbols"
+            },
+            {
+                "file": "bfd/coffgen.c",
+                "name": "coff_get_normalized_symtab"
+            }
+        ]
+    },
+    "CVE-2017-13710": {
+        "cwe": "CWE-476",
+        "functions": [
+            {
+                "file": "bfd/elf.c",
+                "name": "setup_group"
+            }
+        ]
+    },
+    "CVE-2018-1000876": {
+        "cwe": "CWE-190",
+        "functions": [
+            {
+                "file": "bfd/elf.c",
+                "name": "_bfd_elf_get_symtab_upper_bound"
+            },
+            {
+                "file": "bfd/elf.c",
+                "name": "_bfd_elf_get_dynamic_symtab_upper_bound"
+            },
+            {
+                "file": "bfd/elf.c",
+                "name": "_bfd_elf_canonicalize_dynamic_symtab"
+            },
+            {
+                "file": "bfd/elf.c",
+                "name": "_bfd_elf_get_dynamic_reloc_upper_bound"
+            }
+        ]
+    },
+    "CVE-2017-12454": {
+        "cwe": "CWE-125",
+        "functions": [
+            {
+                "file": "bfd/mach-o-i386.c",
+                "name": "bfd_mach_o_i386_canonicalize_one_reloc"
+            },
+            {
+                "file": "bfd/vms-alpha.c",
+                "name": "_bfd_vms_slurp_eihd"
+            },
+            {
+                "file": "bfd/vms-alpha.c",
+                "name": "_bfd_vms_slurp_egsd"
+            },
+            {
+                "file": "bfd/vms-alpha.c",
+                "name": "_bfd_vms_slurp_eeom"
+            },
+            {
+                "file": "bfd/vms-alpha.c",
+                "name": "alpha_vms_slurp_relocs"
+            },
+            {
+                "file": "bfd/vms-alpha.c",
+                "name": "image_set_ptr"
+            },
+            {
+                "file": "binutils/rddbg.c",
+                "name": "read_symbol_stabs_debugging_info"
+            }
+        ]
+    },
+    "CVE-2017-15024": {
+        "cwe": "CWE-835",
+        "functions": [
+            {
+                "file": "bfd/dwarf2.c",
+                "name": "find_abstract_instance_name"
+            },
+            {
+                "file": "bfd/dwarf2.c",
+                "name": "scan_unit_for_symbols"
+            }
+        ]
+    },
+    "CVE-2017-17080": {
+        "cwe": "CWE-125",
+        "functions": [
+            {
+                "file": "bfd/elf.c",
+                "name": "elfcore_netbsd_get_lwpid"
+            },
+            {
+                "file": "bfd/elf.c",
+                "name": "elfcore_grok_netbsd_note"
+            },
+            {
+                "file": "bfd/elf.c",
+                "name": "elfcore_grok_nto_status"
+            }
+        ]
+    },
+    "CVE-2017-14745": {
+        "cwe": "CWE-190",
+        "functions": [
+            {
+                "file": "bfd/elf32-i386.c",
+                "name": "elf_i386_get_synthetic_symtab"
+            },
+            {
+                "file": "bfd/elf64-x86-64.c",
+                "name": "elf_x86_64_get_synthetic_symtab"
+            }
+        ]
+    },
+    "CVE-2017-17122": {
+        "cwe": "CWE-190",
+        "functions": [
+            {
+                "file": "binutils/objdump.c",
+                "name": "dump_relocs_in_section"
+            }
+        ]
+    },
+    "CVE-2017-15939": {
+        "cwe": "CWE-476",
+        "functions": [
+            {
+                "file": "bfd/dwarf2.c",
+                "name": "concat_filename"
+            },
+            {
+                "file": "bfd/dwarf2.c",
+                "name": "decode_line_info"
+            }
+        ]
+    },
+    "CVE-2017-16829": {
+        "cwe": "CWE-125",
+        "functions": [
+            {
+                "file": "bfd/elf-properties.c",
+                "name": "_bfd_elf_parse_gnu_properties"
+            }
+        ]
+    },
+    "CVE-2017-14128": {
+        "cwe": "CWE-125",
+        "functions": [
+            {
+                "file": "bfd/dwarf2.c",
+                "name": "decode_line_info"
+            }
+        ]
+    },
+    "CVE-2017-14930": {
+        "cwe": "CWE-772",
+        "functions": [
+            {
+                "file": "bfd/dwarf2.c",
+                "name": "decode_line_info"
+            }
+        ]
+    },
+    "CVE-2017-14130": {
+        "cwe": "CWE-125",
+        "functions": [
+            {
+                "file": "bfd/elf-attrs.c",
+                "name": "_bfd_elf_parse_attributes"
+            }
+        ]
+    },
+    "CVE-2017-15225": {
+        "cwe": "CWE-772",
+        "functions": [
+            {
+                "file": "bfd/dwarf2.c",
+                "name": "_bfd_dwarf2_cleanup_debug_info"
+            }
+        ]
+    },
+    "CVE-2017-14938": {
+        "cwe": "CWE-770",
+        "functions": [
+            {
+                "file": "bfd/elf.c",
+                "name": "_bfd_elf_slurp_version_tables"
+            }
+        ]
+    },
+    "CVE-2017-14933": {
+        "cwe": "CWE-835",
+        "functions": [
+            {
+                "file": "bfd/dwarf2.c",
+                "name": "read_formatted_entries"
+            }
+        ]
+    },
+    "CVE-2018-19931": {
+        "cwe": "CWE-787",
+        "functions": [
+            {
+                "file": "bfd/elfcode.h",
+                "name": "elf_object_p"
+            },
+            {
+                "file": "bfd/elfcode.h",
+                "name": "bfd_elf32_swap_phdr_in"
+            }
+        ]
+    },
+    "CVE-2017-14333": {
+        "cwe": "CWE-190",
+        "functions": [
+            {
+                "file": "binutils/readelf.c",
+                "name": "process_version_sections"
+            }
+        ]
+    },
+    "CVE-2017-16827": {
+        "cwe": "CWE-119",
+        "functions": [
+            {
+                "file": "bfd/aoutx.h",
+                "name": "aout_get_external_symbols"
+            }
+        ]
+    },
+    "CVE-2017-14932": {
+        "cwe": "CWE-835",
+        "functions": [
+            {
+                "file": "bfd/dwarf2.c",
+                "name": "decode_line_info"
+            }
+        ]
+    },
+    "CVE-2018-20671": {
+        "cwe": "CWE-190",
+        "functions": [
+            {
+                "file": "binutils/objdump.c",
+                "name": "load_specific_debug_section"
+            }
+        ]
+    },
+    "CVE-2017-15022": {
+        "cwe": "CWE-476",
+        "functions": [
+            {
+                "file": "bfd/dwarf2.c",
+                "name": "scan_unit_for_symbols"
+            },
+            {
+                "file": "bfd/dwarf2.c",
+                "name": "parse_comp_unit"
+            }
+        ]
+    },
+    "CVE-2017-16830": {
+        "cwe": "CWE-190",
+        "functions": [
+            {
+                "file": "binutils/readelf.c",
+                "name": "print_gnu_property_note"
+            }
+        ]
+    },
+    "CVE-2017-12448": {
+        "cwe": "CWE-416",
+        "functions": [
+            {
+                "file": "bfd/archive.c",
+                "name": "bfd_generic_archive_p"
+            }
+        ]
+    },
+    "CVE-2017-15996": {
+        "cwe": "CWE-119",
+        "functions": [
+            {
+                "file": "binutils/elfcomm.c",
+                "name": "process_archive_index_and_symbols"
+            },
+            {
+                "file": "binutils/elfcomm.c",
+                "name": "setup_archive"
+            },
+            {
+                "file": "binutils/elfcomm.c",
+                "name": "get_archive_member_name"
+            }
+        ]
+    }
+}

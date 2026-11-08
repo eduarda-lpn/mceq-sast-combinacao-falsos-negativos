@@ -1,0 +1,221 @@
+{
+    "CVE-2018-7584": {
+        "cwe": "CWE-119",
+        "functions": [
+            {
+                "file": "ext/standard/http_fopen_wrapper.c",
+                "name": "php_stream_url_wrap_http_ex",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2019-9021": {
+        "cwe": "CWE-125",
+        "functions": [
+            {
+                "file": "ext/phar/phar.c",
+                "name": "phar_detect_phar_fname_ext",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2019-9641": {
+        "cwe": "CWE-119",
+        "functions": [
+            {
+                "file": "ext/exif/exif.c",
+                "name": "exif_process_IFD_in_TIFF",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2019-11041": {
+        "cwe": "CWE-125",
+        "functions": [
+            {
+                "file": "ext/exif/exif.c",
+                "name": "exif_scan_thumbnail",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2019-11034": {
+        "cwe": "CWE-125",
+        "functions": [
+            {
+                "file": "ext/exif/exif.c",
+                "name": "exif_process_IFD_in_MAKERNOTE",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2019-11039": {
+        "cwe": "CWE-125",
+        "functions": [
+            {
+                "file": "ext/iconv/iconv.c",
+                "name": "_php_iconv_mime_decode",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2019-11040": {
+        "cwe": "CWE-119",
+        "functions": [
+            {
+                "file": "ext/exif/exif.c",
+                "name": "exif_scan_thumbnail",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2018-20783": {
+        "cwe": "CWE-125",
+        "functions": [
+            {
+                "file": "ext/phar/phar.c",
+                "name": "phar_parse_pharfile",
+                "magma_info": {
+                    "fix_count": 7,
+                    "canary_count": 5
+                }
+            }
+        ]
+    },
+    "CVE-2019-9638": {
+        "cwe": "CWE-119",
+        "functions": [
+            {
+                "file": "ext/exif/exif.c",
+                "name": "exif_process_IFD_in_MAKERNOTE",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2019-9640": {
+        "cwe": "CWE-119",
+        "functions": [
+            {
+                "file": "ext/exif/exif.c",
+                "name": "exif_scan_thumbnail",
+                "magma_info": {
+                    "fix_count": 2,
+                    "canary_count": 2
+                }
+            },
+            {
+                "file": "ext/exif/exif.c",
+                "name": "zif_exif_read_data",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 0
+                }
+            }
+        ]
+    },
+    "CVE-2018-14883": {
+        "cwe": "CWE-125",
+        "functions": [
+            {
+                "file": "ext/exif/exif.c",
+                "name": "exif_offset_info_init",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 0
+                }
+            },
+            {
+                "file": "ext/exif/exif.c",
+                "name": "exif_offset_info_try_get",
+                "magma_info": {
+                    "fix_count": 0,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2017-11362": {
+        "cwe": "CWE-119",
+        "functions": [
+            {
+                "file": "ext/intl/msgformat/msgformat_parse.c",
+                "name": "zif_msgfmt_parse_message",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2014-9912": {
+        "cwe": "CWE-119",
+        "functions": [
+            {
+                "file": "ext/intl/locale/locale_methods.c",
+                "name": "get_icu_disp_value_src_php",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2016-10159": {
+        "cwe": "CWE-190",
+        "functions": [
+            {
+                "file": "ext/phar/phar.c",
+                "name": "phar_parse_pharfile",
+                "magma_info": {
+                    "fix_count": 2,
+                    "canary_count": 2
+                }
+            }
+        ]
+    },
+    "CVE-2016-7414": {
+        "cwe": "CWE-119",
+        "functions": [
+            {
+                "file": "ext/phar/zip.c",
+                "name": "phar_parse_zipfile",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            },
+            {
+                "file": "ext/phar/util.c",
+                "name": "phar_verify_signature",
+                "magma_info": {
+                    "fix_count": 4,
+                    "canary_count": 4
+                }
+            }
+        ]
+    }
+}

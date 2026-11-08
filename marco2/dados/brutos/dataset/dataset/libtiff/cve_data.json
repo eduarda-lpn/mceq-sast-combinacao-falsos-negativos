@@ -1,0 +1,259 @@
+{
+    "CVE-2016-9535": {
+        "cwe": "CWE-119",
+        "functions": [
+            {
+                "file": "libtiff/tif_predict.c",
+                "name": "horAcc8",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            },
+            {
+                "file": "libtiff/tif_predict.c",
+                "name": "horAcc16",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            },
+            {
+                "file": "libtiff/tif_predict.c",
+                "name": "horAcc32",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            },
+            {
+                "file": "libtiff/tif_predict.c",
+                "name": "fpAcc",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            },
+            {
+                "file": "libtiff/tif_predict.c",
+                "name": "PredictorDecodeTile",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            },
+            {
+                "file": "libtiff/tif_predict.c",
+                "name": "horDiff8",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            },
+            {
+                "file": "libtiff/tif_predict.c",
+                "name": "horDiff16",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            },
+            {
+                "file": "libtiff/tif_predict.c",
+                "name": "horDiff32",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            },
+            {
+                "file": "libtiff/tif_predict.c",
+                "name": "fpDiff",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            },
+            {
+                "file": "libtiff/tif_predict.c",
+                "name": "PredictorEncodeTile",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2016-5314": {
+        "cwe": "CWE-787",
+        "functions": [
+            {
+                "file": "libtiff/tif_pixarlog.c",
+                "name": "PixarLogDecode",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2016-10266": {
+        "cwe": "CWE-369",
+        "functions": [
+            {
+                "file": "libtiff/tif_read.c",
+                "name": "TIFFReadEncodedStripGetStripSize",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2016-10267": {
+        "cwe": "CWE-369",
+        "functions": [
+            {
+                "file": "libtiff/tif_ojpeg.c",
+                "name": "OJPEGDecode",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2016-10269": {
+        "cwe": "CWE-125",
+        "functions": [
+            {
+                "file": "libtiff/tif_pixarlog.c",
+                "name": "PixarLogClose",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2016-10270": {
+        "cwe": "CWE-125",
+        "functions": [
+            {
+                "file": "libtiff/tif_dirread.c",
+                "name": "allocChoppedUpStripArrays",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 0
+                }
+            },
+            {
+                "file": "libtiff/tif_dirread.c",
+                "name": "ChopUpSingleUncompressedStrip",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2015-8784": {
+        "cwe": "CWE-787",
+        "functions": [
+            {
+                "file": "libtiff/tif_next.c",
+                "name": "NeXTDecode",
+                "magma_info": {
+                    "fix_count": 2,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2019-7663": {
+        "cwe": "CWE-476",
+        "functions": [
+            {
+                "file": "libtiff/tif_dirwrite.c",
+                "name": "TIFFWriteDirectoryTagTransferfunction",
+                "magma_info": {
+                    "fix_count": 2,
+                    "canary_count": 2
+                }
+            }
+        ]
+    },
+    "CVE-2018-8905": {
+        "cwe": "CWE-787",
+        "functions": [
+            {
+                "file": "libtiff/tif_lzw.c",
+                "name": "LZWDecodeCompat",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2018-7456": {
+        "cwe": "CWE-476",
+        "functions": [
+            {
+                "file": "libtiff/tif_print.c",
+                "name": "TIFFPrintDirectory",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2016-3658": {
+        "cwe": "CWE-125",
+        "functions": [
+            {
+                "file": "libtiff/tif_dir.c",
+                "name": "setExtraSamples",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            },
+            {
+                "file": "libtiff/tif_dir.c",
+                "name": "_TIFFVSetField",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2018-18557": {
+        "cwe": "CWE-787",
+        "functions": [
+            {
+                "file": "libtiff/tif_jbig.c",
+                "name": "JBIGDecode",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2017-11613": {
+        "cwe": "CWE-20",
+        "functions": [
+            {
+                "file": "libtiff/tif_dirread.c",
+                "name": "ChopUpSingleUncompressedStrip",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    }
+}

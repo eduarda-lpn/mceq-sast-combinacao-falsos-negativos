@@ -1,0 +1,210 @@
+{
+    "CVE-2019-20218": {
+        "cwe": "CWE-755",
+        "functions": [
+            {
+                "file": "src/select.c",
+                "name": "selectExpander",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2019-19923": {
+        "cwe": "CWE-476",
+        "functions": [
+            {
+                "file": "src/select.c",
+                "name": "flattenSubquery",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2019-19244": {
+        "cwe": "CWE-664",
+        "functions": [
+            {
+                "file": "src/select.c",
+                "name": "sqlite3Select",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2018-8740": {
+        "cwe": "CWE-476",
+        "functions": [
+            {
+                "file": "src/build.c",
+                "name": "sqlite3EndTable",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2017-2520": {
+        "cwe": "CWE-787",
+        "functions": [
+            {
+                "file": "src/vdbemem.c",
+                "name": "valueToText",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2017-2518": {
+        "cwe": "CWE-416",
+        "functions": [
+            {
+                "file": "src/whereexpr.c",
+                "name": "exprAnalyze",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2017-10989": {
+        "cwe": "CWE-125",
+        "functions": [
+            {
+                "file": "ext/rtree/rtree.c",
+                "name": "getNodeSize",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2019-19646": {
+        "cwe": "CWE-754",
+        "functions": [
+            {
+                "file": "src/pragma.c",
+                "name": "sqlite3Pragma",
+                "magma_info": {
+                    "fix_count": 2,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2013-7443": {
+        "cwe": "CWE-119",
+        "functions": [
+            {
+                "file": "src/where.c",
+                "name": "whereLoopAddBtreeIndex",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2019-19926": {
+        "cwe": "CWE-476",
+        "functions": [
+            {
+                "file": "src/select.c",
+                "name": "multiSelect",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2019-19317": {
+        "cwe": "CWE-681",
+        "functions": [
+            {
+                "file": "src/resolve.c",
+                "name": "areDoubleQuotedStringsEnabled",
+                "magma_info": {
+                    "fix_count": 2,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2015-3415": {
+        "cwe": "CWE-20",
+        "functions": [
+            {
+                "file": "src/vdbe.c",
+                "name": "sqlite3VdbeExec",
+                "magma_info": {
+                    "fix_count": 2,
+                    "canary_count": 2
+                }
+            }
+        ]
+    },
+    "CVE-2020-9327": {
+        "cwe": "CWE-476",
+        "functions": [
+            {
+                "file": "src/expr.c",
+                "name": "impliesNotNullRow",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2015-3414": {
+        "cwe": "CWE-20",
+        "functions": [
+            {
+                "file": "src/expr.c",
+                "name": "sqlite3ExprAddCollateToken",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2015-3416": {
+        "cwe": "CWE-119",
+        "functions": [
+            {
+                "file": "src/printf.c",
+                "name": "sqlite3_str_vappendf",
+                "magma_info": {
+                    "fix_count": 2,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2019-19880": {
+        "cwe": "CWE-476",
+        "functions": [
+            {
+                "file": "src/window.c",
+                "name": "exprListAppendList",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    }
+}

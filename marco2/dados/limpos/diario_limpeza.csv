@@ -1,0 +1,33 @@
+n,decisao,efeito
+1,Classe CWE: LL_CWE_ID -> HL_CWE_ID do cwe_distr.csv (plano B: buckets.json),"21 CWE mapeadas; classes ['664', '682', '691', '703', '707']"
+2,Tokens de ferramenta (sca_data_1.csv),"{'flf': 'flawfinder', 'cpc': 'cppcheck', 'ifr': 'infer', 'cql': 'codeql', 'cch': 'codechecker', 'csa': 'commsca'}"
+3,"Programa binutils: 4071 funcoes, 59 CVEs","{'alertas': 30704, 'sem_arquivo_exato': 23193, 'casados_por_sufixo': 0, 'alertas_sem_arquivo_em_functions': 23193, 'arquivos_sem_correspondencia(top)': {'gdb/ada-lang.c': 557, 'opcodes/mep-desc.c': 385, 'gdb/gdbserver/server.c': 355, 'gdb/remote.c': 332, 'gdb/breakpoint.c': 314, 'gdb/dwarf2read.c': 257}, 'exemplo_arquivos_em_functions': ['bfd/aix5ppc-core.c', 'bfd/aout-target.h', 'bfd/aoutx.h'], 'refs_func_sem_correspondencia': 0, 'refs_func_ambiguas': 0}"
+4,"Programa ffmpeg: 17788 funcoes, 23 CVEs","{'alertas': 14494, 'sem_arquivo_exato': 1321, 'casados_por_sufixo': 0, 'alertas_sem_arquivo_em_functions': 1321, 'arquivos_sem_correspondencia(top)': {'ffprobe.c': 192, 'ffserver.c': 163, 'libavcodec/options_table.h': 120, 'libavformat/options_table.h': 29, 'libavcodec/resample.c': 27, 'libavcodec/mips/hevcpred_msa.c': 26}, 'exemplo_arquivos_em_functions': ['cmdutils.c', 'compat/cuda/dynlink_loader.h', 'ffmpeg.c'], 'refs_func_sem_correspondencia': 1, 'refs_func_ambiguas': 0}"
+5,"Programa libpng: 398 funcoes, 7 CVEs","{'alertas': 618, 'sem_arquivo_exato': 391, 'casados_por_sufixo': 0, 'alertas_sem_arquivo_em_functions': 391, 'arquivos_sem_correspondencia(top)': {'contrib/libtests/pngstest.c': 65, 'contrib/tools/pngfix.c': 54, 'contrib/gregbook/wpng.c': 31, 'contrib/gregbook/rpng2-x.c': 27, 'contrib/libtests/pngimage.c': 27, 'contrib/libtests/pngvalid.c': 18}, 'exemplo_arquivos_em_functions': ['png.c', 'pngerror.c', 'pngget.c'], 'refs_func_sem_correspondencia': 0, 'refs_func_ambiguas': 0}"
+6,"Programa libtiff: 826 funcoes, 13 CVEs","{'alertas': 2244, 'sem_arquivo_exato': 1847, 'casados_por_sufixo': 0, 'alertas_sem_arquivo_em_functions': 1847, 'arquivos_sem_correspondencia(top)': {'tools/tiffcrop.c': 505, 'tools/tiff2pdf.c': 308, 'tools/tiff2ps.c': 109, 'contrib/iptcutil/iptcutil.c': 70, 'tools/tiffdump.c': 67, 'tools/tiffcp.c': 62}, 'exemplo_arquivos_em_functions': ['libtiff/tif_aux.c', 'libtiff/tif_close.c', 'libtiff/tif_codec.c'], 'refs_func_sem_correspondencia': 0, 'refs_func_ambiguas': 0}"
+7,"Programa libxml2: 2982 funcoes, 17 CVEs","{'alertas': 3210, 'sem_arquivo_exato': 413, 'casados_por_sufixo': 0, 'alertas_sem_arquivo_em_functions': 413, 'arquivos_sem_correspondencia(top)': {'xmllint.c': 163, 'xmlcatalog.c': 48, 'runtest.c': 34, 'os400/iconv/bldcsndfa/bldcsndfa.c': 19, 'os400/dlfcn/dlfcn.c': 19, 'python/libxml.c': 12}, 'exemplo_arquivos_em_functions': ['HTMLparser.c', 'HTMLtree.c', 'SAX.c'], 'refs_func_sem_correspondencia': 0, 'refs_func_ambiguas': 0}"
+8,"Programa openssl: 13036 funcoes, 21 CVEs","{'alertas': 15566, 'sem_arquivo_exato': 3467, 'casados_por_sufixo': 0, 'alertas_sem_arquivo_em_functions': 3467, 'arquivos_sem_correspondencia(top)': {'crypto/objects/obj_dat.h': 1282, 'apps/speed.c': 178, 'apps/lib/apps.c': 156, 'apps/s_server.c': 116, 'apps/progs.c': 112, 'apps/ca.c': 95}, 'exemplo_arquivos_em_functions': ['crypto/LPdir_unix.c', 'crypto/aes/aes_cbc.c', 'crypto/aes/aes_cfb.c'], 'refs_func_sem_correspondencia': 0, 'refs_func_ambiguas': 0}"
+9,"Programa php: 9145 funcoes, 15 CVEs","{'alertas': 22403, 'sem_arquivo_exato': 3807, 'casados_por_sufixo': 0, 'alertas_sem_arquivo_em_functions': 3807, 'arquivos_sem_correspondencia(top)': {'ext/date/lib/parse_date.c': 1753, 'Zend/zend_language_scanner.c': 83, 'ext/fileinfo/libmagic/softmagic.c': 76, 'Zend/zend_hash.h': 61, 'sapi/litespeed/lsapilib.c': 57, 'ext/imap/php_imap.c': 54}, 'exemplo_arquivos_em_functions': ['Zend/zend.c', 'Zend/zend_API.c', 'Zend/zend_alloc.c'], 'refs_func_sem_correspondencia': 0, 'refs_func_ambiguas': 0}"
+10,"Programa poppler: 4658 funcoes, 22 CVEs","{'alertas': 2473, 'sem_arquivo_exato': 596, 'casados_por_sufixo': 0, 'alertas_sem_arquivo_em_functions': 596, 'arquivos_sem_correspondencia(top)': {'poppler/splash/Splash.cc': 56, 'src/base/ftobjs.c': 41, 'poppler/utils/HtmlOutputDev.cc': 27, 'src/cff/cffload.c': 26, 'test/perf-test.cc': 15, 'src/pcf/pcfread.c': 13}, 'exemplo_arquivos_em_functions': ['fofi/FoFiBase.cc', 'fofi/FoFiIdentifier.cc', 'fofi/FoFiTrueType.cc'], 'refs_func_sem_correspondencia': 0, 'refs_func_ambiguas': 0}"
+11,"Programa sqlite3: 2298 funcoes, 16 CVEs","{'alertas': 6705, 'sem_arquivo_exato': 4448, 'casados_por_sufixo': 0, 'alertas_sem_arquivo_em_functions': 4448, 'arquivos_sem_correspondencia(top)': {'sqlite3.c': 2322, 'shell.c': 741, 'tool/lemon.c': 219, 'tool/mkkeywordhash.c': 152, 'ext/session/sqlite3session.c': 35, 'ext/fts5/fts5_tokenize.c': 33}, 'exemplo_arquivos_em_functions': ['ext/rtree/rtree.c', 'keywordhash.h', 'opcodes.c'], 'refs_func_sem_correspondencia': 0, 'refs_func_ambiguas': 0}"
+12,CVEs lidas,193
+13,CVEs sem funcao afetada mapeada (excluidas),0: []
+14,CVEs sem classe resolvida (excluidas),0: []
+15,CVEs com mais de uma classe (REGRA A DEFINIR no adendo),0: []
+16,CVEs com funcao citada que nao existe em functions.json (candidatas a exclusao dos autores),"[['ffmpeg', 'CVE-2018-1999015', '125', 1]]"
+17,CVEs excluidas por citar funcao ausente de functions.json (EXCLUIR_REF_AUSENTE),"[['ffmpeg', 'CVE-2018-1999015']]"
+18,CVE repetida no mesmo programa,0
+19,CVE presente em mais de um programa,0: []
+20,Ferramentas nos alertas fora da lista esperada (corrigir tokens!),nenhuma
+21,Melhor individual = maior taxa de deteccao em S1-1 (empate: menor % de funcoes sinalizadas; criterio a declarar no adendo ANTES de rodar),commsca
+22,Conferencia n_cve (protocolo),192 OK
+23,Conferencia n_cwe664 (protocolo),117 OK
+24,Conferencia n_demais (protocolo),75 OK
+25,Conferencia n_funcoes (protocolo),55202 DIVERGE: esperado 55203
+26,Conferencia n_funcoes_vuln (protocolo),228 DIVERGE: esperado 223
+27,Conferencia (programa x CWE) com cwe_distr.csv: combinacoes divergentes,1
+28,"Ranking individual S1-1 (autores, soma dos programas)","['commsca', 'codeql', 'flawfinder', 'infer', 'codechecker', 'cppcheck']"
+29,Ranking individual S1-1 (nosso),"['commsca', 'codeql', 'flawfinder', 'infer', 'codechecker', 'cppcheck', 'COMBINACAO(6)']"
+30,"Conferencia com sca_data_1.csv (S1-1, individuais): linhas que batem",42 de 54
+31,Conferencia de funcoes marcadas com fct_stats_2.csv: linhas que batem,36 de 63
+32,Conferencia de funcoes com fct_stats_1.csv: programas que batem (n e vulneraveis),5 de 9

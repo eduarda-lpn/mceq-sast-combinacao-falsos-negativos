@@ -1,0 +1,271 @@
+{
+    "CVE-2017-9047": {
+        "cwe": "CWE-119",
+        "functions": [
+            {
+                "file": "valid.c",
+                "name": "xmlSnprintfElementContent",
+                "magma_info": {
+                    "fix_count": 3,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2017-0663": {
+        "cwe": "CWE-787",
+        "functions": [
+            {
+                "file": "valid.c",
+                "name": "xmlValidateOneNamespace",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 2
+                }
+            }
+        ]
+    },
+    "CVE-2017-7375": {
+        "cwe": "CWE-611",
+        "functions": [
+            {
+                "file": "parser.c",
+                "name": "xmlParsePEReference",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2018-14567": {
+        "cwe": "CWE-835",
+        "functions": [
+            {
+                "file": "xzlib.c",
+                "name": "xz_decomp",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2017-5130": {
+        "cwe": "CWE-787",
+        "functions": [
+            {
+                "file": "xmlmemory.c",
+                "name": "xmlMallocLoc",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            },
+            {
+                "file": "xmlmemory.c",
+                "name": "xmlMallocAtomicLoc",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            },
+            {
+                "file": "xmlmemory.c",
+                "name": "xmlReallocLoc",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            },
+            {
+                "file": "xmlmemory.c",
+                "name": "xmlMemStrdupLoc",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2017-9048": {
+        "cwe": "CWE-119",
+        "functions": [
+            {
+                "file": "valid.c",
+                "name": "xmlSnprintfElementContent",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2017-8872": {
+        "cwe": "CWE-125",
+        "functions": [
+            {
+                "file": "HTMLparser.c",
+                "name": "htmlParseTryOrFinish",
+                "magma_info": {
+                    "fix_count": 0,
+                    "canary_count": 1
+                }
+            },
+            {
+                "file": "parser.c",
+                "name": "xmlHaltParser",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 0
+                }
+            }
+        ]
+    },
+    "CVE-2015-8317": {
+        "cwe": "CWE-119",
+        "functions": [
+            {
+                "file": "parser.c",
+                "name": "xmlParseEncodingDecl",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2016-4449": {
+        "cwe": "CWE-20",
+        "functions": [
+            {
+                "file": "parser.c",
+                "name": "xmlStringLenDecodeEntities",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2016-1834": {
+        "cwe": "CWE-119",
+        "functions": [
+            {
+                "file": "xmlstring.c",
+                "name": "xmlStrncat",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            },
+            {
+                "file": "xmlstring.c",
+                "name": "xmlStrncatNew",
+                "magma_info": {
+                    "fix_count": 2,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2016-1836": {
+        "cwe": "CWE-416",
+        "functions": [
+            {
+                "file": "parser.c",
+                "name": "xmlParseNCNameComplex",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2016-1837": {
+        "cwe": "CWE-416",
+        "functions": [
+            {
+                "file": "HTMLparser.c",
+                "name": "htmlParseSystemLiteral",
+                "magma_info": {
+                    "fix_count": 2,
+                    "canary_count": 1
+                }
+            },
+            {
+                "file": "HTMLparser.c",
+                "name": "htmlParsePubidLiteral",
+                "magma_info": {
+                    "fix_count": 2,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2016-1838": {
+        "cwe": "CWE-125",
+        "functions": [
+            {
+                "file": "parser.c",
+                "name": "xmlParseEndTag2",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 2
+                }
+            }
+        ]
+    },
+    "CVE-2016-1839": {
+        "cwe": "CWE-125",
+        "functions": [
+            {
+                "file": "HTMLparser.c",
+                "name": "htmlParseName",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2016-1840": {
+        "cwe": "CWE-119",
+        "functions": [
+            {
+                "file": "xmlregexp.c",
+                "name": "xmlFAParseCharRange",
+                "magma_info": {
+                    "fix_count": 2,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2016-1762": {
+        "cwe": "CWE-119",
+        "functions": [
+            {
+                "file": "parser.c",
+                "name": "xmlParseInternalSubset",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "bug_58": {
+        "cwe": "CWE-125",
+        "functions": [
+            {
+                "file": "parser.c",
+                "name": "xmlParseComment",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    }
+}

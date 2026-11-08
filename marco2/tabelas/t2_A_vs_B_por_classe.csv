@@ -1,0 +1,4 @@
+classe,n_cve,fn_A_pct,fn_B_pct,ganho_pp,so_B_detecta (b),so_A_detecta (c),ambas_detectam,nenhuma_detecta
+Todas,192,42.2,26.6,15.6,30,0,111,51
+CWE-664,117,45.3,27.4,17.9,21,0,64,32
+Demais,75,37.3,25.3,12.0,9,0,47,19

@@ -1,0 +1,8 @@
+estrategia,detectadas,n,fn_pct,ic95_fn_pct,pct_funcoes_sinalizadas
+flawfinder,56,192,70.8,[64.0; 76.8],6.5
+cppcheck,8,192,95.8,[92.0; 97.9],1.2
+infer,33,192,82.8,[76.8; 87.5],5.3
+codechecker,19,192,90.1,[85.1; 93.6],2.1
+codeql,60,192,68.8,[61.9; 74.9],17.9
+commsca,111,192,42.2,[35.4; 49.3],17.9
+COMBINACAO (6),141,192,26.6,[20.8; 33.2],33.1

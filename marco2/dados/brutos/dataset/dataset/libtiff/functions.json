@@ -1,0 +1,7438 @@
+{
+    "functions": [
+        {
+            "file": "port/dummy.c",
+            "name": "libport_dummy_function",
+            "line_range": [
+                8,
+                8
+            ],
+            "LOC": 1
+        },
+        {
+            "file": "libtiff/tif_aux.c",
+            "name": "_TIFFMultiply32",
+            "line_range": [
+                36,
+                44
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "libtiff/tif_error.c",
+            "name": "TIFFErrorExt",
+            "line_range": [
+                65,
+                78
+            ],
+            "LOC": 13
+        },
+        {
+            "file": "libtiff/tif_aux.c",
+            "name": "_TIFFMultiply64",
+            "line_range": [
+                47,
+                55
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "libtiff/tif_aux.c",
+            "name": "_TIFFMultiplySSize",
+            "line_range": [
+                58,
+                80
+            ],
+            "LOC": 15
+        },
+        {
+            "file": "libtiff/tif_aux.c",
+            "name": "_TIFFCastUInt64ToSSize",
+            "line_range": [
+                82,
+                93
+            ],
+            "LOC": 8
+        },
+        {
+            "file": "libtiff/tif_aux.c",
+            "name": "_TIFFCheckRealloc",
+            "line_range": [
+                96,
+                116
+            ],
+            "LOC": 12
+        },
+        {
+            "file": "libtiff/tif_unix.c",
+            "name": "_TIFFrealloc",
+            "line_range": [
+                332,
+                334
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_aux.c",
+            "name": "_TIFFCheckMalloc",
+            "line_range": [
+                120,
+                122
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_aux.c",
+            "name": "TIFFVGetFieldDefaulted",
+            "line_range": [
+                208,
+                337
+            ],
+            "LOC": 81
+        },
+        {
+            "file": "libtiff/tif_dir.c",
+            "name": "TIFFVGetField",
+            "line_range": [
+                1246,
+                1250
+            ],
+            "LOC": 4
+        },
+        {
+            "file": "libtiff/tif_dirinfo.c",
+            "name": "TIFFFindField",
+            "line_range": [
+                680,
+                702
+            ],
+            "LOC": 15
+        },
+        {
+            "file": "libtiff/tif_aux.c",
+            "name": "TIFFDefaultTransferFunction",
+            "line_range": [
+                126,
+                167
+            ],
+            "LOC": 36
+        },
+        {
+            "file": "libtiff/tif_unix.c",
+            "name": "_TIFFmalloc",
+            "line_range": [
+                309,
+                315
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "libtiff/tif_unix.c",
+            "name": "_TIFFmemcpy",
+            "line_range": [
+                344,
+                347
+            ],
+            "LOC": 3
+        },
+        {
+            "file": "libtiff/tif_unix.c",
+            "name": "_TIFFfree",
+            "line_range": [
+                326,
+                329
+            ],
+            "LOC": 3
+        },
+        {
+            "file": "libtiff/tif_aux.c",
+            "name": "TIFFDefaultRefBlackWhite",
+            "line_range": [
+                170,
+                197
+            ],
+            "LOC": 18
+        },
+        {
+            "file": "libtiff/tif_aux.c",
+            "name": "TIFFGetFieldDefaulted",
+            "line_range": [
+                344,
+                352
+            ],
+            "LOC": 7
+        },
+        {
+            "file": "libtiff/tif_aux.c",
+            "name": "_TIFFUInt64ToFloat",
+            "line_range": [
+                365,
+                378
+            ],
+            "LOC": 10
+        },
+        {
+            "file": "libtiff/tif_aux.c",
+            "name": "_TIFFUInt64ToDouble",
+            "line_range": [
+                381,
+                394
+            ],
+            "LOC": 10
+        },
+        {
+            "file": "libtiff/tif_aux.c",
+            "name": "_TIFFClampDoubleToFloat",
+            "line_range": [
+                396,
+                403
+            ],
+            "LOC": 7
+        },
+        {
+            "file": "libtiff/tif_aux.c",
+            "name": "_TIFFSeekOK",
+            "line_range": [
+                405,
+                409
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_close.c",
+            "name": "TIFFCleanup",
+            "line_range": [
+                45,
+                104
+            ],
+            "LOC": 38
+        },
+        {
+            "file": "libtiff/tif_close.c",
+            "name": "TIFFClose",
+            "line_range": [
+                121,
+                128
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "libtiff/tif_codec.c",
+            "name": "NotConfigured",
+            "line_range": [
+                125,
+                134
+            ],
+            "LOC": 8
+        },
+        {
+            "file": "libtiff/tif_codec.c",
+            "name": "_notConfigured",
+            "line_range": [
+                112,
+                121
+            ],
+            "LOC": 7
+        },
+        {
+            "file": "libtiff/tif_codec.c",
+            "name": "TIFFIsCODECConfigured",
+            "line_range": [
+                149,
+                163
+            ],
+            "LOC": 10
+        },
+        {
+            "file": "libtiff/tif_color.c",
+            "name": "TIFFCIELabToXYZ",
+            "line_range": [
+                44,
+                69
+            ],
+            "LOC": 19
+        },
+        {
+            "file": "libtiff/tif_color.c",
+            "name": "TIFFXYZToRGB",
+            "line_range": [
+                76,
+                115
+            ],
+            "LOC": 27
+        },
+        {
+            "file": "libtiff/tif_color.c",
+            "name": "TIFFCIELabToRGBInit",
+            "line_range": [
+                123,
+                165
+            ],
+            "LOC": 31
+        },
+        {
+            "file": "libtiff/tif_color.c",
+            "name": "TIFFYCbCrtoRGB",
+            "line_range": [
+                181,
+                198
+            ],
+            "LOC": 14
+        },
+        {
+            "file": "libtiff/tif_color.c",
+            "name": "TIFFYCbCrToRGBInit",
+            "line_range": [
+                234,
+                291
+            ],
+            "LOC": 31
+        },
+        {
+            "file": "libtiff/tif_unix.c",
+            "name": "_TIFFmemset",
+            "line_range": [
+                338,
+                341
+            ],
+            "LOC": 3
+        },
+        {
+            "file": "libtiff/tif_color.c",
+            "name": "CLAMPw",
+            "line_range": [
+                202,
+                215
+            ],
+            "LOC": 7
+        },
+        {
+            "file": "libtiff/tif_compress.c",
+            "name": "_TIFFNoRowEncode",
+            "line_range": [
+                50,
+                53
+            ],
+            "LOC": 3
+        },
+        {
+            "file": "libtiff/tif_compress.c",
+            "name": "TIFFNoEncode",
+            "line_range": [
+                33,
+                46
+            ],
+            "LOC": 9
+        },
+        {
+            "file": "libtiff/tif_compress.c",
+            "name": "TIFFFindCODEC",
+            "line_range": [
+                185,
+                197
+            ],
+            "LOC": 11
+        },
+        {
+            "file": "libtiff/tif_compress.c",
+            "name": "_TIFFNoStripEncode",
+            "line_range": [
+                57,
+                60
+            ],
+            "LOC": 3
+        },
+        {
+            "file": "libtiff/tif_compress.c",
+            "name": "_TIFFNoTileEncode",
+            "line_range": [
+                64,
+                67
+            ],
+            "LOC": 3
+        },
+        {
+            "file": "libtiff/tif_compress.c",
+            "name": "_TIFFNoRowDecode",
+            "line_range": [
+                94,
+                97
+            ],
+            "LOC": 3
+        },
+        {
+            "file": "libtiff/tif_compress.c",
+            "name": "TIFFNoDecode",
+            "line_range": [
+                71,
+                83
+            ],
+            "LOC": 8
+        },
+        {
+            "file": "libtiff/tif_compress.c",
+            "name": "_TIFFNoStripDecode",
+            "line_range": [
+                101,
+                104
+            ],
+            "LOC": 3
+        },
+        {
+            "file": "libtiff/tif_compress.c",
+            "name": "_TIFFNoTileDecode",
+            "line_range": [
+                108,
+                111
+            ],
+            "LOC": 3
+        },
+        {
+            "file": "libtiff/tif_compress.c",
+            "name": "_TIFFNoSeek",
+            "line_range": [
+                115,
+                120
+            ],
+            "LOC": 4
+        },
+        {
+            "file": "libtiff/tif_compress.c",
+            "name": "_TIFFNoPreCode",
+            "line_range": [
+                124,
+                127
+            ],
+            "LOC": 3
+        },
+        {
+            "file": "libtiff/tif_compress.c",
+            "name": "_TIFFSetDefaultCompressionState",
+            "line_range": [
+                134,
+                156
+            ],
+            "LOC": 22
+        },
+        {
+            "file": "libtiff/tif_compress.c",
+            "name": "_TIFFNoFixupTags",
+            "line_range": [
+                87,
+                90
+            ],
+            "LOC": 3
+        },
+        {
+            "file": "libtiff/tif_compress.c",
+            "name": "_TIFFtrue",
+            "line_range": [
+                130,
+                130
+            ],
+            "LOC": 1
+        },
+        {
+            "file": "libtiff/tif_compress.c",
+            "name": "_TIFFvoid",
+            "line_range": [
+                131,
+                131
+            ],
+            "LOC": 1
+        },
+        {
+            "file": "libtiff/tif_compress.c",
+            "name": "TIFFSetCompressionScheme",
+            "line_range": [
+                159,
+                170
+            ],
+            "LOC": 4
+        },
+        {
+            "file": "libtiff/tif_compress.c",
+            "name": "TIFFRegisterCODEC",
+            "line_range": [
+                200,
+                220
+            ],
+            "LOC": 18
+        },
+        {
+            "file": "libtiff/tif_compress.c",
+            "name": "TIFFUnRegisterCODEC",
+            "line_range": [
+                223,
+                236
+            ],
+            "LOC": 11
+        },
+        {
+            "file": "libtiff/tif_compress.c",
+            "name": "TIFFGetConfiguredCODECs",
+            "line_range": [
+                253,
+                293
+            ],
+            "LOC": 35
+        },
+        {
+            "file": "libtiff/tif_dirinfo.c",
+            "name": "_TIFFGetFields",
+            "line_range": [
+                399,
+                399
+            ],
+            "LOC": 1
+        },
+        {
+            "file": "libtiff/tif_dirinfo.c",
+            "name": "_TIFFGetExifFields",
+            "line_range": [
+                405,
+                405
+            ],
+            "LOC": 1
+        },
+        {
+            "file": "libtiff/tif_dirinfo.c",
+            "name": "_TIFFGetGpsFields",
+            "line_range": [
+                411,
+                411
+            ],
+            "LOC": 1
+        },
+        {
+            "file": "libtiff/tif_dirinfo.c",
+            "name": "_TIFFSetupFields",
+            "line_range": [
+                415,
+                437
+            ],
+            "LOC": 19
+        },
+        {
+            "file": "libtiff/tif_dirinfo.c",
+            "name": "_TIFFMergeFields",
+            "line_range": [
+                467,
+                509
+            ],
+            "LOC": 24
+        },
+        {
+            "file": "libtiff/tif_dirinfo.c",
+            "name": "tagCompare",
+            "line_range": [
+                440,
+                450
+            ],
+            "LOC": 8
+        },
+        {
+            "file": "libtiff/tif_dirinfo.c",
+            "name": "_TIFFPrintFieldInfo",
+            "line_range": [
+                512,
+                530
+            ],
+            "LOC": 16
+        },
+        {
+            "file": "libtiff/tif_dirinfo.c",
+            "name": "TIFFDataWidth",
+            "line_range": [
+                536,
+                564
+            ],
+            "LOC": 8
+        },
+        {
+            "file": "libtiff/tif_dirinfo.c",
+            "name": "_TIFFDataSize",
+            "line_range": [
+                574,
+                601
+            ],
+            "LOC": 8
+        },
+        {
+            "file": "libtiff/tif_dirinfo.c",
+            "name": "_TIFFSetGetFieldSize",
+            "line_range": [
+                612,
+                676
+            ],
+            "LOC": 9
+        },
+        {
+            "file": "libtiff/tif_dirinfo.c",
+            "name": "TIFFFieldWithTag",
+            "line_range": [
+                732,
+                740
+            ],
+            "LOC": 7
+        },
+        {
+            "file": "libtiff/tif_dirinfo.c",
+            "name": "TIFFFieldWithName",
+            "line_range": [
+                744,
+                752
+            ],
+            "LOC": 8
+        },
+        {
+            "file": "libtiff/tif_dirinfo.c",
+            "name": "_TIFFFindFieldByName",
+            "line_range": [
+                705,
+                729
+            ],
+            "LOC": 16
+        },
+        {
+            "file": "libtiff/tif_dirinfo.c",
+            "name": "td_lfind",
+            "line_range": [
+                383,
+                394
+            ],
+            "LOC": 9
+        },
+        {
+            "file": "libtiff/tif_dirinfo.c",
+            "name": "tagNameCompare",
+            "line_range": [
+                453,
+                464
+            ],
+            "LOC": 9
+        },
+        {
+            "file": "libtiff/tif_dirinfo.c",
+            "name": "TIFFFieldTag",
+            "line_range": [
+                756,
+                758
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_dirinfo.c",
+            "name": "TIFFFieldName",
+            "line_range": [
+                762,
+                764
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_dirinfo.c",
+            "name": "TIFFFieldDataType",
+            "line_range": [
+                768,
+                770
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_dirinfo.c",
+            "name": "TIFFFieldPassCount",
+            "line_range": [
+                774,
+                776
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_dirinfo.c",
+            "name": "TIFFFieldReadCount",
+            "line_range": [
+                780,
+                782
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_dirinfo.c",
+            "name": "TIFFFieldWriteCount",
+            "line_range": [
+                786,
+                788
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_dirinfo.c",
+            "name": "_TIFFFindOrRegisterField",
+            "line_range": [
+                792,
+                805
+            ],
+            "LOC": 10
+        },
+        {
+            "file": "libtiff/tif_dirinfo.c",
+            "name": "_TIFFCreateAnonField",
+            "line_range": [
+                808,
+                899
+            ],
+            "LOC": 63
+        },
+        {
+            "file": "libtiff/tif_dirinfo.c",
+            "name": "TIFFMergeFieldInfo",
+            "line_range": [
+                1062,
+                1129
+            ],
+            "LOC": 50
+        },
+        {
+            "file": "libtiff/tif_dirinfo.c",
+            "name": "_TIFFSetGetType",
+            "line_range": [
+                909,
+                1059
+            ],
+            "LOC": 65
+        },
+        {
+            "file": "libtiff/tif_dirinfo.c",
+            "name": "_TIFFCheckFieldIsValidForCodec",
+            "line_range": [
+                1132,
+                1241
+            ],
+            "LOC": 45
+        },
+        {
+            "file": "libtiff/tif_dir.c",
+            "name": "_TIFFsetByteArray",
+            "line_range": [
+                57,
+                58
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_dir.c",
+            "name": "setByteArray",
+            "line_range": [
+                43,
+                56
+            ],
+            "LOC": 13
+        },
+        {
+            "file": "libtiff/tif_dir.c",
+            "name": "_TIFFsetString",
+            "line_range": [
+                59,
+                60
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_dir.c",
+            "name": "_TIFFsetShortArray",
+            "line_range": [
+                63,
+                64
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_dir.c",
+            "name": "_TIFFsetLongArray",
+            "line_range": [
+                65,
+                66
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_dir.c",
+            "name": "_TIFFsetFloatArray",
+            "line_range": [
+                69,
+                70
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_dir.c",
+            "name": "_TIFFsetDoubleArray",
+            "line_range": [
+                71,
+                72
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_dir.c",
+            "name": "TIFFSetField",
+            "line_range": [
+                786,
+                794
+            ],
+            "LOC": 7
+        },
+        {
+            "file": "libtiff/tif_dir.c",
+            "name": "TIFFVSetField",
+            "line_range": [
+                845,
+                848
+            ],
+            "LOC": 3
+        },
+        {
+            "file": "libtiff/tif_dir.c",
+            "name": "OkToChangeTag",
+            "line_range": [
+                754,
+                776
+            ],
+            "LOC": 13
+        },
+        {
+            "file": "libtiff/tif_dir.c",
+            "name": "TIFFUnsetField",
+            "line_range": [
+                801,
+                836
+            ],
+            "LOC": 24
+        },
+        {
+            "file": "libtiff/tif_dir.c",
+            "name": "TIFFGetField",
+            "line_range": [
+                1228,
+                1236
+            ],
+            "LOC": 7
+        },
+        {
+            "file": "libtiff/tif_dir.c",
+            "name": "TIFFFreeDirectory",
+            "line_range": [
+                1264,
+                1299
+            ],
+            "LOC": 30
+        },
+        {
+            "file": "libtiff/tif_dir.c",
+            "name": "TIFFSetTagExtender",
+            "line_range": [
+                1308,
+                1312
+            ],
+            "LOC": 4
+        },
+        {
+            "file": "libtiff/tif_dir.c",
+            "name": "TIFFCreateDirectory",
+            "line_range": [
+                1323,
+                1332
+            ],
+            "LOC": 8
+        },
+        {
+            "file": "libtiff/tif_dir.c",
+            "name": "TIFFDefaultDirectory",
+            "line_range": [
+                1379,
+                1447
+            ],
+            "LOC": 42
+        },
+        {
+            "file": "libtiff/tif_dir.c",
+            "name": "_TIFFVSetField",
+            "line_range": [
+                160,
+                742
+            ],
+            "LOC": 388
+        },
+        {
+            "file": "libtiff/tif_dir.c",
+            "name": "setDoubleArrayOneValue",
+            "line_range": [
+                75,
+                85
+            ],
+            "LOC": 9
+        },
+        {
+            "file": "libtiff/tif_dir.c",
+            "name": "setExtraSamples",
+            "line_range": [
+                91,
+                127
+            ],
+            "LOC": 21
+        },
+        {
+            "file": "libtiff/tif_warning.c",
+            "name": "TIFFWarningExt",
+            "line_range": [
+                65,
+                78
+            ],
+            "LOC": 13
+        },
+        {
+            "file": "libtiff/tif_dir.c",
+            "name": "_TIFFsetLong8Array",
+            "line_range": [
+                67,
+                68
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_dir.c",
+            "name": "checkInkNamesString",
+            "line_range": [
+                134,
+                157
+            ],
+            "LOC": 19
+        },
+        {
+            "file": "libtiff/tif_dir.c",
+            "name": "_TIFFsetNString",
+            "line_range": [
+                61,
+                62
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_dir.c",
+            "name": "_TIFFVGetField",
+            "line_range": [
+                852,
+                1221
+            ],
+            "LOC": 241
+        },
+        {
+            "file": "libtiff/tif_dir.c",
+            "name": "TIFFCreateCustomDirectory",
+            "line_range": [
+                1336,
+                1353
+            ],
+            "LOC": 9
+        },
+        {
+            "file": "libtiff/tif_dir.c",
+            "name": "TIFFCreateEXIFDirectory",
+            "line_range": [
+                1357,
+                1361
+            ],
+            "LOC": 4
+        },
+        {
+            "file": "libtiff/tif_dir.c",
+            "name": "TIFFCreateGPSDirectory",
+            "line_range": [
+                1368,
+                1372
+            ],
+            "LOC": 4
+        },
+        {
+            "file": "libtiff/tif_dir.c",
+            "name": "TIFFNumberOfDirectories",
+            "line_range": [
+                1593,
+                1617
+            ],
+            "LOC": 15
+        },
+        {
+            "file": "libtiff/tif_dir.c",
+            "name": "TIFFAdvanceDirectory",
+            "line_range": [
+                1451,
+                1587
+            ],
+            "LOC": 99
+        },
+        {
+            "file": "libtiff/tif_swab.c",
+            "name": "TIFFSwabShort",
+            "line_range": [
+                34,
+                40
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "libtiff/tif_swab.c",
+            "name": "TIFFSwabLong",
+            "line_range": [
+                45,
+                52
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "libtiff/tif_swab.c",
+            "name": "TIFFSwabLong8",
+            "line_range": [
+                57,
+                66
+            ],
+            "LOC": 8
+        },
+        {
+            "file": "libtiff/tif_dir.c",
+            "name": "TIFFSetDirectory",
+            "line_range": [
+                1624,
+                1649
+            ],
+            "LOC": 14
+        },
+        {
+            "file": "libtiff/tif_dir.c",
+            "name": "TIFFSetSubDirectory",
+            "line_range": [
+                1658,
+                1666
+            ],
+            "LOC": 4
+        },
+        {
+            "file": "libtiff/tif_dir.c",
+            "name": "TIFFCurrentDirOffset",
+            "line_range": [
+                1673,
+                1675
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_dir.c",
+            "name": "TIFFLastDirectory",
+            "line_range": [
+                1683,
+                1685
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_dir.c",
+            "name": "TIFFUnlinkDirectory",
+            "line_range": [
+                1692,
+                1784
+            ],
+            "LOC": 56
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirectory",
+            "line_range": [
+                3574,
+                4361
+            ],
+            "LOC": 409
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFCheckDirOffset",
+            "line_range": [
+                4684,
+                4724
+            ],
+            "LOC": 26
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFFetchDirectory",
+            "line_range": [
+                4758,
+                5010
+            ],
+            "LOC": 170
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadUInt64",
+            "line_range": [
+                186,
+                199
+            ],
+            "LOC": 11
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirectoryCheckOrder",
+            "line_range": [
+                4364,
+                4381
+            ],
+            "LOC": 12
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirectoryFindEntry",
+            "line_range": [
+                4384,
+                4395
+            ],
+            "LOC": 10
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFFetchNormalTag",
+            "line_range": [
+                5016,
+                5718
+            ],
+            "LOC": 498
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirectoryFindFieldInfo",
+            "line_range": [
+                4398,
+                4427
+            ],
+            "LOC": 22
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirEntryByteArray",
+            "line_range": [
+                934,
+                1113
+            ],
+            "LOC": 123
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirEntryArray",
+            "line_range": [
+                928,
+                931
+            ],
+            "LOC": 3
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirEntryArrayWithLimit",
+            "line_range": [
+                834,
+                926
+            ],
+            "LOC": 59
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirEntryData",
+            "line_range": [
+                3386,
+                3408
+            ],
+            "LOC": 19
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirEntryDataAndRealloc",
+            "line_range": [
+                779,
+                831
+            ],
+            "LOC": 27
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirEntryCheckRangeByteSbyte",
+            "line_range": [
+                3069,
+                3075
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirEntryCheckRangeByteShort",
+            "line_range": [
+                3077,
+                3083
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirEntryCheckRangeByteSshort",
+            "line_range": [
+                3085,
+                3091
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirEntryCheckRangeByteLong",
+            "line_range": [
+                3093,
+                3099
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirEntryCheckRangeByteSlong",
+            "line_range": [
+                3101,
+                3107
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirEntryCheckRangeByteLong8",
+            "line_range": [
+                3109,
+                3115
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirEntryCheckRangeByteSlong8",
+            "line_range": [
+                3117,
+                3123
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirEntryByte",
+            "line_range": [
+                202,
+                290
+            ],
+            "LOC": 62
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirEntryCheckedByte",
+            "line_range": [
+                2886,
+                2890
+            ],
+            "LOC": 4
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirEntryCheckedSbyte",
+            "line_range": [
+                2892,
+                2896
+            ],
+            "LOC": 4
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirEntryCheckedShort",
+            "line_range": [
+                2898,
+                2904
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirEntryCheckedSshort",
+            "line_range": [
+                2906,
+                2911
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirEntryCheckedLong",
+            "line_range": [
+                2913,
+                2918
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirEntryCheckedSlong",
+            "line_range": [
+                2920,
+                2925
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirEntryCheckedLong8",
+            "line_range": [
+                2927,
+                2944
+            ],
+            "LOC": 15
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirEntryCheckedSlong8",
+            "line_range": [
+                2946,
+                2963
+            ],
+            "LOC": 15
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirEntryShort",
+            "line_range": [
+                292,
+                376
+            ],
+            "LOC": 59
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirEntryCheckRangeShortSbyte",
+            "line_range": [
+                3181,
+                3187
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirEntryCheckRangeShortSshort",
+            "line_range": [
+                3189,
+                3195
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirEntryCheckRangeShortLong",
+            "line_range": [
+                3197,
+                3203
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirEntryCheckRangeShortSlong",
+            "line_range": [
+                3205,
+                3211
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirEntryCheckRangeShortLong8",
+            "line_range": [
+                3213,
+                3219
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirEntryCheckRangeShortSlong8",
+            "line_range": [
+                3221,
+                3227
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirEntryLong",
+            "line_range": [
+                378,
+                459
+            ],
+            "LOC": 56
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirEntryCheckRangeLongSbyte",
+            "line_range": [
+                3269,
+                3275
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirEntryCheckRangeLongSshort",
+            "line_range": [
+                3277,
+                3283
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirEntryCheckRangeLongSlong",
+            "line_range": [
+                3285,
+                3291
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirEntryCheckRangeLongLong8",
+            "line_range": [
+                3294,
+                3300
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirEntryCheckRangeLongSlong8",
+            "line_range": [
+                3303,
+                3309
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirEntryLong8",
+            "line_range": [
+                461,
+                537
+            ],
+            "LOC": 51
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirEntryCheckRangeLong8Sbyte",
+            "line_range": [
+                3341,
+                3347
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirEntryCheckRangeLong8Sshort",
+            "line_range": [
+                3350,
+                3356
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirEntryCheckRangeLong8Slong",
+            "line_range": [
+                3359,
+                3365
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirEntryCheckRangeLong8Slong8",
+            "line_range": [
+                3368,
+                3374
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirEntryFloat",
+            "line_range": [
+                539,
+                650
+            ],
+            "LOC": 65
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirEntryCheckedRational",
+            "line_range": [
+                2965,
+                2994
+            ],
+            "LOC": 19
+        },
+        {
+            "file": "libtiff/tif_swab.c",
+            "name": "TIFFSwabArrayOfLong",
+            "line_range": [
+                103,
+                115
+            ],
+            "LOC": 9
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirEntryCheckedSrational",
+            "line_range": [
+                2996,
+                3025
+            ],
+            "LOC": 19
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirEntryCheckedFloat",
+            "line_range": [
+                3027,
+                3041
+            ],
+            "LOC": 7
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirEntryCheckedDouble",
+            "line_range": [
+                3043,
+                3067
+            ],
+            "LOC": 17
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirEntryDouble",
+            "line_range": [
+                652,
+                747
+            ],
+            "LOC": 53
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirEntryIfd8",
+            "line_range": [
+                749,
+                771
+            ],
+            "LOC": 13
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirEntryShortArray",
+            "line_range": [
+                1294,
+                1464
+            ],
+            "LOC": 119
+        },
+        {
+            "file": "libtiff/tif_swab.c",
+            "name": "TIFFSwabArrayOfShort",
+            "line_range": [
+                71,
+                82
+            ],
+            "LOC": 8
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirEntryLongArray",
+            "line_range": [
+                1633,
+                1800
+            ],
+            "LOC": 116
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirEntryFloatArray",
+            "line_range": [
+                2285,
+                2527
+            ],
+            "LOC": 163
+        },
+        {
+            "file": "libtiff/tif_swab.c",
+            "name": "TIFFSwabArrayOfLong8",
+            "line_range": [
+                120,
+                134
+            ],
+            "LOC": 11
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirEntryDoubleArray",
+            "line_range": [
+                2530,
+                2765
+            ],
+            "LOC": 157
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirEntryLong8Array",
+            "line_range": [
+                2130,
+                2132
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirEntryLong8ArrayWithLimit",
+            "line_range": [
+                1964,
+                2128
+            ],
+            "LOC": 113
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirEntryIfd8Array",
+            "line_range": [
+                2767,
+                2826
+            ],
+            "LOC": 37
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirEntrySbyteArray",
+            "line_range": [
+                1115,
+                1292
+            ],
+            "LOC": 123
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirEntryCheckRangeSbyteByte",
+            "line_range": [
+                3125,
+                3131
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirEntryCheckRangeSbyteShort",
+            "line_range": [
+                3133,
+                3139
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirEntryCheckRangeSbyteSshort",
+            "line_range": [
+                3141,
+                3147
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirEntryCheckRangeSbyteLong",
+            "line_range": [
+                3149,
+                3155
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirEntryCheckRangeSbyteSlong",
+            "line_range": [
+                3157,
+                3163
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirEntryCheckRangeSbyteLong8",
+            "line_range": [
+                3165,
+                3171
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirEntryCheckRangeSbyteSlong8",
+            "line_range": [
+                3173,
+                3179
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirEntrySshortArray",
+            "line_range": [
+                1466,
+                1631
+            ],
+            "LOC": 115
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirEntryCheckRangeSshortShort",
+            "line_range": [
+                3229,
+                3235
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirEntryCheckRangeSshortLong",
+            "line_range": [
+                3237,
+                3243
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirEntryCheckRangeSshortSlong",
+            "line_range": [
+                3245,
+                3251
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirEntryCheckRangeSshortLong8",
+            "line_range": [
+                3253,
+                3259
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirEntryCheckRangeSshortSlong8",
+            "line_range": [
+                3261,
+                3267
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirEntrySlongArray",
+            "line_range": [
+                1802,
+                1961
+            ],
+            "LOC": 109
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirEntryCheckRangeSlongLong",
+            "line_range": [
+                3312,
+                3318
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirEntryCheckRangeSlongLong8",
+            "line_range": [
+                3322,
+                3328
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirEntryCheckRangeSlongSlong8",
+            "line_range": [
+                3332,
+                3338
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirEntrySlong8Array",
+            "line_range": [
+                2135,
+                2283
+            ],
+            "LOC": 100
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirEntryCheckRangeSlong8Long8",
+            "line_range": [
+                3377,
+                3383
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirEntryOutputErr",
+            "line_range": [
+                3410,
+                3495
+            ],
+            "LOC": 50
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadDirEntryPersampleShort",
+            "line_range": [
+                2828,
+                2854
+            ],
+            "LOC": 22
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "_TIFFFillStriles",
+            "line_range": [
+                6406,
+                6408
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "_TIFFFillStrilesInternal",
+            "line_range": [
+                6411,
+                6471
+            ],
+            "LOC": 30
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFFetchStripThing",
+            "line_range": [
+                5725,
+                5768
+            ],
+            "LOC": 33
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "MissingRequired",
+            "line_range": [
+                4668,
+                4675
+            ],
+            "LOC": 4
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "_TIFFGetMaxColorChannels",
+            "line_range": [
+                3502,
+                3524
+            ],
+            "LOC": 7
+        },
+        {
+            "file": "libtiff/tif_unix.c",
+            "name": "_TIFFcalloc",
+            "line_range": [
+                317,
+                323
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "EstimateStripByteCounts",
+            "line_range": [
+                4561,
+                4665
+            ],
+            "LOC": 74
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "ByteCountLooksBad",
+            "line_range": [
+                3526,
+                3566
+            ],
+            "LOC": 23
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFGetStrileByteCount",
+            "line_range": [
+                6391,
+                6393
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFGetStrileByteCountWithErr",
+            "line_range": [
+                6397,
+                6402
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "_TIFFGetStrileOffsetOrByteCountValue",
+            "line_range": [
+                6332,
+                6373
+            ],
+            "LOC": 26
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "_TIFFFetchStrileValue",
+            "line_range": [
+                6229,
+                6330
+            ],
+            "LOC": 62
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "_TIFFPartialReadStripArray",
+            "line_range": [
+                6071,
+                6227
+            ],
+            "LOC": 111
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "_TIFFUnsanitizedAddUInt64AndInt",
+            "line_range": [
+                6061,
+                6063
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFGetStrileOffset",
+            "line_range": [
+                6376,
+                6378
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFGetStrileOffsetWithErr",
+            "line_range": [
+                6382,
+                6387
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "ChopUpSingleUncompressedStrip",
+            "line_range": [
+                5904,
+                5958
+            ],
+            "LOC": 37
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "allocChoppedUpStripArrays",
+            "line_range": [
+                5828,
+                5894
+            ],
+            "LOC": 41
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TryChopUpUncompressedBigTiff",
+            "line_range": [
+                5967,
+                6057
+            ],
+            "LOC": 56
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadCustomDirectory",
+            "line_range": [
+                4434,
+                4535
+            ],
+            "LOC": 71
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "CheckDirCount",
+            "line_range": [
+                4731,
+                4750
+            ],
+            "LOC": 16
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFFetchSubjectDistance",
+            "line_range": [
+                5774,
+                5826
+            ],
+            "LOC": 30
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadEXIFDirectory",
+            "line_range": [
+                4542,
+                4546
+            ],
+            "LOC": 4
+        },
+        {
+            "file": "libtiff/tif_dirread.c",
+            "name": "TIFFReadGPSDirectory",
+            "line_range": [
+                4553,
+                4557
+            ],
+            "LOC": 4
+        },
+        {
+            "file": "libtiff/tif_dirwrite.c",
+            "name": "TIFFWriteDirectory",
+            "line_range": [
+                194,
+                196
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_dirwrite.c",
+            "name": "TIFFWriteDirectorySec",
+            "line_range": [
+                421,
+                1036
+            ],
+            "LOC": 447
+        },
+        {
+            "file": "libtiff/tif_dirwrite.c",
+            "name": "TIFFWriteDirectoryTagShortLong",
+            "line_range": [
+                1754,
+                1765
+            ],
+            "LOC": 8
+        },
+        {
+            "file": "libtiff/tif_dirwrite.c",
+            "name": "TIFFWriteDirectoryTagCheckedShort",
+            "line_range": [
+                2235,
+                2242
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "libtiff/tif_dirwrite.c",
+            "name": "TIFFWriteDirectoryTagData",
+            "line_range": [
+                3022,
+                3094
+            ],
+            "LOC": 53
+        },
+        {
+            "file": "libtiff/tif_dirwrite.c",
+            "name": "TIFFWriteDirectoryTagCheckedLong",
+            "line_range": [
+                2279,
+                2286
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "libtiff/tif_dirwrite.c",
+            "name": "TIFFWriteDirectoryTagRational",
+            "line_range": [
+                1576,
+                1584
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "libtiff/tif_dirwrite.c",
+            "name": "TIFFWriteDirectoryTagCheckedRational",
+            "line_range": [
+                2385,
+                2436
+            ],
+            "LOC": 15
+        },
+        {
+            "file": "libtiff/tif_dirwrite.c",
+            "name": "DoubleToRational",
+            "line_range": [
+                2820,
+                2879
+            ],
+            "LOC": 33
+        },
+        {
+            "file": "libtiff/tif_dirwrite.c",
+            "name": "ToRationalEuclideanGCD",
+            "line_range": [
+                2711,
+                2811
+            ],
+            "LOC": 52
+        },
+        {
+            "file": "libtiff/tif_dirwrite.c",
+            "name": "TIFFWriteDirectoryTagLong",
+            "line_range": [
+                1426,
+                1434
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "libtiff/tif_dirwrite.c",
+            "name": "TIFFWriteDirectoryTagShortPerSample",
+            "line_range": [
+                1348,
+                1371
+            ],
+            "LOC": 18
+        },
+        {
+            "file": "libtiff/tif_dirwrite.c",
+            "name": "TIFFWriteDirectoryTagCheckedShortArray",
+            "line_range": [
+                2246,
+                2252
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "libtiff/tif_dirwrite.c",
+            "name": "TIFFWriteDirectoryTagShort",
+            "line_range": [
+                1326,
+                1334
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "libtiff/tif_dirwrite.c",
+            "name": "TIFFWriteDirectoryTagShortArray",
+            "line_range": [
+                1337,
+                1345
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "libtiff/tif_dirwrite.c",
+            "name": "TIFFWriteDirectoryTagLongLong8Array",
+            "line_range": [
+                1808,
+                1922
+            ],
+            "LOC": 63
+        },
+        {
+            "file": "libtiff/tif_dirwrite.c",
+            "name": "WriteAsLong8",
+            "line_range": [
+                1790,
+                1792
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_dirwrite.c",
+            "name": "_WriteAsType",
+            "line_range": [
+                1767,
+                1788
+            ],
+            "LOC": 14
+        },
+        {
+            "file": "libtiff/tif_dirwrite.c",
+            "name": "TIFFWriteDirectoryTagCheckedLong8Array",
+            "line_range": [
+                2340,
+                2351
+            ],
+            "LOC": 9
+        },
+        {
+            "file": "libtiff/tif_dirwrite.c",
+            "name": "WriteAsLong4",
+            "line_range": [
+                1795,
+                1797
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_dirwrite.c",
+            "name": "TIFFWriteDirectoryTagCheckedLongArray",
+            "line_range": [
+                2290,
+                2296
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "libtiff/tif_dirwrite.c",
+            "name": "TIFFWriteDirectoryTagColormap",
+            "line_range": [
+                2046,
+                2070
+            ],
+            "LOC": 19
+        },
+        {
+            "file": "libtiff/tif_dirwrite.c",
+            "name": "TIFFWriteDirectoryTagSampleformatArray",
+            "line_range": [
+                1093,
+                1166
+            ],
+            "LOC": 49
+        },
+        {
+            "file": "libtiff/tif_dirwrite.c",
+            "name": "TIFFWriteDirectoryTagFloatArray",
+            "line_range": [
+                1643,
+                1651
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "libtiff/tif_dirwrite.c",
+            "name": "TIFFWriteDirectoryTagCheckedFloatArray",
+            "line_range": [
+                2965,
+                2972
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "libtiff/tif_swab.c",
+            "name": "TIFFSwabArrayOfFloat",
+            "line_range": [
+                151,
+                163
+            ],
+            "LOC": 9
+        },
+        {
+            "file": "libtiff/tif_dirwrite.c",
+            "name": "TIFFWriteDirectoryTagDoubleArray",
+            "line_range": [
+                1692,
+                1700
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "libtiff/tif_dirwrite.c",
+            "name": "TIFFWriteDirectoryTagCheckedDoubleArray",
+            "line_range": [
+                2990,
+                2997
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "libtiff/tif_swab.c",
+            "name": "TIFFSwabArrayOfDouble",
+            "line_range": [
+                182,
+                196
+            ],
+            "LOC": 11
+        },
+        {
+            "file": "libtiff/tif_dirwrite.c",
+            "name": "TIFFClampDoubleToInt8",
+            "line_range": [
+                1038,
+                1045
+            ],
+            "LOC": 7
+        },
+        {
+            "file": "libtiff/tif_dirwrite.c",
+            "name": "TIFFWriteDirectoryTagSbyteArray",
+            "line_range": [
+                1287,
+                1295
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "libtiff/tif_dirwrite.c",
+            "name": "TIFFWriteDirectoryTagCheckedSbyteArray",
+            "line_range": [
+                2228,
+                2231
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_dirwrite.c",
+            "name": "TIFFClampDoubleToInt16",
+            "line_range": [
+                1047,
+                1054
+            ],
+            "LOC": 7
+        },
+        {
+            "file": "libtiff/tif_dirwrite.c",
+            "name": "TIFFWriteDirectoryTagSshortArray",
+            "line_range": [
+                1387,
+                1395
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "libtiff/tif_dirwrite.c",
+            "name": "TIFFWriteDirectoryTagCheckedSshortArray",
+            "line_range": [
+                2269,
+                2275
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "libtiff/tif_dirwrite.c",
+            "name": "TIFFClampDoubleToInt32",
+            "line_range": [
+                1056,
+                1063
+            ],
+            "LOC": 7
+        },
+        {
+            "file": "libtiff/tif_dirwrite.c",
+            "name": "TIFFWriteDirectoryTagSlongArray",
+            "line_range": [
+                1489,
+                1497
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "libtiff/tif_dirwrite.c",
+            "name": "TIFFWriteDirectoryTagCheckedSlongArray",
+            "line_range": [
+                2313,
+                2319
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "libtiff/tif_dirwrite.c",
+            "name": "TIFFClampDoubleToUInt8",
+            "line_range": [
+                1065,
+                1072
+            ],
+            "LOC": 7
+        },
+        {
+            "file": "libtiff/tif_dirwrite.c",
+            "name": "TIFFWriteDirectoryTagByteArray",
+            "line_range": [
+                1235,
+                1243
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "libtiff/tif_dirwrite.c",
+            "name": "TIFFWriteDirectoryTagCheckedByteArray",
+            "line_range": [
+                2212,
+                2215
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_dirwrite.c",
+            "name": "TIFFClampDoubleToUInt16",
+            "line_range": [
+                1074,
+                1081
+            ],
+            "LOC": 7
+        },
+        {
+            "file": "libtiff/tif_dirwrite.c",
+            "name": "TIFFClampDoubleToUInt32",
+            "line_range": [
+                1083,
+                1090
+            ],
+            "LOC": 7
+        },
+        {
+            "file": "libtiff/tif_dirwrite.c",
+            "name": "TIFFWriteDirectoryTagLongArray",
+            "line_range": [
+                1437,
+                1445
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "libtiff/tif_dirwrite.c",
+            "name": "TIFFWriteDirectoryTagRationalArray",
+            "line_range": [
+                1587,
+                1595
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "libtiff/tif_dirwrite.c",
+            "name": "TIFFWriteDirectoryTagCheckedRationalArray",
+            "line_range": [
+                2439,
+                2488
+            ],
+            "LOC": 19
+        },
+        {
+            "file": "libtiff/tif_dirwrite.c",
+            "name": "TIFFWriteDirectoryTagTransferfunction",
+            "line_range": [
+                2073,
+                2121
+            ],
+            "LOC": 35
+        },
+        {
+            "file": "libtiff/tif_unix.c",
+            "name": "_TIFFmemcmp",
+            "line_range": [
+                350,
+                352
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_dirwrite.c",
+            "name": "TIFFWriteDirectoryTagAscii",
+            "line_range": [
+                1200,
+                1208
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "libtiff/tif_dirwrite.c",
+            "name": "TIFFWriteDirectoryTagCheckedAscii",
+            "line_range": [
+                2189,
+                2192
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_dirwrite.c",
+            "name": "TIFFWriteDirectoryTagSubifd",
+            "line_range": [
+                2124,
+                2186
+            ],
+            "LOC": 41
+        },
+        {
+            "file": "libtiff/tif_dirwrite.c",
+            "name": "TIFFWriteDirectoryTagCheckedIfdArray",
+            "line_range": [
+                3001,
+                3007
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "libtiff/tif_dirwrite.c",
+            "name": "TIFFWriteDirectoryTagCheckedIfd8Array",
+            "line_range": [
+                3011,
+                3018
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "libtiff/tif_dirwrite.c",
+            "name": "TIFFWriteDirectoryTagUndefinedArray",
+            "line_range": [
+                1211,
+                1219
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "libtiff/tif_dirwrite.c",
+            "name": "TIFFWriteDirectoryTagCheckedUndefinedArray",
+            "line_range": [
+                2196,
+                2199
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_dirwrite.c",
+            "name": "TIFFWriteDirectoryTagLong8Array",
+            "line_range": [
+                1541,
+                1549
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "libtiff/tif_dirwrite.c",
+            "name": "TIFFWriteDirectoryTagSlong8Array",
+            "line_range": [
+                1565,
+                1573
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "libtiff/tif_dirwrite.c",
+            "name": "TIFFWriteDirectoryTagCheckedSlong8Array",
+            "line_range": [
+                2371,
+                2382
+            ],
+            "LOC": 9
+        },
+        {
+            "file": "libtiff/tif_dirwrite.c",
+            "name": "TIFFWriteDirectoryTagRationalDoubleArray",
+            "line_range": [
+                1610,
+                1618
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "libtiff/tif_dirwrite.c",
+            "name": "TIFFWriteDirectoryTagCheckedRationalDoubleArray",
+            "line_range": [
+                2559,
+                2583
+            ],
+            "LOC": 19
+        },
+        {
+            "file": "libtiff/tif_dirwrite.c",
+            "name": "TIFFWriteDirectoryTagSrationalDoubleArray",
+            "line_range": [
+                1621,
+                1629
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "libtiff/tif_dirwrite.c",
+            "name": "TIFFWriteDirectoryTagCheckedSrationalDoubleArray",
+            "line_range": [
+                2586,
+                2610
+            ],
+            "LOC": 19
+        },
+        {
+            "file": "libtiff/tif_dirwrite.c",
+            "name": "DoubleToSrational",
+            "line_range": [
+                2887,
+                2944
+            ],
+            "LOC": 31
+        },
+        {
+            "file": "libtiff/tif_dirwrite.c",
+            "name": "TIFFWriteDirectoryTagSrationalArray",
+            "line_range": [
+                1598,
+                1606
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "libtiff/tif_dirwrite.c",
+            "name": "TIFFWriteDirectoryTagCheckedSrationalArray",
+            "line_range": [
+                2491,
+                2555
+            ],
+            "LOC": 19
+        },
+        {
+            "file": "libtiff/tif_dirwrite.c",
+            "name": "TIFFWriteDirectoryTagIfdArray",
+            "line_range": [
+                1730,
+                1738
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "libtiff/tif_dirwrite.c",
+            "name": "TIFFWriteDirectoryTagIfdIfd8Array",
+            "line_range": [
+                1931,
+                1980
+            ],
+            "LOC": 27
+        },
+        {
+            "file": "libtiff/tif_dirwrite.c",
+            "name": "TIFFLinkDirectory",
+            "line_range": [
+                3100,
+                3286
+            ],
+            "LOC": 107
+        },
+        {
+            "file": "libtiff/tif_dirwrite.c",
+            "name": "TIFFDeferStrileArrayWriting",
+            "line_range": [
+                224,
+                242
+            ],
+            "LOC": 10
+        },
+        {
+            "file": "libtiff/tif_dirwrite.c",
+            "name": "TIFFCheckpointDirectory",
+            "line_range": [
+                251,
+                259
+            ],
+            "LOC": 7
+        },
+        {
+            "file": "libtiff/tif_dirwrite.c",
+            "name": "TIFFWriteCustomDirectory",
+            "line_range": [
+                263,
+                265
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_dirwrite.c",
+            "name": "TIFFRewriteDirectory",
+            "line_range": [
+                275,
+                418
+            ],
+            "LOC": 82
+        },
+        {
+            "file": "libtiff/tif_dirwrite.c",
+            "name": "_TIFFRewriteField",
+            "line_range": [
+                3302,
+                3737
+            ],
+            "LOC": 254
+        },
+        {
+            "file": "libtiff/tif_dumpmode.c",
+            "name": "TIFFInitDumpMode",
+            "line_range": [
+                122,
+                133
+            ],
+            "LOC": 11
+        },
+        {
+            "file": "libtiff/tif_dumpmode.c",
+            "name": "DumpFixupTags",
+            "line_range": [
+                33,
+                36
+            ],
+            "LOC": 3
+        },
+        {
+            "file": "libtiff/tif_dumpmode.c",
+            "name": "DumpModeDecode",
+            "line_range": [
+                76,
+                105
+            ],
+            "LOC": 14
+        },
+        {
+            "file": "libtiff/tif_dumpmode.c",
+            "name": "DumpModeEncode",
+            "line_range": [
+                43,
+                70
+            ],
+            "LOC": 19
+        },
+        {
+            "file": "libtiff/tif_write.c",
+            "name": "TIFFFlushData1",
+            "line_range": [
+                814,
+                836
+            ],
+            "LOC": 17
+        },
+        {
+            "file": "libtiff/tif_swab.c",
+            "name": "TIFFReverseBits",
+            "line_range": [
+                284,
+                301
+            ],
+            "LOC": 16
+        },
+        {
+            "file": "libtiff/tif_write.c",
+            "name": "TIFFAppendToStrip",
+            "line_range": [
+                739,
+                806
+            ],
+            "LOC": 36
+        },
+        {
+            "file": "libtiff/tif_dumpmode.c",
+            "name": "DumpModeSeek",
+            "line_range": [
+                111,
+                115
+            ],
+            "LOC": 4
+        },
+        {
+            "file": "libtiff/tif_error.c",
+            "name": "TIFFSetErrorHandler",
+            "line_range": [
+                33,
+                37
+            ],
+            "LOC": 4
+        },
+        {
+            "file": "libtiff/tif_error.c",
+            "name": "TIFFSetErrorHandlerExt",
+            "line_range": [
+                41,
+                45
+            ],
+            "LOC": 4
+        },
+        {
+            "file": "libtiff/tif_error.c",
+            "name": "TIFFError",
+            "line_range": [
+                49,
+                62
+            ],
+            "LOC": 13
+        },
+        {
+            "file": "libtiff/tif_extension.c",
+            "name": "TIFFGetTagListCount",
+            "line_range": [
+                34,
+                39
+            ],
+            "LOC": 3
+        },
+        {
+            "file": "libtiff/tif_extension.c",
+            "name": "TIFFGetTagListEntry",
+            "line_range": [
+                42,
+                51
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "libtiff/tif_extension.c",
+            "name": "TIFFAccessTagMethods",
+            "line_range": [
+                58,
+                61
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_extension.c",
+            "name": "TIFFGetClientInfo",
+            "line_range": [
+                64,
+                76
+            ],
+            "LOC": 8
+        },
+        {
+            "file": "libtiff/tif_extension.c",
+            "name": "TIFFSetClientInfo",
+            "line_range": [
+                78,
+                109
+            ],
+            "LOC": 16
+        },
+        {
+            "file": "libtiff/tif_fax3.c",
+            "name": "_TIFFFax3fillruns",
+            "line_range": [
+                405,
+                491
+            ],
+            "LOC": 76
+        },
+        {
+            "file": "libtiff/tif_fax3.c",
+            "name": "TIFFInitCCITTFax3",
+            "line_range": [
+                1444,
+                1464
+            ],
+            "LOC": 9
+        },
+        {
+            "file": "libtiff/tif_fax3.c",
+            "name": "InitCCITTFax3",
+            "line_range": [
+                1375,
+                1441
+            ],
+            "LOC": 41
+        },
+        {
+            "file": "libtiff/tif_fax3.c",
+            "name": "Fax3VGetField",
+            "line_range": [
+                1284,
+                1314
+            ],
+            "LOC": 19
+        },
+        {
+            "file": "libtiff/tif_fax3.c",
+            "name": "Fax3VSetField",
+            "line_range": [
+                1236,
+                1281
+            ],
+            "LOC": 29
+        },
+        {
+            "file": "libtiff/tif_fax3.c",
+            "name": "Fax3PrintDir",
+            "line_range": [
+                1317,
+                1372
+            ],
+            "LOC": 47
+        },
+        {
+            "file": "libtiff/tif_fax3.c",
+            "name": "Fax3FixupTags",
+            "line_range": [
+                496,
+                499
+            ],
+            "LOC": 3
+        },
+        {
+            "file": "libtiff/tif_fax3.c",
+            "name": "Fax3SetupState",
+            "line_range": [
+                510,
+                606
+            ],
+            "LOC": 59
+        },
+        {
+            "file": "libtiff/tif_tile.c",
+            "name": "TIFFTileRowSize",
+            "line_range": [
+                180,
+                185
+            ],
+            "LOC": 4
+        },
+        {
+            "file": "libtiff/tif_tile.c",
+            "name": "TIFFTileRowSize64",
+            "line_range": [
+                142,
+                178
+            ],
+            "LOC": 23
+        },
+        {
+            "file": "libtiff/tif_strip.c",
+            "name": "TIFFScanlineSize",
+            "line_range": [
+                314,
+                319
+            ],
+            "LOC": 4
+        },
+        {
+            "file": "libtiff/tif_strip.c",
+            "name": "TIFFScanlineSize64",
+            "line_range": [
+                257,
+                312
+            ],
+            "LOC": 38
+        },
+        {
+            "file": "libtiff/tif_fax3.c",
+            "name": "Fax3PreDecode",
+            "line_range": [
+                146,
+                171
+            ],
+            "LOC": 17
+        },
+        {
+            "file": "libtiff/tif_swab.c",
+            "name": "TIFFGetBitRevTable",
+            "line_range": [
+                278,
+                280
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_fax3.c",
+            "name": "Fax3Decode1D",
+            "line_range": [
+                232,
+                268
+            ],
+            "LOC": 26
+        },
+        {
+            "file": "libtiff/tif_fax3.c",
+            "name": "Fax3Unexpected",
+            "line_range": [
+                181,
+                187
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "libtiff/tif_fax3.c",
+            "name": "Fax3PrematureEOF",
+            "line_range": [
+                213,
+                219
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "libtiff/tif_fax3.c",
+            "name": "Fax3BadLength",
+            "line_range": [
+                202,
+                209
+            ],
+            "LOC": 7
+        },
+        {
+            "file": "libtiff/tif_fax3.c",
+            "name": "Fax3PreEncode",
+            "line_range": [
+                776,
+                811
+            ],
+            "LOC": 19
+        },
+        {
+            "file": "libtiff/tif_fax3.c",
+            "name": "Fax3PostEncode",
+            "line_range": [
+                1159,
+                1166
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "libtiff/tif_fax3.c",
+            "name": "Fax3Encode",
+            "line_range": [
+                1116,
+                1156
+            ],
+            "LOC": 33
+        },
+        {
+            "file": "libtiff/tif_fax3.c",
+            "name": "Fax3PutEOL",
+            "line_range": [
+                735,
+                770
+            ],
+            "LOC": 26
+        },
+        {
+            "file": "libtiff/tif_fax3.c",
+            "name": "Fax3Encode1DRow",
+            "line_range": [
+                1011,
+                1039
+            ],
+            "LOC": 26
+        },
+        {
+            "file": "libtiff/tif_fax3.c",
+            "name": "find0span",
+            "line_range": [
+                867,
+                926
+            ],
+            "LOC": 43
+        },
+        {
+            "file": "libtiff/tif_fax3.c",
+            "name": "putspan",
+            "line_range": [
+                687,
+                726
+            ],
+            "LOC": 28
+        },
+        {
+            "file": "libtiff/tif_fax3.c",
+            "name": "find1span",
+            "line_range": [
+                929,
+                988
+            ],
+            "LOC": 43
+        },
+        {
+            "file": "libtiff/tif_fax3.c",
+            "name": "Fax3Encode2DRow",
+            "line_range": [
+                1060,
+                1110
+            ],
+            "LOC": 40
+        },
+        {
+            "file": "libtiff/tif_fax3.c",
+            "name": "Fax3PutBits",
+            "line_range": [
+                651,
+                662
+            ],
+            "LOC": 9
+        },
+        {
+            "file": "libtiff/tif_fax3.c",
+            "name": "Fax3Close",
+            "line_range": [
+                1189,
+                1192
+            ],
+            "LOC": 3
+        },
+        {
+            "file": "libtiff/tif_fax3.c",
+            "name": "_Fax3Close",
+            "line_range": [
+                1169,
+                1186
+            ],
+            "LOC": 16
+        },
+        {
+            "file": "libtiff/tif_fax3.c",
+            "name": "Fax3Cleanup",
+            "line_range": [
+                1195,
+                1214
+            ],
+            "LOC": 14
+        },
+        {
+            "file": "libtiff/tif_fax3.c",
+            "name": "Fax3Decode2D",
+            "line_range": [
+                275,
+                327
+            ],
+            "LOC": 37
+        },
+        {
+            "file": "libtiff/tif_fax3.c",
+            "name": "Fax3Extension",
+            "line_range": [
+                191,
+                198
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "libtiff/tif_fax3.c",
+            "name": "TIFFInitCCITTFax4",
+            "line_range": [
+                1576,
+                1603
+            ],
+            "LOC": 16
+        },
+        {
+            "file": "libtiff/tif_fax3.c",
+            "name": "Fax4Decode",
+            "line_range": [
+                1476,
+                1535
+            ],
+            "LOC": 39
+        },
+        {
+            "file": "libtiff/tif_fax3.c",
+            "name": "Fax4Encode",
+            "line_range": [
+                1542,
+                1560
+            ],
+            "LOC": 14
+        },
+        {
+            "file": "libtiff/tif_fax3.c",
+            "name": "Fax4PostEncode",
+            "line_range": [
+                1563,
+                1573
+            ],
+            "LOC": 8
+        },
+        {
+            "file": "libtiff/tif_fax3.c",
+            "name": "TIFFInitCCITTRLE",
+            "line_range": [
+                1663,
+                1677
+            ],
+            "LOC": 9
+        },
+        {
+            "file": "libtiff/tif_fax3.c",
+            "name": "Fax3DecodeRLE",
+            "line_range": [
+                1614,
+                1660
+            ],
+            "LOC": 34
+        },
+        {
+            "file": "libtiff/tif_fax3.c",
+            "name": "TIFFInitCCITTRLEW",
+            "line_range": [
+                1680,
+                1694
+            ],
+            "LOC": 9
+        },
+        {
+            "file": "libtiff/tif_flush.c",
+            "name": "TIFFFlush",
+            "line_range": [
+                31,
+                57
+            ],
+            "LOC": 16
+        },
+        {
+            "file": "libtiff/tif_flush.c",
+            "name": "TIFFFlushData",
+            "line_range": [
+                155,
+                165
+            ],
+            "LOC": 10
+        },
+        {
+            "file": "libtiff/tif_flush.c",
+            "name": "TIFFForceStrileArrayWriting",
+            "line_range": [
+                78,
+                143
+            ],
+            "LOC": 38
+        },
+        {
+            "file": "libtiff/tif_getimage.c",
+            "name": "TIFFRGBAImageOK",
+            "line_range": [
+                74,
+                211
+            ],
+            "LOC": 82
+        },
+        {
+            "file": "libtiff/tif_getimage.c",
+            "name": "TIFFRGBAImageEnd",
+            "line_range": [
+                214,
+                251
+            ],
+            "LOC": 36
+        },
+        {
+            "file": "libtiff/tif_getimage.c",
+            "name": "TIFFRGBAImageBegin",
+            "line_range": [
+                265,
+                497
+            ],
+            "LOC": 150
+        },
+        {
+            "file": "libtiff/tif_getimage.c",
+            "name": "isCCITTCompression",
+            "line_range": [
+                254,
+                261
+            ],
+            "LOC": 7
+        },
+        {
+            "file": "libtiff/tif_getimage.c",
+            "name": "PickContigCase",
+            "line_range": [
+                2615,
+                2760
+            ],
+            "LOC": 98
+        },
+        {
+            "file": "libtiff/tif_open.c",
+            "name": "TIFFIsTiled",
+            "line_range": [
+                595,
+                597
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_getimage.c",
+            "name": "BuildMapUaToAa",
+            "line_range": [
+                2839,
+                2858
+            ],
+            "LOC": 15
+        },
+        {
+            "file": "libtiff/tif_getimage.c",
+            "name": "BuildMapBitdepth16To8",
+            "line_range": [
+                2861,
+                2877
+            ],
+            "LOC": 13
+        },
+        {
+            "file": "libtiff/tif_getimage.c",
+            "name": "buildMap",
+            "line_range": [
+                2577,
+                2609
+            ],
+            "LOC": 15
+        },
+        {
+            "file": "libtiff/tif_getimage.c",
+            "name": "setupMap",
+            "line_range": [
+                2443,
+                2480
+            ],
+            "LOC": 25
+        },
+        {
+            "file": "libtiff/tif_open.c",
+            "name": "TIFFFileName",
+            "line_range": [
+                514,
+                516
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_getimage.c",
+            "name": "makebwmap",
+            "line_range": [
+                2384,
+                2435
+            ],
+            "LOC": 40
+        },
+        {
+            "file": "libtiff/tif_getimage.c",
+            "name": "checkcmap",
+            "line_range": [
+                2483,
+                2494
+            ],
+            "LOC": 10
+        },
+        {
+            "file": "libtiff/tif_getimage.c",
+            "name": "cvtcmap",
+            "line_range": [
+                2497,
+                2511
+            ],
+            "LOC": 11
+        },
+        {
+            "file": "libtiff/tif_getimage.c",
+            "name": "makecmap",
+            "line_range": [
+                2521,
+                2570
+            ],
+            "LOC": 40
+        },
+        {
+            "file": "libtiff/tif_getimage.c",
+            "name": "initYCbCrConversion",
+            "line_range": [
+                2284,
+                2335
+            ],
+            "LOC": 28
+        },
+        {
+            "file": "libtiff/tif_getimage.c",
+            "name": "isInRefBlackWhiteRange",
+            "line_range": [
+                2278,
+                2280
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_getimage.c",
+            "name": "initCIELabConversion",
+            "line_range": [
+                2338,
+                2374
+            ],
+            "LOC": 24
+        },
+        {
+            "file": "libtiff/tif_getimage.c",
+            "name": "PickSeparateCase",
+            "line_range": [
+                2770,
+                2835
+            ],
+            "LOC": 42
+        },
+        {
+            "file": "libtiff/tif_getimage.c",
+            "name": "gtTileSeparate",
+            "line_range": [
+                733,
+                905
+            ],
+            "LOC": 122
+        },
+        {
+            "file": "libtiff/tif_tile.c",
+            "name": "TIFFTileSize",
+            "line_range": [
+                257,
+                262
+            ],
+            "LOC": 4
+        },
+        {
+            "file": "libtiff/tif_tile.c",
+            "name": "TIFFTileSize64",
+            "line_range": [
+                252,
+                254
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_tile.c",
+            "name": "TIFFVTileSize64",
+            "line_range": [
+                192,
+                238
+            ],
+            "LOC": 31
+        },
+        {
+            "file": "libtiff/tif_getimage.c",
+            "name": "setorientation",
+            "line_range": [
+                553,
+                611
+            ],
+            "LOC": 44
+        },
+        {
+            "file": "libtiff/tif_read.c",
+            "name": "_TIFFReadTileAndAllocBuffer",
+            "line_range": [
+                1029,
+                1039
+            ],
+            "LOC": 9
+        },
+        {
+            "file": "libtiff/tif_read.c",
+            "name": "TIFFCheckRead",
+            "line_range": [
+                1508,
+                1521
+            ],
+            "LOC": 9
+        },
+        {
+            "file": "libtiff/tif_tile.c",
+            "name": "TIFFCheckTile",
+            "line_range": [
+                73,
+                107
+            ],
+            "LOC": 25
+        },
+        {
+            "file": "libtiff/tif_tile.c",
+            "name": "TIFFComputeTile",
+            "line_range": [
+                36,
+                65
+            ],
+            "LOC": 26
+        },
+        {
+            "file": "libtiff/tif_read.c",
+            "name": "_TIFFReadEncodedTileAndAllocBuffer",
+            "line_range": [
+                1048,
+                1091
+            ],
+            "LOC": 30
+        },
+        {
+            "file": "libtiff/tif_read.c",
+            "name": "TIFFReadEncodedTile",
+            "line_range": [
+                978,
+                1020
+            ],
+            "LOC": 30
+        },
+        {
+            "file": "libtiff/tif_read.c",
+            "name": "TIFFReadRawTile1",
+            "line_range": [
+                1094,
+                1161
+            ],
+            "LOC": 39
+        },
+        {
+            "file": "libtiff/tif_read.c",
+            "name": "TIFFFillTile",
+            "line_range": [
+                1204,
+                1366
+            ],
+            "LOC": 84
+        },
+        {
+            "file": "libtiff/tif_read.c",
+            "name": "TIFFReadBufferSetup",
+            "line_range": [
+                1378,
+                1415
+            ],
+            "LOC": 27
+        },
+        {
+            "file": "libtiff/tif_read.c",
+            "name": "TIFFReadRawStripOrTile2",
+            "line_range": [
+                684,
+                716
+            ],
+            "LOC": 20
+        },
+        {
+            "file": "libtiff/tif_read.c",
+            "name": "TIFFReadAndRealloc",
+            "line_range": [
+                53,
+                180
+            ],
+            "LOC": 54
+        },
+        {
+            "file": "libtiff/tif_read.c",
+            "name": "TIFFStartTile",
+            "line_range": [
+                1465,
+                1505
+            ],
+            "LOC": 31
+        },
+        {
+            "file": "libtiff/tif_read.c",
+            "name": "TIFFReadTile",
+            "line_range": [
+                965,
+                971
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "libtiff/tif_getimage.c",
+            "name": "gtStripSeparate",
+            "line_range": [
+                1009,
+                1155
+            ],
+            "LOC": 107
+        },
+        {
+            "file": "libtiff/tif_strip.c",
+            "name": "TIFFStripSize",
+            "line_range": [
+                202,
+                207
+            ],
+            "LOC": 4
+        },
+        {
+            "file": "libtiff/tif_strip.c",
+            "name": "TIFFStripSize64",
+            "line_range": [
+                193,
+                199
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "libtiff/tif_strip.c",
+            "name": "TIFFVStripSize64",
+            "line_range": [
+                76,
+                126
+            ],
+            "LOC": 32
+        },
+        {
+            "file": "libtiff/tif_strip.c",
+            "name": "TIFFComputeStrip",
+            "line_range": [
+                36,
+                53
+            ],
+            "LOC": 13
+        },
+        {
+            "file": "libtiff/tif_read.c",
+            "name": "_TIFFReadEncodedStripAndAllocBuffer",
+            "line_range": [
+                572,
+                606
+            ],
+            "LOC": 24
+        },
+        {
+            "file": "libtiff/tif_read.c",
+            "name": "TIFFReadEncodedStrip",
+            "line_range": [
+                527,
+                563
+            ],
+            "LOC": 27
+        },
+        {
+            "file": "libtiff/tif_read.c",
+            "name": "TIFFReadEncodedStripGetStripSize",
+            "line_range": [
+                488,
+                520
+            ],
+            "LOC": 28
+        },
+        {
+            "file": "libtiff/tif_strip.c",
+            "name": "TIFFVStripSize",
+            "line_range": [
+                128,
+                133
+            ],
+            "LOC": 4
+        },
+        {
+            "file": "libtiff/tif_read.c",
+            "name": "TIFFReadRawStrip1",
+            "line_range": [
+                609,
+                681
+            ],
+            "LOC": 41
+        },
+        {
+            "file": "libtiff/tif_read.c",
+            "name": "TIFFFillStrip",
+            "line_range": [
+                766,
+                953
+            ],
+            "LOC": 85
+        },
+        {
+            "file": "libtiff/tif_read.c",
+            "name": "NoSanitizeSubUInt64",
+            "line_range": [
+                756,
+                758
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_read.c",
+            "name": "TIFFStartStrip",
+            "line_range": [
+                1422,
+                1458
+            ],
+            "LOC": 24
+        },
+        {
+            "file": "libtiff/tif_getimage.c",
+            "name": "putRGBAAseparate8bittile",
+            "line_range": [
+                1641,
+                1649
+            ],
+            "LOC": 8
+        },
+        {
+            "file": "libtiff/tif_getimage.c",
+            "name": "putRGBUAseparate8bittile",
+            "line_range": [
+                1674,
+                1691
+            ],
+            "LOC": 17
+        },
+        {
+            "file": "libtiff/tif_getimage.c",
+            "name": "putRGBseparate8bittile",
+            "line_range": [
+                1628,
+                1636
+            ],
+            "LOC": 8
+        },
+        {
+            "file": "libtiff/tif_getimage.c",
+            "name": "putRGBAAseparate16bittile",
+            "line_range": [
+                1715,
+                1731
+            ],
+            "LOC": 13
+        },
+        {
+            "file": "libtiff/tif_getimage.c",
+            "name": "putRGBUAseparate16bittile",
+            "line_range": [
+                1736,
+                1757
+            ],
+            "LOC": 21
+        },
+        {
+            "file": "libtiff/tif_getimage.c",
+            "name": "putRGBseparate16bittile",
+            "line_range": [
+                1696,
+                1710
+            ],
+            "LOC": 12
+        },
+        {
+            "file": "libtiff/tif_getimage.c",
+            "name": "putCMYKseparate8bittile",
+            "line_range": [
+                1654,
+                1669
+            ],
+            "LOC": 15
+        },
+        {
+            "file": "libtiff/tif_getimage.c",
+            "name": "putseparate8bitYCbCr11tile",
+            "line_range": [
+                2260,
+                2275
+            ],
+            "LOC": 14
+        },
+        {
+            "file": "libtiff/tif_getimage.c",
+            "name": "gtTileContig",
+            "line_range": [
+                620,
+                724
+            ],
+            "LOC": 76
+        },
+        {
+            "file": "libtiff/tif_getimage.c",
+            "name": "gtStripContig",
+            "line_range": [
+                914,
+                1000
+            ],
+            "LOC": 67
+        },
+        {
+            "file": "libtiff/tif_getimage.c",
+            "name": "putRGBAAcontig8bittile",
+            "line_range": [
+                1451,
+                1464
+            ],
+            "LOC": 10
+        },
+        {
+            "file": "libtiff/tif_getimage.c",
+            "name": "putRGBUAcontig8bittile",
+            "line_range": [
+                1470,
+                1490
+            ],
+            "LOC": 20
+        },
+        {
+            "file": "libtiff/tif_getimage.c",
+            "name": "putRGBcontig8bittile",
+            "line_range": [
+                1432,
+                1445
+            ],
+            "LOC": 10
+        },
+        {
+            "file": "libtiff/tif_getimage.c",
+            "name": "putRGBAAcontig16bittile",
+            "line_range": [
+                1517,
+                1534
+            ],
+            "LOC": 14
+        },
+        {
+            "file": "libtiff/tif_getimage.c",
+            "name": "putRGBUAcontig16bittile",
+            "line_range": [
+                1540,
+                1561
+            ],
+            "LOC": 21
+        },
+        {
+            "file": "libtiff/tif_getimage.c",
+            "name": "putRGBcontig16bittile",
+            "line_range": [
+                1495,
+                1511
+            ],
+            "LOC": 14
+        },
+        {
+            "file": "libtiff/tif_getimage.c",
+            "name": "putRGBcontig8bitCMYKtile",
+            "line_range": [
+                1568,
+                1586
+            ],
+            "LOC": 11
+        },
+        {
+            "file": "libtiff/tif_getimage.c",
+            "name": "putRGBcontig8bitCMYKMaptile",
+            "line_range": [
+                1593,
+                1613
+            ],
+            "LOC": 19
+        },
+        {
+            "file": "libtiff/tif_getimage.c",
+            "name": "put8bitcmaptile",
+            "line_range": [
+                1245,
+                1260
+            ],
+            "LOC": 13
+        },
+        {
+            "file": "libtiff/tif_getimage.c",
+            "name": "put4bitcmaptile",
+            "line_range": [
+                1265,
+                1277
+            ],
+            "LOC": 11
+        },
+        {
+            "file": "libtiff/tif_getimage.c",
+            "name": "put2bitcmaptile",
+            "line_range": [
+                1282,
+                1294
+            ],
+            "LOC": 11
+        },
+        {
+            "file": "libtiff/tif_getimage.c",
+            "name": "put1bitcmaptile",
+            "line_range": [
+                1299,
+                1311
+            ],
+            "LOC": 11
+        },
+        {
+            "file": "libtiff/tif_getimage.c",
+            "name": "put16bitbwtile",
+            "line_range": [
+                1356,
+                1376
+            ],
+            "LOC": 15
+        },
+        {
+            "file": "libtiff/tif_getimage.c",
+            "name": "putagreytile",
+            "line_range": [
+                1336,
+                1351
+            ],
+            "LOC": 13
+        },
+        {
+            "file": "libtiff/tif_getimage.c",
+            "name": "putgreytile",
+            "line_range": [
+                1316,
+                1331
+            ],
+            "LOC": 13
+        },
+        {
+            "file": "libtiff/tif_getimage.c",
+            "name": "put4bitbwtile",
+            "line_range": [
+                1415,
+                1427
+            ],
+            "LOC": 11
+        },
+        {
+            "file": "libtiff/tif_getimage.c",
+            "name": "put2bitbwtile",
+            "line_range": [
+                1398,
+                1410
+            ],
+            "LOC": 11
+        },
+        {
+            "file": "libtiff/tif_getimage.c",
+            "name": "put1bitbwtile",
+            "line_range": [
+                1381,
+                1393
+            ],
+            "LOC": 11
+        },
+        {
+            "file": "libtiff/tif_getimage.c",
+            "name": "putcontig8bitYCbCr44tile",
+            "line_range": [
+                1873,
+                1974
+            ],
+            "LOC": 88
+        },
+        {
+            "file": "libtiff/tif_getimage.c",
+            "name": "putcontig8bitYCbCr42tile",
+            "line_range": [
+                1979,
+                2055
+            ],
+            "LOC": 64
+        },
+        {
+            "file": "libtiff/tif_getimage.c",
+            "name": "putcontig8bitYCbCr41tile",
+            "line_range": [
+                2060,
+                2100
+            ],
+            "LOC": 30
+        },
+        {
+            "file": "libtiff/tif_getimage.c",
+            "name": "putcontig8bitYCbCr22tile",
+            "line_range": [
+                2105,
+                2158
+            ],
+            "LOC": 50
+        },
+        {
+            "file": "libtiff/tif_getimage.c",
+            "name": "putcontig8bitYCbCr21tile",
+            "line_range": [
+                2163,
+                2195
+            ],
+            "LOC": 24
+        },
+        {
+            "file": "libtiff/tif_getimage.c",
+            "name": "putcontig8bitYCbCr12tile",
+            "line_range": [
+                2200,
+                2233
+            ],
+            "LOC": 32
+        },
+        {
+            "file": "libtiff/tif_getimage.c",
+            "name": "putcontig8bitYCbCr11tile",
+            "line_range": [
+                2238,
+                2255
+            ],
+            "LOC": 15
+        },
+        {
+            "file": "libtiff/tif_getimage.c",
+            "name": "putcontig8bitCIELab",
+            "line_range": [
+                1762,
+                1782
+            ],
+            "LOC": 19
+        },
+        {
+            "file": "libtiff/tif_getimage.c",
+            "name": "TIFFRGBAImageGet",
+            "line_range": [
+                500,
+                512
+            ],
+            "LOC": 9
+        },
+        {
+            "file": "libtiff/tif_getimage.c",
+            "name": "TIFFReadRGBAImageOriented",
+            "line_range": [
+                519,
+                537
+            ],
+            "LOC": 15
+        },
+        {
+            "file": "libtiff/tif_getimage.c",
+            "name": "TIFFReadRGBAImage",
+            "line_range": [
+                545,
+                549
+            ],
+            "LOC": 4
+        },
+        {
+            "file": "libtiff/tif_getimage.c",
+            "name": "TIFFReadRGBAStrip",
+            "line_range": [
+                2889,
+                2892
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_getimage.c",
+            "name": "TIFFReadRGBAStripExt",
+            "line_range": [
+                2896,
+                2938
+            ],
+            "LOC": 25
+        },
+        {
+            "file": "libtiff/tif_getimage.c",
+            "name": "TIFFReadRGBATile",
+            "line_range": [
+                2947,
+                2950
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_getimage.c",
+            "name": "TIFFReadRGBATileExt",
+            "line_range": [
+                2955,
+                3049
+            ],
+            "LOC": 44
+        },
+        {
+            "file": "libtiff/tif_jbig.c",
+            "name": "TIFFInitJBIG",
+            "line_range": [
+                198,
+                218
+            ],
+            "LOC": 10
+        },
+        {
+            "file": "libtiff/tif_jbig.c",
+            "name": "JBIGSetupDecode",
+            "line_range": [
+                38,
+                47
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "libtiff/tif_strip.c",
+            "name": "TIFFNumberOfStrips",
+            "line_range": [
+                59,
+                69
+            ],
+            "LOC": 8
+        },
+        {
+            "file": "libtiff/tif_jbig.c",
+            "name": "JBIGDecode",
+            "line_range": [
+                49,
+                121
+            ],
+            "LOC": 35
+        },
+        {
+            "file": "libtiff/tif_jbig.c",
+            "name": "JBIGSetupEncode",
+            "line_range": [
+                123,
+                132
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "libtiff/tif_jbig.c",
+            "name": "JBIGEncode",
+            "line_range": [
+                174,
+                195
+            ],
+            "LOC": 11
+        },
+        {
+            "file": "libtiff/tif_jbig.c",
+            "name": "JBIGOutputBie",
+            "line_range": [
+                162,
+                172
+            ],
+            "LOC": 7
+        },
+        {
+            "file": "libtiff/tif_jbig.c",
+            "name": "JBIGCopyEncodedData",
+            "line_range": [
+                134,
+                160
+            ],
+            "LOC": 18
+        },
+        {
+            "file": "libtiff/tif_jpeg.c",
+            "name": "TIFFJPEGIsFullStripRequired",
+            "line_range": [
+                1056,
+                1083
+            ],
+            "LOC": 14
+        },
+        {
+            "file": "libtiff/tif_jpeg.c",
+            "name": "TIFFjpeg_create_decompress",
+            "line_range": [
+                293,
+                303
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "libtiff/tif_jpeg.c",
+            "name": "TIFFjpeg_data_src",
+            "line_range": [
+                639,
+                649
+            ],
+            "LOC": 10
+        },
+        {
+            "file": "libtiff/tif_jpeg.c",
+            "name": "TIFFjpeg_read_header",
+            "line_range": [
+                365,
+                367
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_jpeg.c",
+            "name": "TIFFjpeg_destroy",
+            "line_range": [
+                418,
+                420
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_jpeg.c",
+            "name": "TIFFjpeg_has_multiple_scans",
+            "line_range": [
+                371,
+                373
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_jpeg.c",
+            "name": "std_init_source",
+            "line_range": [
+                570,
+                577
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "libtiff/tif_jpeg.c",
+            "name": "std_fill_input_buffer",
+            "line_range": [
+                580,
+                612
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "libtiff/tif_jpeg.c",
+            "name": "std_skip_input_data",
+            "line_range": [
+                616,
+                629
+            ],
+            "LOC": 10
+        },
+        {
+            "file": "libtiff/tif_jpeg.c",
+            "name": "std_term_source",
+            "line_range": [
+                632,
+                636
+            ],
+            "LOC": 3
+        },
+        {
+            "file": "libtiff/tif_jpeg.c",
+            "name": "TIFFjpeg_error_exit",
+            "line_range": [
+                217,
+                225
+            ],
+            "LOC": 7
+        },
+        {
+            "file": "libtiff/tif_jpeg.c",
+            "name": "TIFFjpeg_output_message",
+            "line_range": [
+                234,
+                240
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "libtiff/tif_jpeg.c",
+            "name": "TIFFInitJPEG",
+            "line_range": [
+                2481,
+                2589
+            ],
+            "LOC": 56
+        },
+        {
+            "file": "libtiff/tif_jpeg.c",
+            "name": "JPEGVGetField",
+            "line_range": [
+                2341,
+                2365
+            ],
+            "LOC": 16
+        },
+        {
+            "file": "libtiff/tif_jpeg.c",
+            "name": "JPEGVSetField",
+            "line_range": [
+                2286,
+                2338
+            ],
+            "LOC": 33
+        },
+        {
+            "file": "libtiff/tif_jpeg.c",
+            "name": "JPEGResetUpsampled",
+            "line_range": [
+                2251,
+                2283
+            ],
+            "LOC": 15
+        },
+        {
+            "file": "libtiff/tif_jpeg.c",
+            "name": "JPEGPrintDir",
+            "line_range": [
+                2368,
+                2382
+            ],
+            "LOC": 12
+        },
+        {
+            "file": "libtiff/tif_jpeg.c",
+            "name": "JPEGFixupTags",
+            "line_range": [
+                743,
+                754
+            ],
+            "LOC": 8
+        },
+        {
+            "file": "libtiff/tif_jpeg.c",
+            "name": "JPEGFixupTagsSubsampling",
+            "line_range": [
+                760,
+                812
+            ],
+            "LOC": 20
+        },
+        {
+            "file": "libtiff/tif_jpeg.c",
+            "name": "JPEGFixupTagsSubsamplingSec",
+            "line_range": [
+                815,
+                929
+            ],
+            "LOC": 61
+        },
+        {
+            "file": "libtiff/tif_jpeg.c",
+            "name": "JPEGFixupTagsSubsamplingReadByte",
+            "line_range": [
+                932,
+                959
+            ],
+            "LOC": 25
+        },
+        {
+            "file": "libtiff/tif_jpeg.c",
+            "name": "JPEGFixupTagsSubsamplingReadWord",
+            "line_range": [
+                962,
+                972
+            ],
+            "LOC": 10
+        },
+        {
+            "file": "libtiff/tif_jpeg.c",
+            "name": "JPEGFixupTagsSubsamplingSkip",
+            "line_range": [
+                975,
+                999
+            ],
+            "LOC": 16
+        },
+        {
+            "file": "libtiff/tif_jpeg.c",
+            "name": "JPEGSetupDecode",
+            "line_range": [
+                1005,
+                1047
+            ],
+            "LOC": 24
+        },
+        {
+            "file": "libtiff/tif_jpeg.c",
+            "name": "JPEGInitializeLibJPEG",
+            "line_range": [
+                2429,
+                2478
+            ],
+            "LOC": 25
+        },
+        {
+            "file": "libtiff/tif_jpeg.c",
+            "name": "TIFFjpeg_create_compress",
+            "line_range": [
+                279,
+                289
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "libtiff/tif_jpeg.c",
+            "name": "TIFFjpeg_tables_src",
+            "line_range": [
+                666,
+                670
+            ],
+            "LOC": 4
+        },
+        {
+            "file": "libtiff/tif_jpeg.c",
+            "name": "JPEGPreDecode",
+            "line_range": [
+                1089,
+                1315
+            ],
+            "LOC": 131
+        },
+        {
+            "file": "libtiff/tif_jpeg.c",
+            "name": "TIFFjpeg_abort",
+            "line_range": [
+                412,
+                414
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_jpeg.c",
+            "name": "TIFFjpeg_start_decompress",
+            "line_range": [
+                377,
+                388
+            ],
+            "LOC": 9
+        },
+        {
+            "file": "libtiff/tif_jpeg.c",
+            "name": "alloc_downsampled_buffers",
+            "line_range": [
+                680,
+                702
+            ],
+            "LOC": 21
+        },
+        {
+            "file": "libtiff/tif_jpeg.c",
+            "name": "TIFFjpeg_alloc_sarray",
+            "line_range": [
+                424,
+                427
+            ],
+            "LOC": 3
+        },
+        {
+            "file": "libtiff/tif_jpeg.c",
+            "name": "JPEGDecode",
+            "line_range": [
+                1323,
+                1374
+            ],
+            "LOC": 28
+        },
+        {
+            "file": "libtiff/tif_jpeg.c",
+            "name": "TIFFjpeg_read_scanlines",
+            "line_range": [
+                392,
+                394
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_jpeg.c",
+            "name": "TIFFjpeg_finish_decompress",
+            "line_range": [
+                406,
+                408
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_jpeg.c",
+            "name": "JPEGSetupEncode",
+            "line_range": [
+                1723,
+                1891
+            ],
+            "LOC": 90
+        },
+        {
+            "file": "libtiff/tif_jpeg.c",
+            "name": "TIFFjpeg_set_defaults",
+            "line_range": [
+                307,
+                309
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_jpeg.c",
+            "name": "prepare_JPEGTables",
+            "line_range": [
+                1691,
+                1720
+            ],
+            "LOC": 22
+        },
+        {
+            "file": "libtiff/tif_jpeg.c",
+            "name": "TIFFjpeg_set_quality",
+            "line_range": [
+                319,
+                321
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_jpeg.c",
+            "name": "TIFFjpeg_suppress_tables",
+            "line_range": [
+                326,
+                328
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_jpeg.c",
+            "name": "unsuppress_quant_table",
+            "line_range": [
+                1651,
+                1657
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "libtiff/tif_jpeg.c",
+            "name": "unsuppress_huff_table",
+            "line_range": [
+                1669,
+                1677
+            ],
+            "LOC": 7
+        },
+        {
+            "file": "libtiff/tif_jpeg.c",
+            "name": "TIFFjpeg_tables_dest",
+            "line_range": [
+                541,
+                562
+            ],
+            "LOC": 16
+        },
+        {
+            "file": "libtiff/tif_jpeg.c",
+            "name": "TIFFjpeg_write_tables",
+            "line_range": [
+                359,
+                361
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_jpeg.c",
+            "name": "TIFFjpeg_data_dest",
+            "line_range": [
+                490,
+                497
+            ],
+            "LOC": 7
+        },
+        {
+            "file": "libtiff/tif_jpeg.c",
+            "name": "JPEGPreEncode",
+            "line_range": [
+                1897,
+                2027
+            ],
+            "LOC": 89
+        },
+        {
+            "file": "libtiff/tif_jpeg.c",
+            "name": "TIFFjpeg_set_colorspace",
+            "line_range": [
+                313,
+                315
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_jpeg.c",
+            "name": "suppress_quant_table",
+            "line_range": [
+                1660,
+                1666
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "libtiff/tif_jpeg.c",
+            "name": "suppress_huff_table",
+            "line_range": [
+                1680,
+                1688
+            ],
+            "LOC": 7
+        },
+        {
+            "file": "libtiff/tif_jpeg.c",
+            "name": "TIFFjpeg_start_compress",
+            "line_range": [
+                332,
+                334
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_jpeg.c",
+            "name": "JPEGPostEncode",
+            "line_range": [
+                2196,
+                2228
+            ],
+            "LOC": 24
+        },
+        {
+            "file": "libtiff/tif_jpeg.c",
+            "name": "TIFFjpeg_write_raw_data",
+            "line_range": [
+                346,
+                348
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_jpeg.c",
+            "name": "TIFFjpeg_finish_compress",
+            "line_range": [
+                353,
+                355
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_jpeg.c",
+            "name": "JPEGEncode",
+            "line_range": [
+                2034,
+                2105
+            ],
+            "LOC": 44
+        },
+        {
+            "file": "libtiff/tif_jpeg.c",
+            "name": "TIFFjpeg_write_scanlines",
+            "line_range": [
+                339,
+                341
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_jpeg.c",
+            "name": "JPEGCleanup",
+            "line_range": [
+                2231,
+                2248
+            ],
+            "LOC": 14
+        },
+        {
+            "file": "libtiff/tif_jpeg.c",
+            "name": "JPEGDefaultStripSize",
+            "line_range": [
+                2385,
+                2393
+            ],
+            "LOC": 7
+        },
+        {
+            "file": "libtiff/tif_jpeg.c",
+            "name": "JPEGDefaultTileSize",
+            "line_range": [
+                2397,
+                2405
+            ],
+            "LOC": 7
+        },
+        {
+            "file": "libtiff/tif_jpeg.c",
+            "name": "JPEGEncodeRaw",
+            "line_range": [
+                2112,
+                2190
+            ],
+            "LOC": 59
+        },
+        {
+            "file": "libtiff/tif_jpeg.c",
+            "name": "std_init_destination",
+            "line_range": [
+                439,
+                446
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "libtiff/tif_jpeg.c",
+            "name": "std_empty_output_buffer",
+            "line_range": [
+                449,
+                475
+            ],
+            "LOC": 10
+        },
+        {
+            "file": "libtiff/tif_jpeg.c",
+            "name": "std_term_destination",
+            "line_range": [
+                478,
+                487
+            ],
+            "LOC": 7
+        },
+        {
+            "file": "libtiff/tif_jpeg.c",
+            "name": "tables_init_destination",
+            "line_range": [
+                504,
+                511
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "libtiff/tif_jpeg.c",
+            "name": "tables_empty_output_buffer",
+            "line_range": [
+                514,
+                528
+            ],
+            "LOC": 12
+        },
+        {
+            "file": "libtiff/tif_jpeg.c",
+            "name": "tables_term_destination",
+            "line_range": [
+                532,
+                538
+            ],
+            "LOC": 4
+        },
+        {
+            "file": "libtiff/tif_jpeg.c",
+            "name": "DecodeRowError",
+            "line_range": [
+                1484,
+                1493
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "libtiff/tif_jpeg.c",
+            "name": "JPEGDecodeRaw",
+            "line_range": [
+                1501,
+                1643
+            ],
+            "LOC": 60
+        },
+        {
+            "file": "libtiff/tif_jpeg.c",
+            "name": "TIFFjpeg_read_raw_data",
+            "line_range": [
+                399,
+                401
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_jpeg.c",
+            "name": "TIFFjpeg_progress_monitor",
+            "line_range": [
+                246,
+                266
+            ],
+            "LOC": 12
+        },
+        {
+            "file": "libtiff/tif_jpeg.c",
+            "name": "tables_init_source",
+            "line_range": [
+                657,
+                663
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "libtiff/tif_luv.c",
+            "name": "LogL16toY",
+            "line_range": [
+                764,
+                773
+            ],
+            "LOC": 8
+        },
+        {
+            "file": "libtiff/tif_luv.c",
+            "name": "LogL16fromY",
+            "line_range": [
+                779,
+                790
+            ],
+            "LOC": 11
+        },
+        {
+            "file": "libtiff/tif_luv.c",
+            "name": "tiff_itrunc",
+            "line_range": [
+                751,
+                758
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "libtiff/tif_luv.c",
+            "name": "XYZtoRGB24",
+            "line_range": [
+                828,
+                840
+            ],
+            "LOC": 9
+        },
+        {
+            "file": "libtiff/tif_luv.c",
+            "name": "LogL10toY",
+            "line_range": [
+                846,
+                851
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "libtiff/tif_luv.c",
+            "name": "LogL10fromY",
+            "line_range": [
+                857,
+                865
+            ],
+            "LOC": 7
+        },
+        {
+            "file": "libtiff/tif_luv.c",
+            "name": "uv_encode",
+            "line_range": [
+                928,
+                944
+            ],
+            "LOC": 14
+        },
+        {
+            "file": "libtiff/tif_luv.c",
+            "name": "oog_encode",
+            "line_range": [
+                872,
+                918
+            ],
+            "LOC": 41
+        },
+        {
+            "file": "libtiff/tif_luv.c",
+            "name": "uv_decode",
+            "line_range": [
+                950,
+                976
+            ],
+            "LOC": 22
+        },
+        {
+            "file": "libtiff/tif_luv.c",
+            "name": "LogLuv24toXYZ",
+            "line_range": [
+                982,
+                1004
+            ],
+            "LOC": 18
+        },
+        {
+            "file": "libtiff/tif_luv.c",
+            "name": "LogLuv24fromXYZ",
+            "line_range": [
+                1010,
+                1029
+            ],
+            "LOC": 15
+        },
+        {
+            "file": "libtiff/tif_luv.c",
+            "name": "LogLuv32toXYZ",
+            "line_range": [
+                1123,
+                1142
+            ],
+            "LOC": 15
+        },
+        {
+            "file": "libtiff/tif_luv.c",
+            "name": "LogLuv32fromXYZ",
+            "line_range": [
+                1148,
+                1170
+            ],
+            "LOC": 18
+        },
+        {
+            "file": "libtiff/tif_luv.c",
+            "name": "TIFFInitSGILog",
+            "line_range": [
+                1701,
+                1759
+            ],
+            "LOC": 32
+        },
+        {
+            "file": "libtiff/tif_luv.c",
+            "name": "_logLuvNop",
+            "line_range": [
+                1254,
+                1257
+            ],
+            "LOC": 3
+        },
+        {
+            "file": "libtiff/tif_luv.c",
+            "name": "LogLuvFixupTags",
+            "line_range": [
+                1437,
+                1440
+            ],
+            "LOC": 3
+        },
+        {
+            "file": "libtiff/tif_luv.c",
+            "name": "LogLuvSetupDecode",
+            "line_range": [
+                1444,
+                1503
+            ],
+            "LOC": 40
+        },
+        {
+            "file": "libtiff/tif_luv.c",
+            "name": "LogLuvInitState",
+            "line_range": [
+                1387,
+                1434
+            ],
+            "LOC": 32
+        },
+        {
+            "file": "libtiff/tif_luv.c",
+            "name": "LogLuvGuessDataFmt",
+            "line_range": [
+                1335,
+                1383
+            ],
+            "LOC": 23
+        },
+        {
+            "file": "libtiff/tif_luv.c",
+            "name": "multiply_ms",
+            "line_range": [
+                1279,
+                1281
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_luv.c",
+            "name": "LogL16InitState",
+            "line_range": [
+                1285,
+                1332
+            ],
+            "LOC": 31
+        },
+        {
+            "file": "libtiff/tif_luv.c",
+            "name": "LogL16GuessDataFmt",
+            "line_range": [
+                1260,
+                1276
+            ],
+            "LOC": 7
+        },
+        {
+            "file": "libtiff/tif_luv.c",
+            "name": "LogLuvDecodeStrip",
+            "line_range": [
+                398,
+                411
+            ],
+            "LOC": 10
+        },
+        {
+            "file": "libtiff/tif_luv.c",
+            "name": "LogLuvDecodeTile",
+            "line_range": [
+                419,
+                432
+            ],
+            "LOC": 10
+        },
+        {
+            "file": "libtiff/tif_luv.c",
+            "name": "LogLuvSetupEncode",
+            "line_range": [
+                1506,
+                1573
+            ],
+            "LOC": 43
+        },
+        {
+            "file": "libtiff/tif_luv.c",
+            "name": "LogLuvEncodeStrip",
+            "line_range": [
+                693,
+                706
+            ],
+            "LOC": 10
+        },
+        {
+            "file": "libtiff/tif_luv.c",
+            "name": "LogLuvEncodeTile",
+            "line_range": [
+                713,
+                726
+            ],
+            "LOC": 10
+        },
+        {
+            "file": "libtiff/tif_luv.c",
+            "name": "LogLuvClose",
+            "line_range": [
+                1576,
+                1598
+            ],
+            "LOC": 9
+        },
+        {
+            "file": "libtiff/tif_luv.c",
+            "name": "LogLuvCleanup",
+            "line_range": [
+                1601,
+                1616
+            ],
+            "LOC": 11
+        },
+        {
+            "file": "libtiff/tif_luv.c",
+            "name": "LogLuvVGetField",
+            "line_range": [
+                1682,
+                1693
+            ],
+            "LOC": 7
+        },
+        {
+            "file": "libtiff/tif_luv.c",
+            "name": "LogLuvVSetField",
+            "line_range": [
+                1619,
+                1679
+            ],
+            "LOC": 36
+        },
+        {
+            "file": "libtiff/tif_luv.c",
+            "name": "LogLuvEncode24",
+            "line_range": [
+                538,
+                585
+            ],
+            "LOC": 37
+        },
+        {
+            "file": "libtiff/tif_luv.c",
+            "name": "Luv24fromXYZ",
+            "line_range": [
+                1081,
+                1090
+            ],
+            "LOC": 7
+        },
+        {
+            "file": "libtiff/tif_luv.c",
+            "name": "Luv24fromLuv48",
+            "line_range": [
+                1093,
+                1117
+            ],
+            "LOC": 19
+        },
+        {
+            "file": "libtiff/tif_luv.c",
+            "name": "LogLuvEncode32",
+            "line_range": [
+                591,
+                686
+            ],
+            "LOC": 82
+        },
+        {
+            "file": "libtiff/tif_luv.c",
+            "name": "Luv32fromXYZ",
+            "line_range": [
+                1219,
+                1228
+            ],
+            "LOC": 7
+        },
+        {
+            "file": "libtiff/tif_luv.c",
+            "name": "Luv32fromLuv48",
+            "line_range": [
+                1231,
+                1251
+            ],
+            "LOC": 16
+        },
+        {
+            "file": "libtiff/tif_luv.c",
+            "name": "LogL16Encode",
+            "line_range": [
+                438,
+                532
+            ],
+            "LOC": 82
+        },
+        {
+            "file": "libtiff/tif_luv.c",
+            "name": "L16fromY",
+            "line_range": [
+                815,
+                822
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "libtiff/tif_luv.c",
+            "name": "LogLuvDecode24",
+            "line_range": [
+                260,
+                312
+            ],
+            "LOC": 34
+        },
+        {
+            "file": "libtiff/tif_luv.c",
+            "name": "Luv24toXYZ",
+            "line_range": [
+                1033,
+                1043
+            ],
+            "LOC": 8
+        },
+        {
+            "file": "libtiff/tif_luv.c",
+            "name": "Luv24toLuv48",
+            "line_range": [
+                1046,
+                1063
+            ],
+            "LOC": 14
+        },
+        {
+            "file": "libtiff/tif_luv.c",
+            "name": "Luv24toRGB",
+            "line_range": [
+                1066,
+                1078
+            ],
+            "LOC": 9
+        },
+        {
+            "file": "libtiff/tif_luv.c",
+            "name": "LogLuvDecode32",
+            "line_range": [
+                318,
+                390
+            ],
+            "LOC": 51
+        },
+        {
+            "file": "libtiff/tif_luv.c",
+            "name": "Luv32toXYZ",
+            "line_range": [
+                1174,
+                1183
+            ],
+            "LOC": 7
+        },
+        {
+            "file": "libtiff/tif_luv.c",
+            "name": "Luv32toLuv48",
+            "line_range": [
+                1186,
+                1201
+            ],
+            "LOC": 12
+        },
+        {
+            "file": "libtiff/tif_luv.c",
+            "name": "Luv32toRGB",
+            "line_range": [
+                1204,
+                1216
+            ],
+            "LOC": 9
+        },
+        {
+            "file": "libtiff/tif_luv.c",
+            "name": "LogL16Decode",
+            "line_range": [
+                183,
+                254
+            ],
+            "LOC": 50
+        },
+        {
+            "file": "libtiff/tif_luv.c",
+            "name": "L16toY",
+            "line_range": [
+                793,
+                800
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "libtiff/tif_luv.c",
+            "name": "L16toGry",
+            "line_range": [
+                803,
+                812
+            ],
+            "LOC": 7
+        },
+        {
+            "file": "libtiff/tif_lzma.c",
+            "name": "TIFFInitLZMA",
+            "line_range": [
+                417,
+                500
+            ],
+            "LOC": 48
+        },
+        {
+            "file": "libtiff/tif_lzma.c",
+            "name": "LZMAVGetField",
+            "line_range": [
+                397,
+                409
+            ],
+            "LOC": 8
+        },
+        {
+            "file": "libtiff/tif_lzma.c",
+            "name": "LZMAVSetField",
+            "line_range": [
+                370,
+                394
+            ],
+            "LOC": 17
+        },
+        {
+            "file": "libtiff/tif_lzma.c",
+            "name": "LZMAStrerror",
+            "line_range": [
+                68,
+                98
+            ],
+            "LOC": 16
+        },
+        {
+            "file": "libtiff/tif_lzma.c",
+            "name": "LZMAFixupTags",
+            "line_range": [
+                101,
+                104
+            ],
+            "LOC": 3
+        },
+        {
+            "file": "libtiff/tif_lzma.c",
+            "name": "LZMASetupDecode",
+            "line_range": [
+                108,
+                121
+            ],
+            "LOC": 9
+        },
+        {
+            "file": "libtiff/tif_lzma.c",
+            "name": "LZMAPreDecode",
+            "line_range": [
+                128,
+                160
+            ],
+            "LOC": 19
+        },
+        {
+            "file": "libtiff/tif_lzma.c",
+            "name": "LZMADecode",
+            "line_range": [
+                163,
+                225
+            ],
+            "LOC": 41
+        },
+        {
+            "file": "libtiff/tif_lzma.c",
+            "name": "LZMASetupEncode",
+            "line_range": [
+                228,
+                239
+            ],
+            "LOC": 9
+        },
+        {
+            "file": "libtiff/tif_lzma.c",
+            "name": "LZMAPreEncode",
+            "line_range": [
+                246,
+                271
+            ],
+            "LOC": 19
+        },
+        {
+            "file": "libtiff/tif_lzma.c",
+            "name": "LZMAPostEncode",
+            "line_range": [
+                317,
+                345
+            ],
+            "LOC": 22
+        },
+        {
+            "file": "libtiff/tif_lzma.c",
+            "name": "LZMAEncode",
+            "line_range": [
+                277,
+                310
+            ],
+            "LOC": 26
+        },
+        {
+            "file": "libtiff/tif_lzma.c",
+            "name": "LZMACleanup",
+            "line_range": [
+                348,
+                367
+            ],
+            "LOC": 14
+        },
+        {
+            "file": "libtiff/tif_lzw.c",
+            "name": "TIFFInitLZW",
+            "line_range": [
+                1161,
+                1202
+            ],
+            "LOC": 28
+        },
+        {
+            "file": "libtiff/tif_lzw.c",
+            "name": "LZWFixupTags",
+            "line_range": [
+                191,
+                194
+            ],
+            "LOC": 3
+        },
+        {
+            "file": "libtiff/tif_lzw.c",
+            "name": "LZWSetupDecode",
+            "line_range": [
+                198,
+                256
+            ],
+            "LOC": 30
+        },
+        {
+            "file": "libtiff/tif_lzw.c",
+            "name": "LZWPreDecode",
+            "line_range": [
+                262,
+                338
+            ],
+            "LOC": 36
+        },
+        {
+            "file": "libtiff/tif_lzw.c",
+            "name": "LZWDecode",
+            "line_range": [
+                363,
+                584
+            ],
+            "LOC": 155
+        },
+        {
+            "file": "libtiff/tif_lzw.c",
+            "name": "codeLoop",
+            "line_range": [
+                355,
+                360
+            ],
+            "LOC": 4
+        },
+        {
+            "file": "libtiff/tif_lzw.c",
+            "name": "LZWSetupEncode",
+            "line_range": [
+                816,
+                829
+            ],
+            "LOC": 9
+        },
+        {
+            "file": "libtiff/tif_lzw.c",
+            "name": "LZWPreEncode",
+            "line_range": [
+                835,
+                863
+            ],
+            "LOC": 20
+        },
+        {
+            "file": "libtiff/tif_lzw.c",
+            "name": "cl_hash",
+            "line_range": [
+                1120,
+                1139
+            ],
+            "LOC": 18
+        },
+        {
+            "file": "libtiff/tif_lzw.c",
+            "name": "LZWPostEncode",
+            "line_range": [
+                1070,
+                1114
+            ],
+            "LOC": 34
+        },
+        {
+            "file": "libtiff/tif_lzw.c",
+            "name": "LZWEncode",
+            "line_range": [
+                902,
+                1063
+            ],
+            "LOC": 105
+        },
+        {
+            "file": "libtiff/tif_lzw.c",
+            "name": "LZWCleanup",
+            "line_range": [
+                1142,
+                1158
+            ],
+            "LOC": 11
+        },
+        {
+            "file": "libtiff/tif_lzw.c",
+            "name": "LZWDecodeCompat",
+            "line_range": [
+                603,
+                808
+            ],
+            "LOC": 141
+        },
+        {
+            "file": "libtiff/tif_next.c",
+            "name": "TIFFInitNeXT",
+            "line_range": [
+                166,
+                173
+            ],
+            "LOC": 7
+        },
+        {
+            "file": "libtiff/tif_next.c",
+            "name": "NeXTPreDecode",
+            "line_range": [
+                150,
+                163
+            ],
+            "LOC": 9
+        },
+        {
+            "file": "libtiff/tif_next.c",
+            "name": "NeXTDecode",
+            "line_range": [
+                47,
+                147
+            ],
+            "LOC": 61
+        },
+        {
+            "file": "libtiff/tif_ojpeg.c",
+            "name": "TIFFInitOJPEG",
+            "line_range": [
+                419,
+                480
+            ],
+            "LOC": 41
+        },
+        {
+            "file": "libtiff/tif_ojpeg.c",
+            "name": "OJPEGFixupTags",
+            "line_range": [
+                652,
+                655
+            ],
+            "LOC": 3
+        },
+        {
+            "file": "libtiff/tif_ojpeg.c",
+            "name": "OJPEGSetupDecode",
+            "line_range": [
+                659,
+                663
+            ],
+            "LOC": 3
+        },
+        {
+            "file": "libtiff/tif_ojpeg.c",
+            "name": "OJPEGPreDecode",
+            "line_range": [
+                667,
+                728
+            ],
+            "LOC": 49
+        },
+        {
+            "file": "libtiff/tif_ojpeg.c",
+            "name": "OJPEGSubsamplingCorrect",
+            "line_range": [
+                988,
+                1039
+            ],
+            "LOC": 39
+        },
+        {
+            "file": "libtiff/tif_ojpeg.c",
+            "name": "OJPEGReadHeaderInfoSec",
+            "line_range": [
+                1292,
+                1422
+            ],
+            "LOC": 89
+        },
+        {
+            "file": "libtiff/tif_ojpeg.c",
+            "name": "OJPEGReadBytePeek",
+            "line_range": [
+                2082,
+                2092
+            ],
+            "LOC": 9
+        },
+        {
+            "file": "libtiff/tif_ojpeg.c",
+            "name": "OJPEGReadBufferFill",
+            "line_range": [
+                1982,
+                2064
+            ],
+            "LOC": 62
+        },
+        {
+            "file": "libtiff/tif_ojpeg.c",
+            "name": "OJPEGReadByteAdvance",
+            "line_range": [
+                2095,
+                2100
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "libtiff/tif_ojpeg.c",
+            "name": "OJPEGReadByte",
+            "line_range": [
+                2067,
+                2079
+            ],
+            "LOC": 11
+        },
+        {
+            "file": "libtiff/tif_ojpeg.c",
+            "name": "OJPEGReadWord",
+            "line_range": [
+                2103,
+                2113
+            ],
+            "LOC": 10
+        },
+        {
+            "file": "libtiff/tif_ojpeg.c",
+            "name": "OJPEGReadSkip",
+            "line_range": [
+                2145,
+                2172
+            ],
+            "LOC": 20
+        },
+        {
+            "file": "libtiff/tif_ojpeg.c",
+            "name": "OJPEGReadHeaderInfoSecStreamDri",
+            "line_range": [
+                1425,
+                1443
+            ],
+            "LOC": 13
+        },
+        {
+            "file": "libtiff/tif_ojpeg.c",
+            "name": "OJPEGReadHeaderInfoSecStreamDqt",
+            "line_range": [
+                1446,
+                1505
+            ],
+            "LOC": 44
+        },
+        {
+            "file": "libtiff/tif_ojpeg.c",
+            "name": "OJPEGReadBlock",
+            "line_range": [
+                2116,
+                2142
+            ],
+            "LOC": 24
+        },
+        {
+            "file": "libtiff/tif_ojpeg.c",
+            "name": "OJPEGReadHeaderInfoSecStreamDht",
+            "line_range": [
+                1508,
+                1582
+            ],
+            "LOC": 52
+        },
+        {
+            "file": "libtiff/tif_ojpeg.c",
+            "name": "OJPEGReadHeaderInfoSecStreamSof",
+            "line_range": [
+                1585,
+                1734
+            ],
+            "LOC": 96
+        },
+        {
+            "file": "libtiff/tif_ojpeg.c",
+            "name": "OJPEGReadHeaderInfoSecStreamSos",
+            "line_range": [
+                1737,
+                1782
+            ],
+            "LOC": 30
+        },
+        {
+            "file": "libtiff/tif_ojpeg.c",
+            "name": "OJPEGReadHeaderInfoSecTablesQTable",
+            "line_range": [
+                1785,
+                1841
+            ],
+            "LOC": 43
+        },
+        {
+            "file": "libtiff/tif_ojpeg.c",
+            "name": "OJPEGReadHeaderInfoSecTablesDcTable",
+            "line_range": [
+                1844,
+                1910
+            ],
+            "LOC": 53
+        },
+        {
+            "file": "libtiff/tif_ojpeg.c",
+            "name": "OJPEGReadHeaderInfoSecTablesAcTable",
+            "line_range": [
+                1913,
+                1979
+            ],
+            "LOC": 53
+        },
+        {
+            "file": "libtiff/tif_ojpeg.c",
+            "name": "OJPEGReadHeaderInfo",
+            "line_range": [
+                1042,
+                1109
+            ],
+            "LOC": 50
+        },
+        {
+            "file": "libtiff/tif_ojpeg.c",
+            "name": "OJPEGReadSecondarySos",
+            "line_range": [
+                1112,
+                1159
+            ],
+            "LOC": 42
+        },
+        {
+            "file": "libtiff/tif_ojpeg.c",
+            "name": "OJPEGLibjpegSessionAbort",
+            "line_range": [
+                1283,
+                1289
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "libtiff/tif_ojpeg.c",
+            "name": "OJPEGWriteHeaderInfo",
+            "line_range": [
+                1162,
+                1280
+            ],
+            "LOC": 92
+        },
+        {
+            "file": "libtiff/tif_ojpeg.c",
+            "name": "jpeg_create_decompress_encap",
+            "line_range": [
+                2443,
+                2451
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "libtiff/tif_ojpeg.c",
+            "name": "jpeg_read_header_encap",
+            "line_range": [
+                2456,
+                2464
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "libtiff/tif_ojpeg.c",
+            "name": "jpeg_start_decompress_encap",
+            "line_range": [
+                2469,
+                2477
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "libtiff/tif_ojpeg.c",
+            "name": "OJPEGPreDecodeSkipRaw",
+            "line_range": [
+                731,
+                762
+            ],
+            "LOC": 25
+        },
+        {
+            "file": "libtiff/tif_ojpeg.c",
+            "name": "jpeg_read_raw_data_encap",
+            "line_range": [
+                2495,
+                2503
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "libtiff/tif_ojpeg.c",
+            "name": "OJPEGPreDecodeSkipScanlines",
+            "line_range": [
+                765,
+                785
+            ],
+            "LOC": 15
+        },
+        {
+            "file": "libtiff/tif_ojpeg.c",
+            "name": "jpeg_read_scanlines_encap",
+            "line_range": [
+                2482,
+                2490
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "libtiff/tif_ojpeg.c",
+            "name": "OJPEGPostDecode",
+            "line_range": [
+                890,
+                902
+            ],
+            "LOC": 11
+        },
+        {
+            "file": "libtiff/tif_ojpeg.c",
+            "name": "OJPEGDecode",
+            "line_range": [
+                788,
+                804
+            ],
+            "LOC": 11
+        },
+        {
+            "file": "libtiff/tif_ojpeg.c",
+            "name": "OJPEGDecodeRaw",
+            "line_range": [
+                807,
+                862
+            ],
+            "LOC": 46
+        },
+        {
+            "file": "libtiff/tif_ojpeg.c",
+            "name": "OJPEGDecodeScanlines",
+            "line_range": [
+                865,
+                887
+            ],
+            "LOC": 18
+        },
+        {
+            "file": "libtiff/tif_ojpeg.c",
+            "name": "OJPEGSetupEncode",
+            "line_range": [
+                905,
+                909
+            ],
+            "LOC": 3
+        },
+        {
+            "file": "libtiff/tif_ojpeg.c",
+            "name": "OJPEGPreEncode",
+            "line_range": [
+                913,
+                918
+            ],
+            "LOC": 4
+        },
+        {
+            "file": "libtiff/tif_ojpeg.c",
+            "name": "OJPEGPostEncode",
+            "line_range": [
+                933,
+                937
+            ],
+            "LOC": 3
+        },
+        {
+            "file": "libtiff/tif_ojpeg.c",
+            "name": "OJPEGEncode",
+            "line_range": [
+                922,
+                929
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "libtiff/tif_ojpeg.c",
+            "name": "OJPEGCleanup",
+            "line_range": [
+                941,
+                985
+            ],
+            "LOC": 43
+        },
+        {
+            "file": "libtiff/tif_ojpeg.c",
+            "name": "OJPEGVGetField",
+            "line_range": [
+                483,
+                522
+            ],
+            "LOC": 28
+        },
+        {
+            "file": "libtiff/tif_ojpeg.c",
+            "name": "OJPEGVSetField",
+            "line_range": [
+                525,
+                609
+            ],
+            "LOC": 62
+        },
+        {
+            "file": "libtiff/tif_ojpeg.c",
+            "name": "OJPEGPrintDir",
+            "line_range": [
+                612,
+                649
+            ],
+            "LOC": 34
+        },
+        {
+            "file": "libtiff/tif_ojpeg.c",
+            "name": "OJPEGLibjpegJpegErrorMgrOutputMessage",
+            "line_range": [
+                2516,
+                2521
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "libtiff/tif_ojpeg.c",
+            "name": "OJPEGLibjpegJpegErrorMgrErrorExit",
+            "line_range": [
+                2524,
+                2530
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "libtiff/tif_ojpeg.c",
+            "name": "jpeg_encap_unwind",
+            "line_range": [
+                2508,
+                2511
+            ],
+            "LOC": 3
+        },
+        {
+            "file": "libtiff/tif_ojpeg.c",
+            "name": "OJPEGLibjpegJpegSourceMgrInitSource",
+            "line_range": [
+                2533,
+                2536
+            ],
+            "LOC": 3
+        },
+        {
+            "file": "libtiff/tif_ojpeg.c",
+            "name": "OJPEGLibjpegJpegSourceMgrFillInputBuffer",
+            "line_range": [
+                2539,
+                2552
+            ],
+            "LOC": 12
+        },
+        {
+            "file": "libtiff/tif_ojpeg.c",
+            "name": "OJPEGWriteStream",
+            "line_range": [
+                2175,
+                2245
+            ],
+            "LOC": 48
+        },
+        {
+            "file": "libtiff/tif_ojpeg.c",
+            "name": "OJPEGWriteStreamSoi",
+            "line_range": [
+                2248,
+                2257
+            ],
+            "LOC": 8
+        },
+        {
+            "file": "libtiff/tif_ojpeg.c",
+            "name": "OJPEGWriteStreamQTable",
+            "line_range": [
+                2260,
+                2269
+            ],
+            "LOC": 8
+        },
+        {
+            "file": "libtiff/tif_ojpeg.c",
+            "name": "OJPEGWriteStreamDcTable",
+            "line_range": [
+                2272,
+                2281
+            ],
+            "LOC": 8
+        },
+        {
+            "file": "libtiff/tif_ojpeg.c",
+            "name": "OJPEGWriteStreamAcTable",
+            "line_range": [
+                2284,
+                2293
+            ],
+            "LOC": 8
+        },
+        {
+            "file": "libtiff/tif_ojpeg.c",
+            "name": "OJPEGWriteStreamDri",
+            "line_range": [
+                2296,
+                2312
+            ],
+            "LOC": 14
+        },
+        {
+            "file": "libtiff/tif_ojpeg.c",
+            "name": "OJPEGWriteStreamSof",
+            "line_range": [
+                2315,
+                2348
+            ],
+            "LOC": 24
+        },
+        {
+            "file": "libtiff/tif_ojpeg.c",
+            "name": "OJPEGWriteStreamSos",
+            "line_range": [
+                2351,
+                2380
+            ],
+            "LOC": 21
+        },
+        {
+            "file": "libtiff/tif_ojpeg.c",
+            "name": "OJPEGWriteStreamCompressed",
+            "line_range": [
+                2383,
+                2413
+            ],
+            "LOC": 22
+        },
+        {
+            "file": "libtiff/tif_ojpeg.c",
+            "name": "OJPEGWriteStreamRst",
+            "line_range": [
+                2416,
+                2428
+            ],
+            "LOC": 11
+        },
+        {
+            "file": "libtiff/tif_ojpeg.c",
+            "name": "OJPEGWriteStreamEoi",
+            "line_range": [
+                2431,
+                2439
+            ],
+            "LOC": 7
+        },
+        {
+            "file": "libtiff/tif_ojpeg.c",
+            "name": "OJPEGLibjpegJpegSourceMgrSkipInputData",
+            "line_range": [
+                2556,
+                2562
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "libtiff/tif_ojpeg.c",
+            "name": "OJPEGLibjpegJpegSourceMgrResyncToRestart",
+            "line_range": [
+                2569,
+                2575
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "libtiff/tif_ojpeg.c",
+            "name": "OJPEGLibjpegJpegSourceMgrTermSource",
+            "line_range": [
+                2582,
+                2585
+            ],
+            "LOC": 3
+        },
+        {
+            "file": "libtiff/tif_open.c",
+            "name": "_TIFFgetMode",
+            "line_range": [
+                47,
+                67
+            ],
+            "LOC": 14
+        },
+        {
+            "file": "libtiff/tif_open.c",
+            "name": "TIFFClientOpen",
+            "line_range": [
+                72,
+                504
+            ],
+            "LOC": 199
+        },
+        {
+            "file": "libtiff/tif_open.c",
+            "name": "_tiffDummyMapProc",
+            "line_range": [
+                34,
+                37
+            ],
+            "LOC": 3
+        },
+        {
+            "file": "libtiff/tif_open.c",
+            "name": "_tiffDummyUnmapProc",
+            "line_range": [
+                41,
+                44
+            ],
+            "LOC": 3
+        },
+        {
+            "file": "libtiff/tif_open.c",
+            "name": "TIFFSetFileName",
+            "line_range": [
+                523,
+                527
+            ],
+            "LOC": 4
+        },
+        {
+            "file": "libtiff/tif_open.c",
+            "name": "TIFFFileno",
+            "line_range": [
+                534,
+                536
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_open.c",
+            "name": "TIFFSetFileno",
+            "line_range": [
+                543,
+                547
+            ],
+            "LOC": 4
+        },
+        {
+            "file": "libtiff/tif_open.c",
+            "name": "TIFFClientdata",
+            "line_range": [
+                554,
+                556
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_open.c",
+            "name": "TIFFSetClientdata",
+            "line_range": [
+                563,
+                567
+            ],
+            "LOC": 4
+        },
+        {
+            "file": "libtiff/tif_open.c",
+            "name": "TIFFGetMode",
+            "line_range": [
+                574,
+                576
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_open.c",
+            "name": "TIFFSetMode",
+            "line_range": [
+                583,
+                587
+            ],
+            "LOC": 4
+        },
+        {
+            "file": "libtiff/tif_open.c",
+            "name": "TIFFCurrentRow",
+            "line_range": [
+                604,
+                606
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_open.c",
+            "name": "TIFFCurrentDirectory",
+            "line_range": [
+                613,
+                615
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_open.c",
+            "name": "TIFFCurrentStrip",
+            "line_range": [
+                622,
+                624
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_open.c",
+            "name": "TIFFCurrentTile",
+            "line_range": [
+                631,
+                633
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_open.c",
+            "name": "TIFFIsByteSwapped",
+            "line_range": [
+                640,
+                642
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_open.c",
+            "name": "TIFFIsUpSampled",
+            "line_range": [
+                649,
+                651
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_open.c",
+            "name": "TIFFIsMSB2LSB",
+            "line_range": [
+                658,
+                660
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_open.c",
+            "name": "TIFFIsBigEndian",
+            "line_range": [
+                667,
+                669
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_open.c",
+            "name": "TIFFGetReadProc",
+            "line_range": [
+                676,
+                678
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_open.c",
+            "name": "TIFFGetWriteProc",
+            "line_range": [
+                685,
+                687
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_open.c",
+            "name": "TIFFGetSeekProc",
+            "line_range": [
+                694,
+                696
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_open.c",
+            "name": "TIFFGetCloseProc",
+            "line_range": [
+                703,
+                705
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_open.c",
+            "name": "TIFFGetSizeProc",
+            "line_range": [
+                712,
+                714
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_open.c",
+            "name": "TIFFGetMapFileProc",
+            "line_range": [
+                721,
+                723
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_open.c",
+            "name": "TIFFGetUnmapFileProc",
+            "line_range": [
+                730,
+                732
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_packbits.c",
+            "name": "TIFFInitPackBits",
+            "line_range": [
+                287,
+                298
+            ],
+            "LOC": 11
+        },
+        {
+            "file": "libtiff/tif_packbits.c",
+            "name": "PackBitsDecode",
+            "line_range": [
+                214,
+                284
+            ],
+            "LOC": 50
+        },
+        {
+            "file": "libtiff/tif_packbits.c",
+            "name": "PackBitsPreEncode",
+            "line_range": [
+                35,
+                50
+            ],
+            "LOC": 10
+        },
+        {
+            "file": "libtiff/tif_packbits.c",
+            "name": "PackBitsPostEncode",
+            "line_range": [
+                53,
+                57
+            ],
+            "LOC": 4
+        },
+        {
+            "file": "libtiff/tif_packbits.c",
+            "name": "PackBitsEncode",
+            "line_range": [
+                64,
+                185
+            ],
+            "LOC": 90
+        },
+        {
+            "file": "libtiff/tif_packbits.c",
+            "name": "PackBitsEncodeChunk",
+            "line_range": [
+                195,
+                211
+            ],
+            "LOC": 12
+        },
+        {
+            "file": "libtiff/tif_pixarlog.c",
+            "name": "TIFFInitPixarLog",
+            "line_range": [
+                1390,
+                1463
+            ],
+            "LOC": 40
+        },
+        {
+            "file": "libtiff/tif_pixarlog.c",
+            "name": "PixarLogMakeTables",
+            "line_range": [
+                481,
+                592
+            ],
+            "LOC": 80
+        },
+        {
+            "file": "libtiff/tif_pixarlog.c",
+            "name": "PixarLogFixupTags",
+            "line_range": [
+                657,
+                660
+            ],
+            "LOC": 3
+        },
+        {
+            "file": "libtiff/tif_pixarlog.c",
+            "name": "PixarLogSetupDecode",
+            "line_range": [
+                664,
+                724
+            ],
+            "LOC": 41
+        },
+        {
+            "file": "libtiff/tif_pixarlog.c",
+            "name": "multiply_ms",
+            "line_range": [
+                638,
+                640
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_pixarlog.c",
+            "name": "add_ms",
+            "line_range": [
+                644,
+                654
+            ],
+            "LOC": 8
+        },
+        {
+            "file": "libtiff/tif_pixarlog.c",
+            "name": "PixarLogGuessDataFmt",
+            "line_range": [
+                603,
+                634
+            ],
+            "LOC": 20
+        },
+        {
+            "file": "libtiff/tif_pixarlog.c",
+            "name": "PixarLogPreDecode",
+            "line_range": [
+                730,
+                749
+            ],
+            "LOC": 11
+        },
+        {
+            "file": "libtiff/tif_pixarlog.c",
+            "name": "PixarLogDecode",
+            "line_range": [
+                752,
+                888
+            ],
+            "LOC": 86
+        },
+        {
+            "file": "libtiff/tif_pixarlog.c",
+            "name": "horizontalAccumulateF",
+            "line_range": [
+                112,
+                172
+            ],
+            "LOC": 54
+        },
+        {
+            "file": "libtiff/tif_pixarlog.c",
+            "name": "horizontalAccumulate16",
+            "line_range": [
+                243,
+                288
+            ],
+            "LOC": 39
+        },
+        {
+            "file": "libtiff/tif_pixarlog.c",
+            "name": "horizontalAccumulate12",
+            "line_range": [
+                175,
+                240
+            ],
+            "LOC": 54
+        },
+        {
+            "file": "libtiff/tif_pixarlog.c",
+            "name": "horizontalAccumulate11",
+            "line_range": [
+                295,
+                337
+            ],
+            "LOC": 36
+        },
+        {
+            "file": "libtiff/tif_pixarlog.c",
+            "name": "horizontalAccumulate8",
+            "line_range": [
+                340,
+                385
+            ],
+            "LOC": 39
+        },
+        {
+            "file": "libtiff/tif_pixarlog.c",
+            "name": "horizontalAccumulate8abgr",
+            "line_range": [
+                389,
+                451
+            ],
+            "LOC": 56
+        },
+        {
+            "file": "libtiff/tif_pixarlog.c",
+            "name": "PixarLogSetupEncode",
+            "line_range": [
+                891,
+                925
+            ],
+            "LOC": 25
+        },
+        {
+            "file": "libtiff/tif_pixarlog.c",
+            "name": "PixarLogPreEncode",
+            "line_range": [
+                931,
+                950
+            ],
+            "LOC": 11
+        },
+        {
+            "file": "libtiff/tif_pixarlog.c",
+            "name": "PixarLogPostEncode",
+            "line_range": [
+                1212,
+                1241
+            ],
+            "LOC": 22
+        },
+        {
+            "file": "libtiff/tif_pixarlog.c",
+            "name": "PixarLogEncode",
+            "line_range": [
+                1110,
+                1204
+            ],
+            "LOC": 60
+        },
+        {
+            "file": "libtiff/tif_pixarlog.c",
+            "name": "horizontalDifferenceF",
+            "line_range": [
+                953,
+                1004
+            ],
+            "LOC": 39
+        },
+        {
+            "file": "libtiff/tif_pixarlog.c",
+            "name": "horizontalDifference16",
+            "line_range": [
+                1007,
+                1054
+            ],
+            "LOC": 36
+        },
+        {
+            "file": "libtiff/tif_pixarlog.c",
+            "name": "horizontalDifference8",
+            "line_range": [
+                1058,
+                1104
+            ],
+            "LOC": 36
+        },
+        {
+            "file": "libtiff/tif_pixarlog.c",
+            "name": "PixarLogClose",
+            "line_range": [
+                1244,
+                1270
+            ],
+            "LOC": 7
+        },
+        {
+            "file": "libtiff/tif_pixarlog.c",
+            "name": "PixarLogCleanup",
+            "line_range": [
+                1273,
+                1302
+            ],
+            "LOC": 23
+        },
+        {
+            "file": "libtiff/tif_pixarlog.c",
+            "name": "PixarLogVGetField",
+            "line_range": [
+                1367,
+                1382
+            ],
+            "LOC": 10
+        },
+        {
+            "file": "libtiff/tif_pixarlog.c",
+            "name": "PixarLogVSetField",
+            "line_range": [
+                1305,
+                1364
+            ],
+            "LOC": 38
+        },
+        {
+            "file": "libtiff/tif_predict.c",
+            "name": "TIFFPredictorInit",
+            "line_range": [
+                759,
+                797
+            ],
+            "LOC": 21
+        },
+        {
+            "file": "libtiff/tif_predict.c",
+            "name": "PredictorVGetField",
+            "line_range": [
+                722,
+                737
+            ],
+            "LOC": 10
+        },
+        {
+            "file": "libtiff/tif_predict.c",
+            "name": "PredictorVSetField",
+            "line_range": [
+                702,
+                719
+            ],
+            "LOC": 12
+        },
+        {
+            "file": "libtiff/tif_predict.c",
+            "name": "PredictorPrintDir",
+            "line_range": [
+                740,
+                756
+            ],
+            "LOC": 14
+        },
+        {
+            "file": "libtiff/tif_predict.c",
+            "name": "PredictorSetupDecode",
+            "line_range": [
+                113,
+                192
+            ],
+            "LOC": 44
+        },
+        {
+            "file": "libtiff/tif_predict.c",
+            "name": "PredictorSetup",
+            "line_range": [
+                53,
+                110
+            ],
+            "LOC": 36
+        },
+        {
+            "file": "libtiff/tif_predict.c",
+            "name": "PredictorSetupEncode",
+            "line_range": [
+                195,
+                259
+            ],
+            "LOC": 41
+        },
+        {
+            "file": "libtiff/tif_predict.c",
+            "name": "horDiff8",
+            "line_range": [
+                481,
+                524
+            ],
+            "LOC": 37
+        },
+        {
+            "file": "libtiff/tif_predict.c",
+            "name": "horDiff16",
+            "line_range": [
+                529,
+                545
+            ],
+            "LOC": 14
+        },
+        {
+            "file": "libtiff/tif_predict.c",
+            "name": "horDiff32",
+            "line_range": [
+                563,
+                579
+            ],
+            "LOC": 14
+        },
+        {
+            "file": "libtiff/tif_predict.c",
+            "name": "PredictorEncodeRow",
+            "line_range": [
+                636,
+                648
+            ],
+            "LOC": 9
+        },
+        {
+            "file": "libtiff/tif_predict.c",
+            "name": "PredictorEncodeTile",
+            "line_range": [
+                651,
+                693
+            ],
+            "LOC": 26
+        },
+        {
+            "file": "libtiff/tif_predict.c",
+            "name": "swabHorDiff16",
+            "line_range": [
+                549,
+                559
+            ],
+            "LOC": 8
+        },
+        {
+            "file": "libtiff/tif_predict.c",
+            "name": "swabHorDiff32",
+            "line_range": [
+                583,
+                593
+            ],
+            "LOC": 8
+        },
+        {
+            "file": "libtiff/tif_predict.c",
+            "name": "fpDiff",
+            "line_range": [
+                600,
+                633
+            ],
+            "LOC": 25
+        },
+        {
+            "file": "libtiff/tif_predict.c",
+            "name": "horAcc8",
+            "line_range": [
+                280,
+                327
+            ],
+            "LOC": 38
+        },
+        {
+            "file": "libtiff/tif_predict.c",
+            "name": "horAcc16",
+            "line_range": [
+                342,
+                356
+            ],
+            "LOC": 12
+        },
+        {
+            "file": "libtiff/tif_predict.c",
+            "name": "horAcc32",
+            "line_range": [
+                371,
+                385
+            ],
+            "LOC": 12
+        },
+        {
+            "file": "libtiff/tif_predict.c",
+            "name": "PredictorDecodeRow",
+            "line_range": [
+                433,
+                445
+            ],
+            "LOC": 9
+        },
+        {
+            "file": "libtiff/tif_predict.c",
+            "name": "PredictorDecodeTile",
+            "line_range": [
+                455,
+                477
+            ],
+            "LOC": 16
+        },
+        {
+            "file": "libtiff/tif_predict.c",
+            "name": "swabHorAcc16",
+            "line_range": [
+                331,
+                337
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "libtiff/tif_predict.c",
+            "name": "swabHorAcc32",
+            "line_range": [
+                360,
+                366
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "libtiff/tif_predict.c",
+            "name": "fpAcc",
+            "line_range": [
+                392,
+                427
+            ],
+            "LOC": 25
+        },
+        {
+            "file": "libtiff/tif_predict.c",
+            "name": "TIFFPredictorCleanup",
+            "line_range": [
+                800,
+                812
+            ],
+            "LOC": 9
+        },
+        {
+            "file": "libtiff/tif_print.c",
+            "name": "TIFFPrintDirectory",
+            "line_range": [
+                234,
+                677
+            ],
+            "LOC": 347
+        },
+        {
+            "file": "libtiff/tif_print.c",
+            "name": "_TIFFprintAsciiBounded",
+            "line_range": [
+                686,
+                703
+            ],
+            "LOC": 14
+        },
+        {
+            "file": "libtiff/tif_print.c",
+            "name": "_TIFFPrettyPrintField",
+            "line_range": [
+                141,
+                227
+            ],
+            "LOC": 49
+        },
+        {
+            "file": "libtiff/tif_print.c",
+            "name": "_TIFFPrintField",
+            "line_range": [
+                67,
+                138
+            ],
+            "LOC": 50
+        },
+        {
+            "file": "libtiff/tif_print.c",
+            "name": "_TIFFprintAscii",
+            "line_range": [
+                680,
+                683
+            ],
+            "LOC": 3
+        },
+        {
+            "file": "libtiff/tif_print.c",
+            "name": "_TIFFprintAsciiTag",
+            "line_range": [
+                706,
+                711
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "libtiff/tif_read.c",
+            "name": "TIFFReadScanline",
+            "line_range": [
+                460,
+                481
+            ],
+            "LOC": 14
+        },
+        {
+            "file": "libtiff/tif_read.c",
+            "name": "TIFFSeek",
+            "line_range": [
+                329,
+                457
+            ],
+            "LOC": 56
+        },
+        {
+            "file": "libtiff/tif_read.c",
+            "name": "TIFFFillStripPartial",
+            "line_range": [
+                184,
+                318
+            ],
+            "LOC": 63
+        },
+        {
+            "file": "libtiff/tif_read.c",
+            "name": "TIFFReadRawStrip",
+            "line_range": [
+                722,
+                753
+            ],
+            "LOC": 22
+        },
+        {
+            "file": "libtiff/tif_read.c",
+            "name": "TIFFReadRawTile",
+            "line_range": [
+                1167,
+                1197
+            ],
+            "LOC": 21
+        },
+        {
+            "file": "libtiff/tif_read.c",
+            "name": "TIFFReadFromUserBuffer",
+            "line_range": [
+                1532,
+                1608
+            ],
+            "LOC": 55
+        },
+        {
+            "file": "libtiff/tif_read.c",
+            "name": "_TIFFNoPostDecode",
+            "line_range": [
+                1611,
+                1614
+            ],
+            "LOC": 3
+        },
+        {
+            "file": "libtiff/tif_read.c",
+            "name": "_TIFFSwab16BitData",
+            "line_range": [
+                1617,
+                1622
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "libtiff/tif_read.c",
+            "name": "_TIFFSwab24BitData",
+            "line_range": [
+                1625,
+                1630
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "libtiff/tif_swab.c",
+            "name": "TIFFSwabArrayOfTriples",
+            "line_range": [
+                87,
+                98
+            ],
+            "LOC": 8
+        },
+        {
+            "file": "libtiff/tif_read.c",
+            "name": "_TIFFSwab32BitData",
+            "line_range": [
+                1633,
+                1638
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "libtiff/tif_read.c",
+            "name": "_TIFFSwab64BitData",
+            "line_range": [
+                1641,
+                1646
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "libtiff/tif_strip.c",
+            "name": "TIFFRawStripSize64",
+            "line_range": [
+                140,
+                161
+            ],
+            "LOC": 9
+        },
+        {
+            "file": "libtiff/tif_strip.c",
+            "name": "TIFFRawStripSize",
+            "line_range": [
+                164,
+                181
+            ],
+            "LOC": 12
+        },
+        {
+            "file": "libtiff/tif_strip.c",
+            "name": "TIFFDefaultStripSize",
+            "line_range": [
+                217,
+                219
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "libtiff/tif_strip.c",
+            "name": "_TIFFDefaultStripSize",
+            "line_range": [
+                223,
+                243
+            ],
+            "LOC": 15
+        },
+        {
+            "file": "libtiff/tif_strip.c",
+            "name": "TIFFRasterScanlineSize64",
+            "line_range": [
+                329,
+                342
+            ],
+            "LOC": 10
+        },
+        {
+            "file": "libtiff/tif_strip.c",
+            "name": "TIFFRasterScanlineSize",
+            "line_range": [
+                344,
+                349
+            ],
+            "LOC": 4
+        },
+        {
+            "file": "libtiff/tif_swab.c",
+            "name": "TIFFSwabFloat",
+            "line_range": [
+                139,
+                146
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "libtiff/tif_swab.c",
+            "name": "TIFFSwabDouble",
+            "line_range": [
+                168,
+                177
+            ],
+            "LOC": 8
+        },
+        {
+            "file": "libtiff/tif_thunder.c",
+            "name": "TIFFInitThunderScan",
+            "line_range": [
+                188,
+                195
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "libtiff/tif_thunder.c",
+            "name": "ThunderSetupDecode",
+            "line_range": [
+                69,
+                83
+            ],
+            "LOC": 7
+        },
+        {
+            "file": "libtiff/tif_thunder.c",
+            "name": "ThunderDecodeRow",
+            "line_range": [
+                167,
+                185
+            ],
+            "LOC": 13
+        },
+        {
+            "file": "libtiff/tif_thunder.c",
+            "name": "ThunderDecode",
+            "line_range": [
+                86,
+                164
+            ],
+            "LOC": 53
+        },
+        {
+            "file": "libtiff/tif_tile.c",
+            "name": "TIFFNumberOfTiles",
+            "line_range": [
+                113,
+                135
+            ],
+            "LOC": 19
+        },
+        {
+            "file": "libtiff/tif_tile.c",
+            "name": "TIFFVTileSize",
+            "line_range": [
+                240,
+                245
+            ],
+            "LOC": 4
+        },
+        {
+            "file": "libtiff/tif_tile.c",
+            "name": "TIFFDefaultTileSize",
+            "line_range": [
+                272,
+                275
+            ],
+            "LOC": 3
+        },
+        {
+            "file": "libtiff/tif_tile.c",
+            "name": "_TIFFDefaultTileSize",
+            "line_range": [
+                278,
+                290
+            ],
+            "LOC": 11
+        },
+        {
+            "file": "libtiff/tif_unix.c",
+            "name": "unixWarningHandler",
+            "line_range": [
+                356,
+                363
+            ],
+            "LOC": 7
+        },
+        {
+            "file": "libtiff/tif_unix.c",
+            "name": "unixErrorHandler",
+            "line_range": [
+                367,
+                373
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "libtiff/tif_unix.c",
+            "name": "TIFFFdOpen",
+            "line_range": [
+                203,
+                216
+            ],
+            "LOC": 9
+        },
+        {
+            "file": "libtiff/tif_unix.c",
+            "name": "_tiffReadProc",
+            "line_range": [
+                67,
+                92
+            ],
+            "LOC": 22
+        },
+        {
+            "file": "libtiff/tif_unix.c",
+            "name": "_tiffWriteProc",
+            "line_range": [
+                95,
+                121
+            ],
+            "LOC": 22
+        },
+        {
+            "file": "libtiff/tif_unix.c",
+            "name": "_tiffSeekProc",
+            "line_range": [
+                124,
+                135
+            ],
+            "LOC": 9
+        },
+        {
+            "file": "libtiff/tif_unix.c",
+            "name": "_tiffCloseProc",
+            "line_range": [
+                138,
+                142
+            ],
+            "LOC": 4
+        },
+        {
+            "file": "libtiff/tif_unix.c",
+            "name": "_tiffSizeProc",
+            "line_range": [
+                146,
+                155
+            ],
+            "LOC": 8
+        },
+        {
+            "file": "libtiff/tif_unix.c",
+            "name": "_tiffMapProc",
+            "line_range": [
+                161,
+                176
+            ],
+            "LOC": 14
+        },
+        {
+            "file": "libtiff/tif_unix.c",
+            "name": "_tiffUnmapProc",
+            "line_range": [
+                179,
+                183
+            ],
+            "LOC": 4
+        },
+        {
+            "file": "libtiff/tif_unix.c",
+            "name": "TIFFOpen",
+            "line_range": [
+                223,
+                252
+            ],
+            "LOC": 18
+        },
+        {
+            "file": "libtiff/tif_version.c",
+            "name": "TIFFGetVersion",
+            "line_range": [
+                31,
+                31
+            ],
+            "LOC": 1
+        },
+        {
+            "file": "libtiff/tif_warning.c",
+            "name": "TIFFSetWarningHandler",
+            "line_range": [
+                33,
+                37
+            ],
+            "LOC": 4
+        },
+        {
+            "file": "libtiff/tif_warning.c",
+            "name": "TIFFSetWarningHandlerExt",
+            "line_range": [
+                41,
+                45
+            ],
+            "LOC": 4
+        },
+        {
+            "file": "libtiff/tif_warning.c",
+            "name": "TIFFWarning",
+            "line_range": [
+                49,
+                62
+            ],
+            "LOC": 13
+        },
+        {
+            "file": "libtiff/tif_write.c",
+            "name": "TIFFWriteScanline",
+            "line_range": [
+                47,
+                177
+            ],
+            "LOC": 70
+        },
+        {
+            "file": "libtiff/tif_write.c",
+            "name": "TIFFWriteCheck",
+            "line_range": [
+                572,
+                651
+            ],
+            "LOC": 46
+        },
+        {
+            "file": "libtiff/tif_write.c",
+            "name": "TIFFSetupStrips",
+            "line_range": [
+                523,
+                562
+            ],
+            "LOC": 27
+        },
+        {
+            "file": "libtiff/tif_write.c",
+            "name": "TIFFWriteBufferSetup",
+            "line_range": [
+                657,
+                697
+            ],
+            "LOC": 32
+        },
+        {
+            "file": "libtiff/tif_write.c",
+            "name": "TIFFGrowStrips",
+            "line_range": [
+                703,
+                733
+            ],
+            "LOC": 27
+        },
+        {
+            "file": "libtiff/tif_write.c",
+            "name": "TIFFWriteEncodedStrip",
+            "line_range": [
+                212,
+                308
+            ],
+            "LOC": 59
+        },
+        {
+            "file": "libtiff/tif_write.c",
+            "name": "_TIFFReserveLargeEnoughWriteBuffer",
+            "line_range": [
+                183,
+                203
+            ],
+            "LOC": 13
+        },
+        {
+            "file": "libtiff/tif_write.c",
+            "name": "TIFFWriteRawStrip",
+            "line_range": [
+                316,
+                357
+            ],
+            "LOC": 22
+        },
+        {
+            "file": "libtiff/tif_write.c",
+            "name": "TIFFWriteTile",
+            "line_range": [
+                364,
+                376
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "libtiff/tif_write.c",
+            "name": "TIFFWriteEncodedTile",
+            "line_range": [
+                391,
+                491
+            ],
+            "LOC": 64
+        },
+        {
+            "file": "libtiff/tif_write.c",
+            "name": "TIFFWriteRawTile",
+            "line_range": [
+                503,
+                517
+            ],
+            "LOC": 11
+        },
+        {
+            "file": "libtiff/tif_write.c",
+            "name": "TIFFSetWriteOffset",
+            "line_range": [
+                845,
+                848
+            ],
+            "LOC": 3
+        },
+        {
+            "file": "libtiff/tif_zip.c",
+            "name": "TIFFInitZIP",
+            "line_range": [
+                616,
+                690
+            ],
+            "LOC": 39
+        },
+        {
+            "file": "libtiff/tif_zip.c",
+            "name": "ZIPVGetField",
+            "line_range": [
+                591,
+                608
+            ],
+            "LOC": 10
+        },
+        {
+            "file": "libtiff/tif_zip.c",
+            "name": "ZIPVSetField",
+            "line_range": [
+                527,
+                588
+            ],
+            "LOC": 30
+        },
+        {
+            "file": "libtiff/tif_zip.c",
+            "name": "ZIPFixupTags",
+            "line_range": [
+                92,
+                95
+            ],
+            "LOC": 3
+        },
+        {
+            "file": "libtiff/tif_zip.c",
+            "name": "ZIPSetupDecode",
+            "line_range": [
+                99,
+                123
+            ],
+            "LOC": 14
+        },
+        {
+            "file": "libtiff/tif_zip.c",
+            "name": "ZIPPreDecode",
+            "line_range": [
+                129,
+                148
+            ],
+            "LOC": 9
+        },
+        {
+            "file": "libtiff/tif_zip.c",
+            "name": "ZIPDecode",
+            "line_range": [
+                152,
+                272
+            ],
+            "LOC": 34
+        },
+        {
+            "file": "libtiff/tif_zip.c",
+            "name": "ZIPSetupEncode",
+            "line_range": [
+                275,
+                298
+            ],
+            "LOC": 17
+        },
+        {
+            "file": "libtiff/tif_zip.c",
+            "name": "ZIPPreEncode",
+            "line_range": [
+                304,
+                322
+            ],
+            "LOC": 9
+        },
+        {
+            "file": "libtiff/tif_zip.c",
+            "name": "ZIPPostEncode",
+            "line_range": [
+                458,
+                491
+            ],
+            "LOC": 21
+        },
+        {
+            "file": "libtiff/tif_zip.c",
+            "name": "ZIPEncode",
+            "line_range": [
+                329,
+                451
+            ],
+            "LOC": 24
+        },
+        {
+            "file": "libtiff/tif_zip.c",
+            "name": "ZIPCleanup",
+            "line_range": [
+                494,
+                524
+            ],
+            "LOC": 17
+        }
+    ]
+}

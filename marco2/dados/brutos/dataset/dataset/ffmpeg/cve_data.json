@@ -1,0 +1,221 @@
+{
+    "CVE-2017-11399": {
+        "cwe": "CWE-125",
+        "functions": [
+            {
+                "file": "libavcodec/apedec.c",
+                "name": "ape_decode_frame"
+            }
+        ]
+    },
+    "CVE-2017-11665": {
+        "cwe": "CWE-20",
+        "functions": [
+            {
+                "file": "libavformat/rtmppkt.c",
+                "name": "ff_amf_get_field_value"
+            }
+        ]
+    },
+    "CVE-2017-11719": {
+        "cwe": "CWE-125",
+        "functions": [
+            {
+                "file": "libavcodec/dnxhddec.c",
+                "name": "dnxhd_decode_header"
+            }
+        ]
+    },
+    "CVE-2017-14767": {
+        "cwe": "CWE-119",
+        "functions": [
+            {
+                "file": "libavformat/rtpdec_h264.c",
+                "name": "sdp_parse_fmtp_config_h264"
+            }
+        ]
+    },
+    "CVE-2017-15186": {
+        "cwe": "CWE-415",
+        "functions": [
+            {
+                "file": "libavutil/mem.c",
+                "name": "av_free"
+            }
+        ]
+    },
+    "CVE-2017-15672": {
+        "cwe": "CWE-125",
+        "functions": [
+            {
+                "file": "libavcodec/ffv1dec.c",
+                "name": "read_header"
+            }
+        ]
+    },
+    "CVE-2017-9608": {
+        "cwe": "CWE-476",
+        "functions": [
+            {
+                "file": "libavcodec/parser.c",
+                "name": "ff_combine_frame"
+            }
+        ]
+    },
+    "CVE-2018-10001": {
+        "cwe": "CWE-125",
+        "functions": [
+            {
+                "file": "libavcodec/utvideodec.c",
+                "name": "decode_init"
+            }
+        ]
+    },
+    "CVE-2018-14394": {
+        "cwe": "CWE-369",
+        "functions": [
+            {
+                "file": "libavformat/movenc.c",
+                "name": "ff_mov_write_packet"
+            }
+        ]
+    },
+    "CVE-2018-14395": {
+        "cwe": "CWE-369",
+        "functions": [
+            {
+                "file": "libavformat/movenc.c",
+                "name": "mov_write_audio_tag"
+            }
+        ]
+    },
+    "CVE-2018-15822": {
+        "cwe": "CWE-617",
+        "functions": [
+            {
+                "file": "libavformat/flvenc.c",
+                "name": "flv_write_packet"
+            }
+        ]
+    },
+    "CVE-2018-1999010": {
+        "cwe": "CWE-125",
+        "functions": [
+            {
+                "file": "libavformat/mms.c",
+                "name": "ff_mms_asf_header_parser"
+            }
+        ]
+    },
+    "CVE-2018-1999011": {
+        "cwe": "CWE-119",
+        "functions": [
+            {
+                "file": "libavformat/asfdec_o.c",
+                "name": "parse_video_info"
+            }
+        ]
+    },
+    "CVE-2018-1999012": {
+        "cwe": "CWE-835",
+        "functions": [
+            {
+                "file": "libavformat/pva.c",
+                "name": "read_part_of_packet"
+            }
+        ]
+    },
+    "CVE-2018-1999013": {
+        "cwe": "CWE-416",
+        "functions": [
+            {
+                "file": "libavformat/rmdec.c",
+                "name": "rm_read_multi"
+            }
+        ]
+    },
+    "CVE-2018-1999014": {
+        "cwe": "CWE-125",
+        "functions": [
+            {
+                "file": "libavformat/mxfdec.c",
+                "name": "mxf_parse_structural_metadata"
+            }
+        ]
+    },
+    "CVE-2018-1999015": {
+        "cwe": "CWE-125",
+        "functions": [
+            {
+                "file": "libavcodec/mpeg4videodec.c",
+                "name": "decode_vop_header"
+            },
+            {
+                "file": "libavcodec/mpeg4videodec.c",
+                "name": "read_quant_matrix_ext"
+            }
+        ]
+    },
+    "CVE-2018-6392": {
+        "cwe": "CWE-125",
+        "functions": [
+            {
+                "file": "libavfilter/vf_transpose.c",
+                "name": "filter_slice"
+            },
+            {
+                "file": "libavfilter/vf_transpose.c",
+                "name": "config_props_output"
+            }
+        ]
+    },
+    "CVE-2018-6621": {
+        "cwe": "CWE-125",
+        "functions": [
+            {
+                "file": "libavcodec/utvideodec.c",
+                "name": "decode_frame"
+            }
+        ]
+    },
+    "CVE-2018-6912": {
+        "cwe": "CWE-125",
+        "functions": [
+            {
+                "file": "libavcodec/utvideodec.c",
+                "name": "decode_plane"
+            }
+        ]
+    },
+    "CVE-2018-7557": {
+        "cwe": "CWE-125",
+        "functions": [
+            {
+                "file": "libavcodec/utvideodec.c",
+                "name": "decode_init"
+            }
+        ]
+    },
+    "CVE-2019-17539": {
+        "cwe": "CWE-476",
+        "functions": [
+            {
+                "file": "libavcodec/utils.c",
+                "name": "avcodec_open2"
+            }
+        ]
+    },
+    "CVE-2019-17542": {
+        "cwe": "CWE-129",
+        "functions": [
+            {
+                "file": "libavcodec/vqavideo.c",
+                "name": "vqa_decode_chunk"
+            },
+            {
+                "file": "libavcodec/vqavideo.c",
+                "name": "vqa_decode_init"
+            }
+        ]
+    }
+}

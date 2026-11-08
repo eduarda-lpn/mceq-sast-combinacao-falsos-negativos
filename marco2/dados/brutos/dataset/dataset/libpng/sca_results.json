@@ -1,0 +1,4920 @@
+{
+    "findings": [
+        {
+            "file": "contrib/tools/pngfix.c",
+            "line": 3542,
+            "cwe": "CWE-476",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/wpng.c",
+            "line": 668,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "png.c",
+            "line": 4055,
+            "cwe": "CWE-476",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngvalid.c",
+            "line": 626,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/wpng.c",
+            "line": 657,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "png.c",
+            "line": 3922,
+            "cwe": "CWE-476",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "pngrutil.c",
+            "line": 2500,
+            "cwe": "CWE-457",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "png.c",
+            "line": 3974,
+            "cwe": "CWE-476",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "png.c",
+            "line": 4121,
+            "cwe": "CWE-476",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "pngset.c",
+            "line": 1379,
+            "cwe": "CWE-401",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "pngread.c",
+            "line": 3245,
+            "cwe": "CWE-563",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng2-x.c",
+            "line": 787,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngset.c",
+            "line": 368,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng2-win.c",
+            "line": 358,
+            "cwe": "CWE-807",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngstest.c",
+            "line": 2335,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "png.c",
+            "line": 3981,
+            "cwe": "CWE-476",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "contrib/tools/pngfix.c",
+            "line": 3884,
+            "cwe": "CWE-190",
+            "found_by": [
+                "Flawfinder",
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng-win.c",
+            "line": 442,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngmem.c",
+            "line": 56,
+            "cwe": "CWE-476",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "pngset.c",
+            "line": 941,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/tools/makesRGB.c",
+            "line": 354,
+            "cwe": "CWE-686",
+            "found_by": [
+                "Cppcheck"
+            ]
+        },
+        {
+            "file": "contrib/tools/pngcp.c",
+            "line": 675,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/tools/pngfix.c",
+            "line": 3179,
+            "cwe": "CWE-476",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "pngerror.c",
+            "line": 464,
+            "cwe": "CWE-119",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "png.c",
+            "line": 2914,
+            "cwe": "CWE-561",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "pngset.c",
+            "line": 925,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngstest.c",
+            "line": 2408,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "png.c",
+            "line": 4119,
+            "cwe": "CWE-476",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "png.c",
+            "line": 3979,
+            "cwe": "CWE-476",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "pngread.c",
+            "line": 2205,
+            "cwe": "CWE-195",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngvalid.c",
+            "line": 239,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/examples/pngpixel.c",
+            "line": 154,
+            "cwe": "CWE-190",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/libtests/timepng.c",
+            "line": 391,
+            "cwe": "CWE-362",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/libtests/timepng.c",
+            "line": 338,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngstest.c",
+            "line": 2865,
+            "cwe": "CWE-468",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngimage.c",
+            "line": 782,
+            "cwe": "CWE-457",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng-x.c",
+            "line": 319,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngerror.c",
+            "line": 489,
+            "cwe": "CWE-119",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "pngset.c",
+            "line": 928,
+            "cwe": "CWE-233",
+            "found_by": [
+                "CodeChecker"
+            ]
+        },
+        {
+            "file": "pngread.c",
+            "line": 2809,
+            "cwe": "CWE-476",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "contrib/examples/iccfrompng.c",
+            "line": 124,
+            "cwe": "CWE-362",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/tools/png-fix-itxt.c",
+            "line": 47,
+            "cwe": "CWE-457",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "pngset.c",
+            "line": 1124,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngimage.c",
+            "line": 1075,
+            "cwe": "CWE-476",
+            "found_by": [
+                "CodeChecker"
+            ]
+        },
+        {
+            "file": "contrib/tools/pngfix.c",
+            "line": 3190,
+            "cwe": "CWE-476",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "contrib/pngminus/pnm2png.c",
+            "line": 526,
+            "cwe": "CWE-476",
+            "found_by": [
+                "Cppcheck"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng-x.c",
+            "line": 328,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng2-x.c",
+            "line": 547,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/examples/iccfrompng.c",
+            "line": 122,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "png.c",
+            "line": 4051,
+            "cwe": "CWE-476",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/wpng.c",
+            "line": 369,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "example.c",
+            "line": 254,
+            "cwe": "CWE-362",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "intel/filter_sse2_intrinsics.c",
+            "line": 43,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng2-x.c",
+            "line": 523,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngmem.c",
+            "line": 177,
+            "cwe": "CWE-476",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "contrib/pngminus/png2pnm.c",
+            "line": 97,
+            "cwe": "CWE-362",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngstest.c",
+            "line": 2860,
+            "cwe": "CWE-468",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngimage.c",
+            "line": 889,
+            "cwe": "CWE-401",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "contrib/tools/pngfix.c",
+            "line": 3858,
+            "cwe": "CWE-457",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "contrib/tools/pngfix.c",
+            "line": 3612,
+            "cwe": "CWE-401",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "pngread.c",
+            "line": 2344,
+            "cwe": "CWE-457",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngstest.c",
+            "line": 3115,
+            "cwe": "CWE-775",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngstest.c",
+            "line": 3056,
+            "cwe": "CWE-402",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "pngset.c",
+            "line": 1365,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "png.c",
+            "line": 4123,
+            "cwe": "CWE-476",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "pngread.c",
+            "line": 3214,
+            "cwe": "CWE-563",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "pngread.c",
+            "line": 559,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngread.c",
+            "line": 2451,
+            "cwe": "CWE-457",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng-win.c",
+            "line": 351,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/tools/pngfix.c",
+            "line": 1072,
+            "cwe": "CWE-732",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "contrib/tools/pngfix.c",
+            "line": 1129,
+            "cwe": "CWE-457",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "contrib/tools/pngfix.c",
+            "line": 3174,
+            "cwe": "CWE-476",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng2-win.c",
+            "line": 586,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng-win.c",
+            "line": 414,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngimage.c",
+            "line": 1068,
+            "cwe": "CWE-561",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "pngrtran.c",
+            "line": 2699,
+            "cwe": "CWE-563",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "contrib/libtests/tarith.c",
+            "line": 929,
+            "cwe": "CWE-686",
+            "found_by": [
+                "Cppcheck"
+            ]
+        },
+        {
+            "file": "contrib/libtests/makepng.c",
+            "line": 1807,
+            "cwe": "CWE-190",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngerror.c",
+            "line": 179,
+            "cwe": "CWE-561",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "contrib/tools/pngcp.c",
+            "line": 1664,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "png.c",
+            "line": 4104,
+            "cwe": "CWE-476",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "pngrutil.c",
+            "line": 2235,
+            "cwe": "CWE-457",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "pngset.c",
+            "line": 1687,
+            "cwe": "CWE-561",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "png.c",
+            "line": 3920,
+            "cwe": "CWE-476",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "pngread.c",
+            "line": 3252,
+            "cwe": "CWE-561",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "contrib/tools/pngfix.c",
+            "line": 3082,
+            "cwe": "CWE-457",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/wpng.c",
+            "line": 330,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "png.c",
+            "line": 5530,
+            "cwe": "CWE-561",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "pngread.c",
+            "line": 3962,
+            "cwe": "CWE-401",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "png.c",
+            "line": 4082,
+            "cwe": "CWE-476",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng2-x.c",
+            "line": 1108,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/libtests/makepng.c",
+            "line": 1595,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "png.c",
+            "line": 803,
+            "cwe": "CWE-195",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "pngrutil.c",
+            "line": 3650,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/libtests/makepng.c",
+            "line": 1127,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngstest.c",
+            "line": 2340,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "png.c",
+            "line": 4063,
+            "cwe": "CWE-476",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngvalid.c",
+            "line": 3191,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng2-win.c",
+            "line": 613,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng2-win.c",
+            "line": 521,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "png.c",
+            "line": 3912,
+            "cwe": "CWE-476",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng-x.c",
+            "line": 395,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngread.c",
+            "line": 1585,
+            "cwe": "CWE-416",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngstest.c",
+            "line": 726,
+            "cwe": "CWE-457",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "pngread.c",
+            "line": 3249,
+            "cwe": "CWE-563",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "pngpread.c",
+            "line": 506,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/wpng.c",
+            "line": 765,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/visupng/VisualPng.c",
+            "line": 572,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngread.c",
+            "line": 2412,
+            "cwe": "CWE-457",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngstest.c",
+            "line": 2330,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/tools/png-fix-itxt.c",
+            "line": 48,
+            "cwe": "CWE-457",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "contrib/visupng/VisualPng.c",
+            "line": 596,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngerror.c",
+            "line": 805,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngvalid.c",
+            "line": 5672,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngerror.c",
+            "line": 154,
+            "cwe": "CWE-561",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "pngerror.c",
+            "line": 479,
+            "cwe": "CWE-119",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "contrib/tools/pngfix.c",
+            "line": 3577,
+            "cwe": "CWE-457",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "pngrutil.c",
+            "line": 315,
+            "cwe": "CWE-561",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "pngpread.c",
+            "line": 456,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng-x.c",
+            "line": 351,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngset.c",
+            "line": 928,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngstest.c",
+            "line": 730,
+            "cwe": "CWE-497",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "png.c",
+            "line": 3511,
+            "cwe": "CWE-476",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "pngread.c",
+            "line": 2234,
+            "cwe": "CWE-457",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "pngtest.c",
+            "line": 882,
+            "cwe": "CWE-362",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/tools/pngfix.c",
+            "line": 3986,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngrutil.c",
+            "line": 2253,
+            "cwe": "CWE-401",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng2-x.c",
+            "line": 558,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngimage.c",
+            "line": 848,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngread.c",
+            "line": 2714,
+            "cwe": "CWE-457",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "pngset.c",
+            "line": 919,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/examples/simpleover.c",
+            "line": 426,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "png.c",
+            "line": 2910,
+            "cwe": "CWE-561",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "pngread.c",
+            "line": 3221,
+            "cwe": "CWE-563",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng2-win.c",
+            "line": 505,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngset.c",
+            "line": 925,
+            "cwe": "CWE-233",
+            "found_by": [
+                "CodeChecker"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng2-win.c",
+            "line": 416,
+            "cwe": "CWE-190",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngvalid.c",
+            "line": 11944,
+            "cwe": "CWE-190",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/tools/pngfix.c",
+            "line": 1072,
+            "cwe": "CWE-362",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/tools/pngfix.c",
+            "line": 3908,
+            "cwe": "CWE-190",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "contrib/tools/pngcp.c",
+            "line": 1610,
+            "cwe": "CWE-362",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngimage.c",
+            "line": 1245,
+            "cwe": "CWE-401",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngimage.c",
+            "line": 1254,
+            "cwe": "CWE-401",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "contrib/visupng/VisualPng.c",
+            "line": 573,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng-win.c",
+            "line": 597,
+            "cwe": "CWE-686",
+            "found_by": [
+                "Cppcheck"
+            ]
+        },
+        {
+            "file": "contrib/tools/pngfix.c",
+            "line": 3675,
+            "cwe": "CWE-457",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng2-win.c",
+            "line": 590,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/tools/makesRGB.c",
+            "line": 143,
+            "cwe": "CWE-686",
+            "found_by": [
+                "Cppcheck"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngstest.c",
+            "line": 2833,
+            "cwe": "CWE-457",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/wpng.c",
+            "line": 329,
+            "cwe": "CWE-362",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/visupng/VisualPng.c",
+            "line": 597,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngread.c",
+            "line": 2844,
+            "cwe": "CWE-457",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "png.c",
+            "line": 4092,
+            "cwe": "CWE-476",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "contrib/visupng/VisualPng.c",
+            "line": 111,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngstest.c",
+            "line": 2358,
+            "cwe": "CWE-134",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "pngtrans.c",
+            "line": 533,
+            "cwe": "CWE-561",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "pngget.c",
+            "line": 797,
+            "cwe": "CWE-195",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "pngrutil.c",
+            "line": 50,
+            "cwe": "CWE-561",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "contrib/tools/pngfix.c",
+            "line": 3195,
+            "cwe": "CWE-476",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "contrib/libtests/timepng.c",
+            "line": 423,
+            "cwe": "CWE-377",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngstest.c",
+            "line": 2827,
+            "cwe": "CWE-457",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng2-x.c",
+            "line": 537,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngread.c",
+            "line": 2992,
+            "cwe": "CWE-195",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "pngerror.c",
+            "line": 855,
+            "cwe": "CWE-476",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "png.c",
+            "line": 4102,
+            "cwe": "CWE-476",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "pngtest.c",
+            "line": 92,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngimage.c",
+            "line": 1223,
+            "cwe": "CWE-561",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "contrib/tools/pngcp.c",
+            "line": 2220,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngstest.c",
+            "line": 3597,
+            "cwe": "CWE-22",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngstest.c",
+            "line": 3129,
+            "cwe": "CWE-402",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng2-win.c",
+            "line": 654,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/wpng.c",
+            "line": 661,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngrutil.c",
+            "line": 2501,
+            "cwe": "CWE-457",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "contrib/tools/pngfix.c",
+            "line": 2964,
+            "cwe": "CWE-457",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngvalid.c",
+            "line": 12195,
+            "cwe": "CWE-362",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/tools/pngcp.c",
+            "line": 2207,
+            "cwe": "CWE-362",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/pngminus/png2pnm.c",
+            "line": 88,
+            "cwe": "CWE-362",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngread.c",
+            "line": 2606,
+            "cwe": "CWE-457",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "pngrutil.c",
+            "line": 550,
+            "cwe": "CWE-561",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "pngread.c",
+            "line": 3213,
+            "cwe": "CWE-561",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/wpng.c",
+            "line": 736,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/tools/pngfix.c",
+            "line": 663,
+            "cwe": "CWE-690",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "png.c",
+            "line": 4554,
+            "cwe": "CWE-416",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "pngread.c",
+            "line": 2842,
+            "cwe": "CWE-457",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng-win.c",
+            "line": 502,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngrtran.c",
+            "line": 434,
+            "cwe": "CWE-401",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng-win.c",
+            "line": 459,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng2-win.c",
+            "line": 491,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng-x.c",
+            "line": 201,
+            "cwe": "CWE-362",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/tools/pngfix.c",
+            "line": 928,
+            "cwe": "CWE-497",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "contrib/tools/makesRGB.c",
+            "line": 370,
+            "cwe": "CWE-686",
+            "found_by": [
+                "Cppcheck"
+            ]
+        },
+        {
+            "file": "pngrutil.c",
+            "line": 714,
+            "cwe": "CWE-561",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "contrib/visupng/PngFile.c",
+            "line": 315,
+            "cwe": "CWE-362",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngimage.c",
+            "line": 1090,
+            "cwe": "CWE-401",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/wpng.c",
+            "line": 313,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "png.c",
+            "line": 3988,
+            "cwe": "CWE-476",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "pngpread.c",
+            "line": 439,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngtest.c",
+            "line": 888,
+            "cwe": "CWE-362",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/arm-neon/linux.c",
+            "line": 27,
+            "cwe": "CWE-362",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngrtran.c",
+            "line": 2778,
+            "cwe": "CWE-563",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "png.c",
+            "line": 3985,
+            "cwe": "CWE-476",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "pngset.c",
+            "line": 489,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngset.c",
+            "line": 1384,
+            "cwe": "CWE-561",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "contrib/visupng/VisualPng.c",
+            "line": 645,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/wpng.c",
+            "line": 268,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/pngminus/pnm2png.c",
+            "line": 97,
+            "cwe": "CWE-362",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/tools/pngfix.c",
+            "line": 3203,
+            "cwe": "CWE-476",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngstest.c",
+            "line": 3684,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/libtests/tarith.c",
+            "line": 576,
+            "cwe": "CWE-190",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/examples/simpleover.c",
+            "line": 278,
+            "cwe": "CWE-377",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngread.c",
+            "line": 3233,
+            "cwe": "CWE-563",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng2-x.c",
+            "line": 518,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngstest.c",
+            "line": 3215,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngrutil.c",
+            "line": 1975,
+            "cwe": "CWE-457",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng2-x.c",
+            "line": 530,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng2-x.c",
+            "line": 751,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng-win.c",
+            "line": 358,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng-x.c",
+            "line": 301,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngrutil.c",
+            "line": 2497,
+            "cwe": "CWE-457",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng2-x.c",
+            "line": 610,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/examples/pngpixel.c",
+            "line": 155,
+            "cwe": "CWE-362",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngstest.c",
+            "line": 3050,
+            "cwe": "CWE-402",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "contrib/tools/pngcp.c",
+            "line": 2235,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngrutil.c",
+            "line": 341,
+            "cwe": "CWE-119",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "pngrutil.c",
+            "line": 985,
+            "cwe": "CWE-563",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "pngerror.c",
+            "line": 321,
+            "cwe": "CWE-561",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng-win.c",
+            "line": 398,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng-x.c",
+            "line": 312,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "png.c",
+            "line": 4062,
+            "cwe": "CWE-476",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngstest.c",
+            "line": 2767,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng2-x.c",
+            "line": 357,
+            "cwe": "CWE-362",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngvalid.c",
+            "line": 10371,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/wpng.c",
+            "line": 377,
+            "cwe": "CWE-362",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngvalid.c",
+            "line": 1925,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/wpng.c",
+            "line": 374,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngstest.c",
+            "line": 3056,
+            "cwe": "CWE-775",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "contrib/arm-neon/linux-auxv.c",
+            "line": 99,
+            "cwe": "CWE-362",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/readppm.c",
+            "line": 161,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngstest.c",
+            "line": 2396,
+            "cwe": "CWE-134",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "pngread.c",
+            "line": 1308,
+            "cwe": "CWE-401",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "contrib/tools/pngfix.c",
+            "line": 3902,
+            "cwe": "CWE-190",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "pngrutil.c",
+            "line": 863,
+            "cwe": "CWE-457",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng2-x.c",
+            "line": 568,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "png.c",
+            "line": 4114,
+            "cwe": "CWE-476",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/wpng.c",
+            "line": 731,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/libtests/makepng.c",
+            "line": 1833,
+            "cwe": "CWE-362",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/mips-msa/linux.c",
+            "line": 31,
+            "cwe": "CWE-362",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/tools/makesRGB.c",
+            "line": 134,
+            "cwe": "CWE-686",
+            "found_by": [
+                "Cppcheck"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng2-win.c",
+            "line": 502,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngpread.c",
+            "line": 514,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng-win.c",
+            "line": 339,
+            "cwe": "CWE-362",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/tools/pngfix.c",
+            "line": 1190,
+            "cwe": "CWE-457",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "png.c",
+            "line": 4094,
+            "cwe": "CWE-476",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngimage.c",
+            "line": 1575,
+            "cwe": "CWE-457",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "pngrutil.c",
+            "line": 3911,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngstest.c",
+            "line": 2705,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder",
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "contrib/tools/pngfix.c",
+            "line": 1873,
+            "cwe": "CWE-561",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngstest.c",
+            "line": 3797,
+            "cwe": "CWE-563",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "intel/filter_sse2_intrinsics.c",
+            "line": 38,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngmem.c",
+            "line": 176,
+            "cwe": "CWE-476",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "contrib/tools/pngcp.c",
+            "line": 2176,
+            "cwe": "CWE-362",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngrutil.c",
+            "line": 633,
+            "cwe": "CWE-401",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "pngread.c",
+            "line": 3607,
+            "cwe": "CWE-195",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngstest.c",
+            "line": 3056,
+            "cwe": "CWE-362",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngread.c",
+            "line": 2777,
+            "cwe": "CWE-457",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng2-x.c",
+            "line": 517,
+            "cwe": "CWE-362",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngread.c",
+            "line": 2317,
+            "cwe": "CWE-563",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "contrib/libtests/timepng.c",
+            "line": 376,
+            "cwe": "CWE-362",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngrtran.c",
+            "line": 2610,
+            "cwe": "CWE-563",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "pngrutil.c",
+            "line": 3675,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngimage.c",
+            "line": 919,
+            "cwe": "CWE-401",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngstest.c",
+            "line": 2101,
+            "cwe": "CWE-561",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "png.c",
+            "line": 800,
+            "cwe": "CWE-195",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "pngread.c",
+            "line": 2757,
+            "cwe": "CWE-457",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/wpng.c",
+            "line": 758,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "png.c",
+            "line": 4126,
+            "cwe": "CWE-476",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "pngtest.c",
+            "line": 138,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngerror.c",
+            "line": 469,
+            "cwe": "CWE-119",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "png.c",
+            "line": 4083,
+            "cwe": "CWE-476",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "pngread.c",
+            "line": 2326,
+            "cwe": "CWE-195",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "contrib/tools/pngfix.c",
+            "line": 3066,
+            "cwe": "CWE-457",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngstest.c",
+            "line": 2363,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngread.c",
+            "line": 2761,
+            "cwe": "CWE-457",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngstest.c",
+            "line": 3164,
+            "cwe": "CWE-377",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngread.c",
+            "line": 2616,
+            "cwe": "CWE-457",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "pngrtran.c",
+            "line": 3954,
+            "cwe": "CWE-476",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngvalid.c",
+            "line": 5552,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngerror.c",
+            "line": 734,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/pngminus/png2pnm.c",
+            "line": 65,
+            "cwe": "CWE-362",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngset.c",
+            "line": 699,
+            "cwe": "CWE-401",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/wpng.c",
+            "line": 711,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng-win.c",
+            "line": 212,
+            "cwe": "CWE-362",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngset.c",
+            "line": 420,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngstest.c",
+            "line": 3445,
+            "cwe": "CWE-457",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "example.c",
+            "line": 283,
+            "cwe": "CWE-362",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/tools/pngcp.c",
+            "line": 764,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngrutil.c",
+            "line": 548,
+            "cwe": "CWE-416",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "contrib/libtests/makepng.c",
+            "line": 1002,
+            "cwe": "CWE-362",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "png.c",
+            "line": 217,
+            "cwe": "CWE-561",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "pngrutil.c",
+            "line": 1453,
+            "cwe": "CWE-416",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "contrib/tools/pngcp.c",
+            "line": 2260,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/wpng.c",
+            "line": 382,
+            "cwe": "CWE-362",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngvalid.c",
+            "line": 1926,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngstest.c",
+            "line": 2950,
+            "cwe": "CWE-457",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngstest.c",
+            "line": 733,
+            "cwe": "CWE-497",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng2-x.c",
+            "line": 449,
+            "cwe": "CWE-190",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/tools/pngfix.c",
+            "line": 3177,
+            "cwe": "CWE-476",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/wpng.c",
+            "line": 326,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngstest.c",
+            "line": 666,
+            "cwe": "CWE-457",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "png.c",
+            "line": 3861,
+            "cwe": "CWE-476",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "pngwrite.c",
+            "line": 842,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngset.c",
+            "line": 583,
+            "cwe": "CWE-563",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngstest.c",
+            "line": 2388,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngread.c",
+            "line": 3213,
+            "cwe": "CWE-563",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "png.c",
+            "line": 857,
+            "cwe": "CWE-195",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "contrib/tools/checksum-icc.c",
+            "line": 76,
+            "cwe": "CWE-362",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/wpng.c",
+            "line": 370,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngrio.c",
+            "line": 93,
+            "cwe": "CWE-416",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngstest.c",
+            "line": 3102,
+            "cwe": "CWE-775",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng2-win.c",
+            "line": 859,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng2-x.c",
+            "line": 481,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "png.c",
+            "line": 4127,
+            "cwe": "CWE-476",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngstest.c",
+            "line": 3060,
+            "cwe": "CWE-402",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "pngerror.c",
+            "line": 578,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngrutil.c",
+            "line": 2499,
+            "cwe": "CWE-457",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngstest.c",
+            "line": 3793,
+            "cwe": "CWE-22",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "pngrutil.c",
+            "line": 866,
+            "cwe": "CWE-457",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "pngtrans.c",
+            "line": 581,
+            "cwe": "CWE-561",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "contrib/tools/pngfix.c",
+            "line": 2074,
+            "cwe": "CWE-457",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "pngrtran.c",
+            "line": 2654,
+            "cwe": "CWE-563",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "contrib/tools/pngfix.c",
+            "line": 948,
+            "cwe": "CWE-457",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "pngdebug.h",
+            "line": 124,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngstest.c",
+            "line": 2717,
+            "cwe": "CWE-676",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngstest.c",
+            "line": 2759,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngvalid.c",
+            "line": 5578,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngmem.c",
+            "line": 154,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/tools/pngcp.c",
+            "line": 2448,
+            "cwe": "CWE-457",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "contrib/tools/makesRGB.c",
+            "line": 378,
+            "cwe": "CWE-686",
+            "found_by": [
+                "Cppcheck"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng-x.c",
+            "line": 230,
+            "cwe": "CWE-807",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/tools/pngfix.c",
+            "line": 342,
+            "cwe": "CWE-561",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "contrib/tools/pngfix.c",
+            "line": 1059,
+            "cwe": "CWE-362",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/tools/pngcp.c",
+            "line": 2236,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/powerpc-vsx/linux.c",
+            "line": 41,
+            "cwe": "CWE-362",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngstest.c",
+            "line": 452,
+            "cwe": "CWE-457",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngvalid.c",
+            "line": 1457,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngerror.c",
+            "line": 205,
+            "cwe": "CWE-195",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "pngset.c",
+            "line": 1527,
+            "cwe": "CWE-401",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "pngread.c",
+            "line": 2400,
+            "cwe": "CWE-457",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "pngset.c",
+            "line": 1144,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngrtran.c",
+            "line": 2737,
+            "cwe": "CWE-563",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "pngread.c",
+            "line": 2583,
+            "cwe": "CWE-457",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "contrib/tools/pngfix.c",
+            "line": 1072,
+            "cwe": "CWE-73",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngstest.c",
+            "line": 2397,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "png.c",
+            "line": 4086,
+            "cwe": "CWE-476",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "pngread.c",
+            "line": 1508,
+            "cwe": "CWE-362",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/wpng.c",
+            "line": 646,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngstest.c",
+            "line": 2705,
+            "cwe": "CWE-676",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "example.c",
+            "line": 748,
+            "cwe": "CWE-362",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/libtests/makepng.c",
+            "line": 1123,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/tools/pngfix.c",
+            "line": 3545,
+            "cwe": "CWE-476",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng-win.c",
+            "line": 355,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "intel/filter_sse2_intrinsics.c",
+            "line": 49,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngrutil.c",
+            "line": 862,
+            "cwe": "CWE-457",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "pngerror.c",
+            "line": 433,
+            "cwe": "CWE-119",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngstest.c",
+            "line": 3111,
+            "cwe": "CWE-775",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "pngread.c",
+            "line": 1556,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/tools/pngcp.c",
+            "line": 1868,
+            "cwe": "CWE-362",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng-x.c",
+            "line": 707,
+            "cwe": "CWE-686",
+            "found_by": [
+                "Cppcheck"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngstest.c",
+            "line": 2325,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "png.c",
+            "line": 3510,
+            "cwe": "CWE-476",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngimage.c",
+            "line": 1547,
+            "cwe": "CWE-561",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "pngrutil.c",
+            "line": 2189,
+            "cwe": "CWE-457",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "contrib/examples/iccfrompng.c",
+            "line": 76,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/tools/pngfix.c",
+            "line": 3980,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng2-win.c",
+            "line": 485,
+            "cwe": "CWE-362",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngmem.c",
+            "line": 60,
+            "cwe": "CWE-476",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "pngdebug.h",
+            "line": 92,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngmem.c",
+            "line": 54,
+            "cwe": "CWE-476",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/wpng.c",
+            "line": 210,
+            "cwe": "CWE-362",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngstest.c",
+            "line": 2063,
+            "cwe": "CWE-457",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "pngread.c",
+            "line": 3232,
+            "cwe": "CWE-563",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "pngrutil.c",
+            "line": 1553,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/visupng/VisualPng.c",
+            "line": 538,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngerror.c",
+            "line": 858,
+            "cwe": "CWE-476",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngstest.c",
+            "line": 3120,
+            "cwe": "CWE-775",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "png.c",
+            "line": 3506,
+            "cwe": "CWE-476",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "contrib/tools/pngfix.c",
+            "line": 3648,
+            "cwe": "CWE-401",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "contrib/examples/iccfrompng.c",
+            "line": 121,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/tools/pngfix.c",
+            "line": 3652,
+            "cwe": "CWE-457",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "pngset.c",
+            "line": 390,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng2-x.c",
+            "line": 424,
+            "cwe": "CWE-190",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngrtran.c",
+            "line": 2822,
+            "cwe": "CWE-563",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "contrib/tools/pngfix.c",
+            "line": 3187,
+            "cwe": "CWE-457",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "contrib/tools/pngfix.c",
+            "line": 2784,
+            "cwe": "CWE-457",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "png.c",
+            "line": 3509,
+            "cwe": "CWE-476",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngstest.c",
+            "line": 3058,
+            "cwe": "CWE-402",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng2-x.c",
+            "line": 386,
+            "cwe": "CWE-807",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngwrite.c",
+            "line": 2178,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngset.c",
+            "line": 1499,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngerror.c",
+            "line": 862,
+            "cwe": "CWE-476",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/wpng.c",
+            "line": 303,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/tools/pngfix.c",
+            "line": 2093,
+            "cwe": "CWE-457",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "pngmem.c",
+            "line": 59,
+            "cwe": "CWE-476",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "png.c",
+            "line": 3906,
+            "cwe": "CWE-476",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "pngread.c",
+            "line": 3292,
+            "cwe": "CWE-195",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "contrib/libtests/makepng.c",
+            "line": 1820,
+            "cwe": "CWE-190",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngimage.c",
+            "line": 1387,
+            "cwe": "CWE-561",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "contrib/tools/pngcp.c",
+            "line": 768,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/libtests/timepng.c",
+            "line": 443,
+            "cwe": "CWE-377",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngread.c",
+            "line": 1321,
+            "cwe": "CWE-401",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngstest.c",
+            "line": 2717,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder",
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng-x.c",
+            "line": 300,
+            "cwe": "CWE-362",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngunknown.c",
+            "line": 751,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng2-win.c",
+            "line": 486,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng-x.c",
+            "line": 316,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngrutil.c",
+            "line": 983,
+            "cwe": "CWE-563",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "pngread.c",
+            "line": 3247,
+            "cwe": "CWE-561",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng-win.c",
+            "line": 340,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/wpng.c",
+            "line": 239,
+            "cwe": "CWE-807",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngset.c",
+            "line": 583,
+            "cwe": "CWE-195",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "contrib/visupng/VisualPng.c",
+            "line": 189,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng2-win.c",
+            "line": 498,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngdebug.h",
+            "line": 84,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngimage.c",
+            "line": 1668,
+            "cwe": "CWE-22",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "pngread.c",
+            "line": 3250,
+            "cwe": "CWE-563",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngstest.c",
+            "line": 3488,
+            "cwe": "CWE-457",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng2-x.c",
+            "line": 570,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/tools/pngcp.c",
+            "line": 623,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngunknown.c",
+            "line": 1245,
+            "cwe": "CWE-362",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/libtests/timepng.c",
+            "line": 265,
+            "cwe": "CWE-362",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/wpng.c",
+            "line": 722,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "png.c",
+            "line": 3909,
+            "cwe": "CWE-476",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng2-x.c",
+            "line": 637,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngerror.c",
+            "line": 749,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngtest.c",
+            "line": 93,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngtest.c",
+            "line": 1711,
+            "cwe": "CWE-362",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/visupng/VisualPng.c",
+            "line": 595,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngwutil.c",
+            "line": 2248,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/libtests/timepng.c",
+            "line": 401,
+            "cwe": "CWE-190",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngvalid.c",
+            "line": 5683,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "png.c",
+            "line": 3936,
+            "cwe": "CWE-476",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "pngmem.c",
+            "line": 49,
+            "cwe": "CWE-476",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "pngerror.c",
+            "line": 820,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng2-x.c",
+            "line": 1025,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngimage.c",
+            "line": 333,
+            "cwe": "CWE-457",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngimage.c",
+            "line": 792,
+            "cwe": "CWE-362",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "png.c",
+            "line": 3982,
+            "cwe": "CWE-476",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngstest.c",
+            "line": 2365,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngerror.c",
+            "line": 812,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngread.c",
+            "line": 3309,
+            "cwe": "CWE-195",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "pngwrite.c",
+            "line": 2337,
+            "cwe": "CWE-362",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng-x.c",
+            "line": 307,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng-x.c",
+            "line": 339,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/tools/pngcp.c",
+            "line": 1709,
+            "cwe": "CWE-362",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/libtests/tarith.c",
+            "line": 963,
+            "cwe": "CWE-190",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/libtests/makepng.c",
+            "line": 1573,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngread.c",
+            "line": 2299,
+            "cwe": "CWE-457",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "contrib/oss-fuzz/libpng_read_fuzzer.cc",
+            "line": 77,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngstest.c",
+            "line": 3793,
+            "cwe": "CWE-732",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngimage.c",
+            "line": 754,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngrutil.c",
+            "line": 864,
+            "cwe": "CWE-457",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "contrib/libtests/tarith.c",
+            "line": 910,
+            "cwe": "CWE-686",
+            "found_by": [
+                "Cppcheck"
+            ]
+        },
+        {
+            "file": "pngrtran.c",
+            "line": 2586,
+            "cwe": "CWE-563",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngimage.c",
+            "line": 1405,
+            "cwe": "CWE-457",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "contrib/pngminus/pnm2png.c",
+            "line": 88,
+            "cwe": "CWE-362",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/visupng/VisualPng.c",
+            "line": 539,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/tools/pngfix.c",
+            "line": 3905,
+            "cwe": "CWE-190",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "pngread.c",
+            "line": 1347,
+            "cwe": "CWE-401",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "pngrutil.c",
+            "line": 691,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngimage.c",
+            "line": 1448,
+            "cwe": "CWE-195",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngunknown.c",
+            "line": 1019,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngstest.c",
+            "line": 3223,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng2-win.c",
+            "line": 544,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/tools/pngfix.c",
+            "line": 1682,
+            "cwe": "CWE-563",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngimage.c",
+            "line": 792,
+            "cwe": "CWE-73",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "pngset.c",
+            "line": 1466,
+            "cwe": "CWE-476",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngstest.c",
+            "line": 3056,
+            "cwe": "CWE-73",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "contrib/tools/png-fix-itxt.c",
+            "line": 57,
+            "cwe": "CWE-457",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngstest.c",
+            "line": 3097,
+            "cwe": "CWE-775",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/wpng.c",
+            "line": 339,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng-x.c",
+            "line": 349,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngimage.c",
+            "line": 1304,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngstest.c",
+            "line": 3143,
+            "cwe": "CWE-377",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngread.c",
+            "line": 2726,
+            "cwe": "CWE-457",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "pngset.c",
+            "line": 1286,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngvalid.c",
+            "line": 5640,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "png.c",
+            "line": 3905,
+            "cwe": "CWE-476",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "contrib/tools/pngfix.c",
+            "line": 3979,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/tools/pngfix.c",
+            "line": 4009,
+            "cwe": "CWE-22",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "contrib/libtests/makepng.c",
+            "line": 998,
+            "cwe": "CWE-377",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "png.c",
+            "line": 4089,
+            "cwe": "CWE-476",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "pngrutil.c",
+            "line": 746,
+            "cwe": "CWE-561",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "pngrutil.c",
+            "line": 783,
+            "cwe": "CWE-416",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "contrib/tools/pngfix.c",
+            "line": 3186,
+            "cwe": "CWE-476",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/wpng.c",
+            "line": 664,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng2-win.c",
+            "line": 546,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngset.c",
+            "line": 1263,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngread.c",
+            "line": 2778,
+            "cwe": "CWE-457",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "pngset.c",
+            "line": 627,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngvalid.c",
+            "line": 230,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "png.c",
+            "line": 4050,
+            "cwe": "CWE-476",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "pngerror.c",
+            "line": 859,
+            "cwe": "CWE-476",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngimage.c",
+            "line": 1064,
+            "cwe": "CWE-476",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "pngrtran.c",
+            "line": 4393,
+            "cwe": "CWE-195",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngstest.c",
+            "line": 2407,
+            "cwe": "CWE-134",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/wpng.c",
+            "line": 318,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/tools/pngfix.c",
+            "line": 192,
+            "cwe": "CWE-131",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "pngread.c",
+            "line": 3468,
+            "cwe": "CWE-195",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng2-x.c",
+            "line": 1638,
+            "cwe": "CWE-686",
+            "found_by": [
+                "Cppcheck"
+            ]
+        },
+        {
+            "file": "example.c",
+            "line": 437,
+            "cwe": "CWE-807",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngvalid.c",
+            "line": 1359,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngset.c",
+            "line": 1022,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngread.c",
+            "line": 2290,
+            "cwe": "CWE-457",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng-x.c",
+            "line": 367,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng-x.c",
+            "line": 663,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "png.c",
+            "line": 4046,
+            "cwe": "CWE-476",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngstest.c",
+            "line": 2824,
+            "cwe": "CWE-457",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "contrib/tools/pngfix.c",
+            "line": 978,
+            "cwe": "CWE-497",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "pngerror.c",
+            "line": 950,
+            "cwe": "CWE-416",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "contrib/examples/pngpixel.c",
+            "line": 153,
+            "cwe": "CWE-190",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngset.c",
+            "line": 749,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngset.c",
+            "line": 433,
+            "cwe": "CWE-563",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "pngwutil.c",
+            "line": 1829,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngimage.c",
+            "line": 657,
+            "cwe": "CWE-457",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "contrib/visupng/VisualPng.c",
+            "line": 688,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngunknown.c",
+            "line": 1287,
+            "cwe": "CWE-457",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng2-x.c",
+            "line": 614,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng2-x.c",
+            "line": 1017,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngrutil.c",
+            "line": 2498,
+            "cwe": "CWE-457",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/wpng.c",
+            "line": 358,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng-win.c",
+            "line": 241,
+            "cwe": "CWE-807",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/wpng.c",
+            "line": 778,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngset.c",
+            "line": 470,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngerror.c",
+            "line": 175,
+            "cwe": "CWE-561",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "pngrutil.c",
+            "line": 358,
+            "cwe": "CWE-119",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "png.c",
+            "line": 4122,
+            "cwe": "CWE-476",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "contrib/tools/pngfix.c",
+            "line": 677,
+            "cwe": "CWE-561",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "pngrutil.c",
+            "line": 3907,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/tools/pngcp.c",
+            "line": 1651,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngimage.c",
+            "line": 1049,
+            "cwe": "CWE-401",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "pngset.c",
+            "line": 1773,
+            "cwe": "CWE-563",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng2-win.c",
+            "line": 329,
+            "cwe": "CWE-362",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngrutil.c",
+            "line": 797,
+            "cwe": "CWE-416",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "contrib/tools/makesRGB.c",
+            "line": 317,
+            "cwe": "CWE-686",
+            "found_by": [
+                "Cppcheck"
+            ]
+        },
+        {
+            "file": "contrib/visupng/VisualPng.c",
+            "line": 633,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngunknown.c",
+            "line": 1162,
+            "cwe": "CWE-362",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng2-win.c",
+            "line": 1183,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/visupng/VisualPng.c",
+            "line": 541,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng2-x.c",
+            "line": 534,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/wpng.c",
+            "line": 749,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngstest.c",
+            "line": 3793,
+            "cwe": "CWE-73",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "pngread.c",
+            "line": 2727,
+            "cwe": "CWE-457",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngimage.c",
+            "line": 1264,
+            "cwe": "CWE-401",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "contrib/examples/iccfrompng.c",
+            "line": 94,
+            "cwe": "CWE-362",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/tools/pngfix.c",
+            "line": 3902,
+            "cwe": "CWE-22",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "pngtrans.c",
+            "line": 563,
+            "cwe": "CWE-561",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "pngread.c",
+            "line": 2833,
+            "cwe": "CWE-457",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "pngrutil.c",
+            "line": 4214,
+            "cwe": "CWE-416",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "contrib/tools/pngfix.c",
+            "line": 3544,
+            "cwe": "CWE-476",
+            "found_by": [
+                "Infer",
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "pngtest.c",
+            "line": 94,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngerror.c",
+            "line": 741,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngstest.c",
+            "line": 3061,
+            "cwe": "CWE-402",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngstest.c",
+            "line": 3793,
+            "cwe": "CWE-362",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngrutil.c",
+            "line": 1487,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "png.c",
+            "line": 848,
+            "cwe": "CWE-195",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "pngmem.c",
+            "line": 185,
+            "cwe": "CWE-476",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngimage.c",
+            "line": 1154,
+            "cwe": "CWE-457",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngvalid.c",
+            "line": 12224,
+            "cwe": "CWE-457",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngstest.c",
+            "line": 705,
+            "cwe": "CWE-457",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "pngread.c",
+            "line": 2776,
+            "cwe": "CWE-457",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "contrib/visupng/PngFile.c",
+            "line": 122,
+            "cwe": "CWE-362",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngrtran.c",
+            "line": 1733,
+            "cwe": "CWE-563",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "png.c",
+            "line": 3864,
+            "cwe": "CWE-476",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng-x.c",
+            "line": 671,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngdebug.h",
+            "line": 100,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngset.c",
+            "line": 1466,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngimage.c",
+            "line": 681,
+            "cwe": "CWE-457",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "png.c",
+            "line": 3990,
+            "cwe": "CWE-476",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "contrib/tools/pngfix.c",
+            "line": 3536,
+            "cwe": "CWE-476",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng-win.c",
+            "line": 374,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngread.c",
+            "line": 2759,
+            "cwe": "CWE-457",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "contrib/tools/pngfix.c",
+            "line": 4002,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngtest.c",
+            "line": 1717,
+            "cwe": "CWE-362",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngdebug.h",
+            "line": 113,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/pngminus/pnm2png.c",
+            "line": 65,
+            "cwe": "CWE-362",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngread.c",
+            "line": 2728,
+            "cwe": "CWE-457",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngstest.c",
+            "line": 3084,
+            "cwe": "CWE-195",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "pngread.c",
+            "line": 2846,
+            "cwe": "CWE-457",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng2-x.c",
+            "line": 782,
+            "cwe": "CWE-686",
+            "found_by": [
+                "Cppcheck"
+            ]
+        },
+        {
+            "file": "png.c",
+            "line": 3969,
+            "cwe": "CWE-476",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng-win.c",
+            "line": 346,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngpread.c",
+            "line": 765,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/wpng.c",
+            "line": 378,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngstest.c",
+            "line": 2321,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngtest.c",
+            "line": 2148,
+            "cwe": "CWE-457",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngvalid.c",
+            "line": 5021,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng2-x.c",
+            "line": 783,
+            "cwe": "CWE-686",
+            "found_by": [
+                "Cppcheck"
+            ]
+        },
+        {
+            "file": "contrib/tools/pngfix.c",
+            "line": 296,
+            "cwe": "CWE-131",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngstest.c",
+            "line": 3091,
+            "cwe": "CWE-775",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "pngmem.c",
+            "line": 171,
+            "cwe": "CWE-476",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "pngtrans.c",
+            "line": 515,
+            "cwe": "CWE-561",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "pngwutil.c",
+            "line": 1828,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/tools/pngfix.c",
+            "line": 1059,
+            "cwe": "CWE-73",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng2-x.c",
+            "line": 435,
+            "cwe": "CWE-190",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngset.c",
+            "line": 1462,
+            "cwe": "CWE-401",
+            "found_by": [
+                "CodeQL"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/wpng.c",
+            "line": 383,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/tools/pngfix.c",
+            "line": 3589,
+            "cwe": "CWE-401",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "contrib/gregbook/rpng-win.c",
+            "line": 396,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/visupng/VisualPng.c",
+            "line": 543,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "pngrutil.c",
+            "line": 865,
+            "cwe": "CWE-457",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "png.c",
+            "line": 817,
+            "cwe": "CWE-195",
+            "found_by": [
+                "CommSCA"
+            ]
+        },
+        {
+            "file": "pngset.c",
+            "line": 736,
+            "cwe": "CWE-120",
+            "found_by": [
+                "Flawfinder"
+            ]
+        },
+        {
+            "file": "contrib/libtests/pngstest.c",
+            "line": 3053,
+            "cwe": "CWE-402",
+            "found_by": [
+                "Infer"
+            ]
+        },
+        {
+            "file": "pngdebug.h",
+            "line": 135,
+            "cwe": "CWE-134",
+            "found_by": [
+                "Flawfinder"
+            ]
+        }
+    ]
+}

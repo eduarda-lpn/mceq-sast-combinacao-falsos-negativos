@@ -1,0 +1,3586 @@
+{
+    "functions": [
+        {
+            "file": "pngerror.c",
+            "name": "png_error",
+            "line_range": [
+                38,
+                88
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "pngerror.c",
+            "name": "png_default_error",
+            "line_range": [
+                710,
+                754
+            ],
+            "LOC": 3
+        },
+        {
+            "file": "pngerror.c",
+            "name": "png_longjmp",
+            "line_range": [
+                757,
+                775
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "pngerror.c",
+            "name": "png_safecat",
+            "line_range": [
+                112,
+                124
+            ],
+            "LOC": 9
+        },
+        {
+            "file": "pngerror.c",
+            "name": "png_format_number",
+            "line_range": [
+                133,
+                205
+            ],
+            "LOC": 33
+        },
+        {
+            "file": "pngerror.c",
+            "name": "png_benign_error",
+            "line_range": [
+                362,
+                389
+            ],
+            "LOC": 12
+        },
+        {
+            "file": "pngerror.c",
+            "name": "png_chunk_error",
+            "line_range": [
+                479,
+                490
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "pngerror.c",
+            "name": "png_format_buffer",
+            "line_range": [
+                434,
+                475
+            ],
+            "LOC": 23
+        },
+        {
+            "file": "pngerror.c",
+            "name": "png_app_warning",
+            "line_range": [
+                392,
+                402
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "pngerror.c",
+            "name": "png_app_error",
+            "line_range": [
+                405,
+                415
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "pngerror.c",
+            "name": "png_chunk_benign_error",
+            "line_range": [
+                514,
+                526
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "pngerror.c",
+            "name": "png_chunk_report",
+            "line_range": [
+                531,
+                567
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "pngerror.c",
+            "name": "png_fixed_error",
+            "line_range": [
+                571,
+                587
+            ],
+            "LOC": 11
+        },
+        {
+            "file": "pngerror.c",
+            "name": "png_set_longjmp_fn",
+            "line_range": [
+                597,
+                663
+            ],
+            "LOC": 25
+        },
+        {
+            "file": "pngmem.c",
+            "name": "png_malloc_warn",
+            "line_range": [
+                211,
+                226
+            ],
+            "LOC": 9
+        },
+        {
+            "file": "pngmem.c",
+            "name": "png_malloc_base",
+            "line_range": [
+                67,
+                100
+            ],
+            "LOC": 7
+        },
+        {
+            "file": "pngerror.c",
+            "name": "png_free_jmpbuf",
+            "line_range": [
+                666,
+                702
+            ],
+            "LOC": 19
+        },
+        {
+            "file": "pngmem.c",
+            "name": "png_free",
+            "line_range": [
+                232,
+                243
+            ],
+            "LOC": 7
+        },
+        {
+            "file": "pngmem.c",
+            "name": "png_free_default",
+            "line_range": [
+                245,
+                253
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "pngerror.c",
+            "name": "png_set_error_fn",
+            "line_range": [
+                835,
+                848
+            ],
+            "LOC": 8
+        },
+        {
+            "file": "pngerror.c",
+            "name": "png_get_error_ptr",
+            "line_range": [
+                856,
+                862
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "pngerror.c",
+            "name": "png_safe_error",
+            "line_range": [
+                884,
+                916
+            ],
+            "LOC": 13
+        },
+        {
+            "file": "pngerror.c",
+            "name": "png_safe_execute",
+            "line_range": [
+                936,
+                961
+            ],
+            "LOC": 15
+        },
+        {
+            "file": "png.c",
+            "name": "png_image_free",
+            "line_range": [
+                4582,
+                4594
+            ],
+            "LOC": 7
+        },
+        {
+            "file": "pngget.c",
+            "name": "png_get_valid",
+            "line_range": [
+                20,
+                27
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "pngget.c",
+            "name": "png_get_rowbytes",
+            "line_range": [
+                30,
+                36
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "pngget.c",
+            "name": "png_get_rows",
+            "line_range": [
+                40,
+                46
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "pngget.c",
+            "name": "png_get_image_width",
+            "line_range": [
+                52,
+                58
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "pngget.c",
+            "name": "png_get_image_height",
+            "line_range": [
+                61,
+                67
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "pngget.c",
+            "name": "png_get_bit_depth",
+            "line_range": [
+                70,
+                76
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "pngget.c",
+            "name": "png_get_color_type",
+            "line_range": [
+                79,
+                85
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "pngget.c",
+            "name": "png_get_filter_type",
+            "line_range": [
+                88,
+                94
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "pngget.c",
+            "name": "png_get_interlace_type",
+            "line_range": [
+                97,
+                103
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "pngget.c",
+            "name": "png_get_compression_type",
+            "line_range": [
+                106,
+                112
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "pngget.c",
+            "name": "png_get_x_pixels_per_meter",
+            "line_range": [
+                115,
+                134
+            ],
+            "LOC": 9
+        },
+        {
+            "file": "pngget.c",
+            "name": "png_get_y_pixels_per_meter",
+            "line_range": [
+                137,
+                156
+            ],
+            "LOC": 9
+        },
+        {
+            "file": "pngget.c",
+            "name": "png_get_pixels_per_meter",
+            "line_range": [
+                159,
+                177
+            ],
+            "LOC": 9
+        },
+        {
+            "file": "pngget.c",
+            "name": "png_get_pixel_aspect_ratio",
+            "line_range": [
+                181,
+                200
+            ],
+            "LOC": 10
+        },
+        {
+            "file": "pngget.c",
+            "name": "png_get_pixel_aspect_ratio_fixed",
+            "line_range": [
+                205,
+                232
+            ],
+            "LOC": 14
+        },
+        {
+            "file": "png.c",
+            "name": "png_muldiv",
+            "line_range": [
+                3347,
+                3459
+            ],
+            "LOC": 16
+        },
+        {
+            "file": "pngget.c",
+            "name": "png_get_x_offset_microns",
+            "line_range": [
+                236,
+                253
+            ],
+            "LOC": 8
+        },
+        {
+            "file": "pngget.c",
+            "name": "png_get_y_offset_microns",
+            "line_range": [
+                256,
+                273
+            ],
+            "LOC": 8
+        },
+        {
+            "file": "pngget.c",
+            "name": "png_get_x_offset_pixels",
+            "line_range": [
+                276,
+                293
+            ],
+            "LOC": 8
+        },
+        {
+            "file": "pngget.c",
+            "name": "png_get_y_offset_pixels",
+            "line_range": [
+                296,
+                313
+            ],
+            "LOC": 8
+        },
+        {
+            "file": "pngget.c",
+            "name": "png_get_pixels_per_inch",
+            "line_range": [
+                349,
+                351
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "pngget.c",
+            "name": "ppi_from_ppm",
+            "line_range": [
+                317,
+                346
+            ],
+            "LOC": 7
+        },
+        {
+            "file": "pngget.c",
+            "name": "png_get_x_pixels_per_inch",
+            "line_range": [
+                355,
+                357
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "pngget.c",
+            "name": "png_get_y_pixels_per_inch",
+            "line_range": [
+                361,
+                363
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "pngget.c",
+            "name": "png_get_x_offset_inches_fixed",
+            "line_range": [
+                379,
+                383
+            ],
+            "LOC": 4
+        },
+        {
+            "file": "pngget.c",
+            "name": "png_fixed_inches_from_microns",
+            "line_range": [
+                368,
+                375
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "png.c",
+            "name": "png_muldiv_warn",
+            "line_range": [
+                3470,
+                3480
+            ],
+            "LOC": 8
+        },
+        {
+            "file": "pngget.c",
+            "name": "png_get_y_offset_inches_fixed",
+            "line_range": [
+                389,
+                393
+            ],
+            "LOC": 4
+        },
+        {
+            "file": "pngget.c",
+            "name": "png_get_x_offset_inches",
+            "line_range": [
+                399,
+                404
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "pngget.c",
+            "name": "png_get_y_offset_inches",
+            "line_range": [
+                410,
+                415
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "pngget.c",
+            "name": "png_get_pHYs_dpi",
+            "line_range": [
+                421,
+                456
+            ],
+            "LOC": 23
+        },
+        {
+            "file": "pngget.c",
+            "name": "png_get_channels",
+            "line_range": [
+                467,
+                473
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "pngget.c",
+            "name": "png_get_signature",
+            "line_range": [
+                477,
+                483
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "pngget.c",
+            "name": "png_get_bKGD",
+            "line_range": [
+                488,
+                502
+            ],
+            "LOC": 9
+        },
+        {
+            "file": "pngget.c",
+            "name": "png_get_cHRM",
+            "line_range": [
+                512,
+                555
+            ],
+            "LOC": 24
+        },
+        {
+            "file": "pngget.c",
+            "name": "png_get_cHRM_XYZ",
+            "line_range": [
+                558,
+                599
+            ],
+            "LOC": 27
+        },
+        {
+            "file": "pngget.c",
+            "name": "png_get_cHRM_XYZ_fixed",
+            "line_range": [
+                604,
+                638
+            ],
+            "LOC": 29
+        },
+        {
+            "file": "pngget.c",
+            "name": "png_get_cHRM_fixed",
+            "line_range": [
+                641,
+                671
+            ],
+            "LOC": 25
+        },
+        {
+            "file": "pngget.c",
+            "name": "png_get_gAMA_fixed",
+            "line_range": [
+                678,
+                692
+            ],
+            "LOC": 9
+        },
+        {
+            "file": "pngget.c",
+            "name": "png_get_gAMA",
+            "line_range": [
+                697,
+                712
+            ],
+            "LOC": 9
+        },
+        {
+            "file": "pngget.c",
+            "name": "png_get_sRGB",
+            "line_range": [
+                718,
+                731
+            ],
+            "LOC": 8
+        },
+        {
+            "file": "pngget.c",
+            "name": "png_get_iCCP",
+            "line_range": [
+                736,
+                759
+            ],
+            "LOC": 14
+        },
+        {
+            "file": "pngget.c",
+            "name": "png_get_sPLT",
+            "line_range": [
+                764,
+                774
+            ],
+            "LOC": 7
+        },
+        {
+            "file": "pngget.c",
+            "name": "png_get_eXIf",
+            "line_range": [
+                779,
+                785
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "pngget.c",
+            "name": "png_get_eXIf_1",
+            "line_range": [
+                789,
+                803
+            ],
+            "LOC": 9
+        },
+        {
+            "file": "pngget.c",
+            "name": "png_get_hIST",
+            "line_range": [
+                808,
+                821
+            ],
+            "LOC": 8
+        },
+        {
+            "file": "pngget.c",
+            "name": "png_get_IHDR",
+            "line_range": [
+                825,
+                866
+            ],
+            "LOC": 25
+        },
+        {
+            "file": "png.c",
+            "name": "png_check_IHDR",
+            "line_range": [
+                2547,
+                2698
+            ],
+            "LOC": 76
+        },
+        {
+            "file": "png.c",
+            "name": "png_gt",
+            "line_range": [
+                2538,
+                2540
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "pngget.c",
+            "name": "png_get_oFFs",
+            "line_range": [
+                870,
+                886
+            ],
+            "LOC": 11
+        },
+        {
+            "file": "pngget.c",
+            "name": "png_get_pCAL",
+            "line_range": [
+                891,
+                913
+            ],
+            "LOC": 17
+        },
+        {
+            "file": "pngget.c",
+            "name": "png_get_sCAL_fixed",
+            "line_range": [
+                921,
+                939
+            ],
+            "LOC": 10
+        },
+        {
+            "file": "png.c",
+            "name": "png_fixed",
+            "line_range": [
+                3314,
+                3325
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "pngget.c",
+            "name": "png_get_sCAL",
+            "line_range": [
+                944,
+                957
+            ],
+            "LOC": 10
+        },
+        {
+            "file": "pngget.c",
+            "name": "png_get_sCAL_s",
+            "line_range": [
+                960,
+                973
+            ],
+            "LOC": 10
+        },
+        {
+            "file": "pngget.c",
+            "name": "png_get_pHYs",
+            "line_range": [
+                978,
+                1007
+            ],
+            "LOC": 19
+        },
+        {
+            "file": "pngget.c",
+            "name": "png_get_PLTE",
+            "line_range": [
+                1012,
+                1027
+            ],
+            "LOC": 9
+        },
+        {
+            "file": "pngget.c",
+            "name": "png_get_sBIT",
+            "line_range": [
+                1031,
+                1044
+            ],
+            "LOC": 8
+        },
+        {
+            "file": "pngget.c",
+            "name": "png_get_text",
+            "line_range": [
+                1049,
+                1070
+            ],
+            "LOC": 12
+        },
+        {
+            "file": "pngget.c",
+            "name": "png_get_tIME",
+            "line_range": [
+                1075,
+                1088
+            ],
+            "LOC": 8
+        },
+        {
+            "file": "pngget.c",
+            "name": "png_get_tRNS",
+            "line_range": [
+                1093,
+                1133
+            ],
+            "LOC": 25
+        },
+        {
+            "file": "pngget.c",
+            "name": "png_get_unknown_chunks",
+            "line_range": [
+                1139,
+                1149
+            ],
+            "LOC": 7
+        },
+        {
+            "file": "pngget.c",
+            "name": "png_get_rgb_to_gray_status",
+            "line_range": [
+                1154,
+                1156
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "pngget.c",
+            "name": "png_get_user_chunk_ptr",
+            "line_range": [
+                1162,
+                1164
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "pngget.c",
+            "name": "png_get_compression_buffer_size",
+            "line_range": [
+                1169,
+                1189
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "pngget.c",
+            "name": "png_get_user_width_max",
+            "line_range": [
+                1195,
+                1197
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "pngget.c",
+            "name": "png_get_user_height_max",
+            "line_range": [
+                1201,
+                1203
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "pngget.c",
+            "name": "png_get_chunk_cache_max",
+            "line_range": [
+                1208,
+                1210
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "pngget.c",
+            "name": "png_get_chunk_malloc_max",
+            "line_range": [
+                1215,
+                1217
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "pngget.c",
+            "name": "png_get_io_state",
+            "line_range": [
+                1224,
+                1226
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "pngget.c",
+            "name": "png_get_io_chunk_type",
+            "line_range": [
+                1230,
+                1232
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "pngget.c",
+            "name": "png_get_palette_max",
+            "line_range": [
+                1239,
+                1245
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "pngmem.c",
+            "name": "png_destroy_png_struct",
+            "line_range": [
+                25,
+                41
+            ],
+            "LOC": 8
+        },
+        {
+            "file": "pngmem.c",
+            "name": "png_calloc",
+            "line_range": [
+                49,
+                59
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "pngmem.c",
+            "name": "png_malloc",
+            "line_range": [
+                171,
+                185
+            ],
+            "LOC": 9
+        },
+        {
+            "file": "pngmem.c",
+            "name": "png_malloc_array",
+            "line_range": [
+                121,
+                128
+            ],
+            "LOC": 4
+        },
+        {
+            "file": "pngmem.c",
+            "name": "png_malloc_array_checked",
+            "line_range": [
+                109,
+                119
+            ],
+            "LOC": 7
+        },
+        {
+            "file": "pngmem.c",
+            "name": "png_realloc_array",
+            "line_range": [
+                131,
+                164
+            ],
+            "LOC": 16
+        },
+        {
+            "file": "pngmem.c",
+            "name": "png_malloc_default",
+            "line_range": [
+                188,
+                204
+            ],
+            "LOC": 9
+        },
+        {
+            "file": "pngmem.c",
+            "name": "png_set_mem_fn",
+            "line_range": [
+                260,
+                269
+            ],
+            "LOC": 8
+        },
+        {
+            "file": "pngmem.c",
+            "name": "png_get_mem_ptr",
+            "line_range": [
+                276,
+                282
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "png.c",
+            "name": "png_set_sig_bytes",
+            "line_range": [
+                47,
+                63
+            ],
+            "LOC": 10
+        },
+        {
+            "file": "png.c",
+            "name": "png_sig_cmp",
+            "line_range": [
+                74,
+                91
+            ],
+            "LOC": 12
+        },
+        {
+            "file": "png.c",
+            "name": "png_zalloc",
+            "line_range": [
+                97,
+                114
+            ],
+            "LOC": 10
+        },
+        {
+            "file": "png.c",
+            "name": "png_zfree",
+            "line_range": [
+                118,
+                121
+            ],
+            "LOC": 3
+        },
+        {
+            "file": "png.c",
+            "name": "png_reset_crc",
+            "line_range": [
+                127,
+                131
+            ],
+            "LOC": 3
+        },
+        {
+            "file": "png.c",
+            "name": "png_calculate_crc",
+            "line_range": [
+                139,
+                187
+            ],
+            "LOC": 22
+        },
+        {
+            "file": "png.c",
+            "name": "png_user_version_check",
+            "line_range": [
+                193,
+                244
+            ],
+            "LOC": 18
+        },
+        {
+            "file": "png.c",
+            "name": "png_create_png_struct",
+            "line_range": [
+                249,
+                350
+            ],
+            "LOC": 29
+        },
+        {
+            "file": "png.c",
+            "name": "png_create_info_struct",
+            "line_range": [
+                353,
+                375
+            ],
+            "LOC": 9
+        },
+        {
+            "file": "png.c",
+            "name": "png_destroy_info_struct",
+            "line_range": [
+                386,
+                412
+            ],
+            "LOC": 13
+        },
+        {
+            "file": "png.c",
+            "name": "png_free_data",
+            "line_range": [
+                471,
+                678
+            ],
+            "LOC": 119
+        },
+        {
+            "file": "png.c",
+            "name": "png_info_init_3",
+            "line_range": [
+                423,
+                448
+            ],
+            "LOC": 14
+        },
+        {
+            "file": "png.c",
+            "name": "png_data_freer",
+            "line_range": [
+                452,
+                468
+            ],
+            "LOC": 10
+        },
+        {
+            "file": "png.c",
+            "name": "png_get_io_ptr",
+            "line_range": [
+                686,
+                692
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "png.c",
+            "name": "png_convert_to_rfc1123_buffer",
+            "line_range": [
+                737,
+                782
+            ],
+            "LOC": 26
+        },
+        {
+            "file": "png.c",
+            "name": "png_convert_to_rfc1123",
+            "line_range": [
+                791,
+                804
+            ],
+            "LOC": 8
+        },
+        {
+            "file": "png.c",
+            "name": "png_get_copyright",
+            "line_range": [
+                811,
+                817
+            ],
+            "LOC": 3
+        },
+        {
+            "file": "png.c",
+            "name": "png_get_libpng_ver",
+            "line_range": [
+                837,
+                840
+            ],
+            "LOC": 2
+        },
+        {
+            "file": "png.c",
+            "name": "png_get_header_ver",
+            "line_range": [
+                844,
+                848
+            ],
+            "LOC": 3
+        },
+        {
+            "file": "png.c",
+            "name": "png_get_header_version",
+            "line_range": [
+                852,
+                857
+            ],
+            "LOC": 3
+        },
+        {
+            "file": "png.c",
+            "name": "png_build_grayscale_palette",
+            "line_range": [
+                875,
+                921
+            ],
+            "LOC": 29
+        },
+        {
+            "file": "png.c",
+            "name": "png_handle_as_unknown",
+            "line_range": [
+                926,
+                956
+            ],
+            "LOC": 14
+        },
+        {
+            "file": "png.c",
+            "name": "png_chunk_unknown_handling",
+            "line_range": [
+                961,
+                966
+            ],
+            "LOC": 4
+        },
+        {
+            "file": "png.c",
+            "name": "png_reset_zstream",
+            "line_range": [
+                974,
+                981
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "png.c",
+            "name": "png_access_version_number",
+            "line_range": [
+                989,
+                989
+            ],
+            "LOC": 1
+        },
+        {
+            "file": "png.c",
+            "name": "png_zstream_error",
+            "line_range": [
+                998,
+                1061
+            ],
+            "LOC": 25
+        },
+        {
+            "file": "png.c",
+            "name": "png_colorspace_set_gamma",
+            "line_range": [
+                1114,
+                1166
+            ],
+            "LOC": 19
+        },
+        {
+            "file": "png.c",
+            "name": "png_colorspace_check_gamma",
+            "line_range": [
+                1070,
+                1111
+            ],
+            "LOC": 13
+        },
+        {
+            "file": "png.c",
+            "name": "png_gamma_significant",
+            "line_range": [
+                3507,
+                3510
+            ],
+            "LOC": 3
+        },
+        {
+            "file": "png.c",
+            "name": "png_colorspace_sync_info",
+            "line_range": [
+                1169,
+                1211
+            ],
+            "LOC": 15
+        },
+        {
+            "file": "png.c",
+            "name": "png_colorspace_sync",
+            "line_range": [
+                1215,
+                1222
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "png.c",
+            "name": "png_colorspace_set_chromaticities",
+            "line_range": [
+                1720,
+                1754
+            ],
+            "LOC": 13
+        },
+        {
+            "file": "png.c",
+            "name": "png_colorspace_check_xy",
+            "line_range": [
+                1618,
+                1638
+            ],
+            "LOC": 14
+        },
+        {
+            "file": "png.c",
+            "name": "png_XYZ_from_xy",
+            "line_range": [
+                1276,
+                1539
+            ],
+            "LOC": 57
+        },
+        {
+            "file": "png.c",
+            "name": "png_reciprocal",
+            "line_range": [
+                3486,
+                3501
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "png.c",
+            "name": "png_xy_from_XYZ",
+            "line_range": [
+                1233,
+                1273
+            ],
+            "LOC": 32
+        },
+        {
+            "file": "png.c",
+            "name": "png_colorspace_endpoints_match",
+            "line_range": [
+                1592,
+                1605
+            ],
+            "LOC": 12
+        },
+        {
+            "file": "png.c",
+            "name": "png_colorspace_set_xy_and_XYZ",
+            "line_range": [
+                1672,
+                1717
+            ],
+            "LOC": 23
+        },
+        {
+            "file": "png.c",
+            "name": "png_colorspace_set_endpoints",
+            "line_range": [
+                1757,
+                1781
+            ],
+            "LOC": 14
+        },
+        {
+            "file": "png.c",
+            "name": "png_colorspace_check_XYZ",
+            "line_range": [
+                1644,
+                1659
+            ],
+            "LOC": 12
+        },
+        {
+            "file": "png.c",
+            "name": "png_XYZ_normalize",
+            "line_range": [
+                1542,
+                1589
+            ],
+            "LOC": 35
+        },
+        {
+            "file": "png.c",
+            "name": "png_colorspace_set_sRGB",
+            "line_range": [
+                1872,
+                1957
+            ],
+            "LOC": 28
+        },
+        {
+            "file": "png.c",
+            "name": "png_icc_profile_error",
+            "line_range": [
+                1823,
+                1866
+            ],
+            "LOC": 20
+        },
+        {
+            "file": "png.c",
+            "name": "is_ICC_signature",
+            "line_range": [
+                1814,
+                1819
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "png.c",
+            "name": "is_ICC_signature_char",
+            "line_range": [
+                1807,
+                1810
+            ],
+            "LOC": 3
+        },
+        {
+            "file": "png.c",
+            "name": "png_icc_tag_name",
+            "line_range": [
+                1796,
+                1804
+            ],
+            "LOC": 8
+        },
+        {
+            "file": "png.c",
+            "name": "png_icc_tag_char",
+            "line_range": [
+                1786,
+                1793
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "png.c",
+            "name": "png_icc_check_length",
+            "line_range": [
+                1981,
+                2010
+            ],
+            "LOC": 9
+        },
+        {
+            "file": "png.c",
+            "name": "icc_check_length",
+            "line_range": [
+                1970,
+                1977
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "png.c",
+            "name": "png_icc_check_header",
+            "line_range": [
+                2014,
+                2194
+            ],
+            "LOC": 48
+        },
+        {
+            "file": "png.c",
+            "name": "png_icc_check_tag_table",
+            "line_range": [
+                2197,
+                2240
+            ],
+            "LOC": 18
+        },
+        {
+            "file": "png.c",
+            "name": "png_icc_set_sRGB",
+            "line_range": [
+                2428,
+                2437
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "png.c",
+            "name": "png_compare_ICC_profile_with_sRGB",
+            "line_range": [
+                2307,
+                2425
+            ],
+            "LOC": 43
+        },
+        {
+            "file": "png.c",
+            "name": "png_colorspace_set_ICC",
+            "line_range": [
+                2442,
+                2464
+            ],
+            "LOC": 14
+        },
+        {
+            "file": "png.c",
+            "name": "png_colorspace_set_rgb_coefficients",
+            "line_range": [
+                2469,
+                2530
+            ],
+            "LOC": 32
+        },
+        {
+            "file": "png.c",
+            "name": "png_check_fp_number",
+            "line_range": [
+                2710,
+                2831
+            ],
+            "LOC": 50
+        },
+        {
+            "file": "png.c",
+            "name": "png_check_fp_string",
+            "line_range": [
+                2837,
+                2847
+            ],
+            "LOC": 8
+        },
+        {
+            "file": "png.c",
+            "name": "png_ascii_from_fp",
+            "line_range": [
+                2901,
+                3220
+            ],
+            "LOC": 125
+        },
+        {
+            "file": "png.c",
+            "name": "png_pow10",
+            "line_range": [
+                2856,
+                2887
+            ],
+            "LOC": 19
+        },
+        {
+            "file": "png.c",
+            "name": "png_ascii_from_fixed",
+            "line_range": [
+                3231,
+                3301
+            ],
+            "LOC": 34
+        },
+        {
+            "file": "png.c",
+            "name": "png_reciprocal2",
+            "line_range": [
+                3541,
+                3567
+            ],
+            "LOC": 10
+        },
+        {
+            "file": "png.c",
+            "name": "png_gamma_8bit_correct",
+            "line_range": [
+                3862,
+                3906
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "png.c",
+            "name": "png_gamma_16bit_correct",
+            "line_range": [
+                3910,
+                3936
+            ],
+            "LOC": 7
+        },
+        {
+            "file": "png.c",
+            "name": "png_gamma_correct",
+            "line_range": [
+                3945,
+                3958
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "png.c",
+            "name": "png_destroy_gamma_table",
+            "line_range": [
+                4134,
+                4186
+            ],
+            "LOC": 35
+        },
+        {
+            "file": "png.c",
+            "name": "png_build_gamma_table",
+            "line_range": [
+                4194,
+                4324
+            ],
+            "LOC": 53
+        },
+        {
+            "file": "png.c",
+            "name": "png_build_8bit_table",
+            "line_range": [
+                4115,
+                4128
+            ],
+            "LOC": 10
+        },
+        {
+            "file": "png.c",
+            "name": "png_product2",
+            "line_range": [
+                3518,
+                3536
+            ],
+            "LOC": 8
+        },
+        {
+            "file": "png.c",
+            "name": "png_build_16to8_table",
+            "line_range": [
+                4047,
+                4107
+            ],
+            "LOC": 23
+        },
+        {
+            "file": "png.c",
+            "name": "png_build_16bit_table",
+            "line_range": [
+                3970,
+                4041
+            ],
+            "LOC": 29
+        },
+        {
+            "file": "png.c",
+            "name": "png_set_option",
+            "line_range": [
+                4330,
+                4345
+            ],
+            "LOC": 10
+        },
+        {
+            "file": "png.c",
+            "name": "png_image_free_function",
+            "line_range": [
+                4520,
+                4579
+            ],
+            "LOC": 15
+        },
+        {
+            "file": "pngread.c",
+            "name": "png_destroy_read_struct",
+            "line_range": [
+                1011,
+                1034
+            ],
+            "LOC": 13
+        },
+        {
+            "file": "pngread.c",
+            "name": "png_read_destroy",
+            "line_range": [
+                940,
+                1007
+            ],
+            "LOC": 30
+        },
+        {
+            "file": "png.c",
+            "name": "png_image_error",
+            "line_range": [
+                4597,
+                4603
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "pngpread.c",
+            "name": "png_process_data",
+            "line_range": [
+                36,
+                48
+            ],
+            "LOC": 8
+        },
+        {
+            "file": "pngpread.c",
+            "name": "png_push_restore_buffer",
+            "line_range": [
+                524,
+                531
+            ],
+            "LOC": 7
+        },
+        {
+            "file": "pngpread.c",
+            "name": "png_process_some_data",
+            "line_range": [
+                94,
+                125
+            ],
+            "LOC": 13
+        },
+        {
+            "file": "pngpread.c",
+            "name": "png_push_read_sig",
+            "line_range": [
+                134,
+                164
+            ],
+            "LOC": 18
+        },
+        {
+            "file": "pngpread.c",
+            "name": "png_push_fill_buffer",
+            "line_range": [
+                421,
+                461
+            ],
+            "LOC": 28
+        },
+        {
+            "file": "pngpread.c",
+            "name": "png_push_read_chunk",
+            "line_range": [
+                167,
+                418
+            ],
+            "LOC": 137
+        },
+        {
+            "file": "pngpread.c",
+            "name": "png_push_save_buffer",
+            "line_range": [
+                464,
+                521
+            ],
+            "LOC": 43
+        },
+        {
+            "file": "pngrutil.c",
+            "name": "png_get_uint_31",
+            "line_range": [
+                22,
+                29
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "pngrutil.c",
+            "name": "png_crc_read",
+            "line_range": [
+                196,
+                203
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "pngrutil.c",
+            "name": "png_check_chunk_name",
+            "line_range": [
+                3130,
+                3146
+            ],
+            "LOC": 10
+        },
+        {
+            "file": "pngrutil.c",
+            "name": "png_check_chunk_length",
+            "line_range": [
+                3149,
+                3189
+            ],
+            "LOC": 25
+        },
+        {
+            "file": "pngrutil.c",
+            "name": "png_handle_IHDR",
+            "line_range": [
+                839,
+                909
+            ],
+            "LOC": 41
+        },
+        {
+            "file": "pngrutil.c",
+            "name": "png_crc_finish",
+            "line_range": [
+                211,
+                245
+            ],
+            "LOC": 19
+        },
+        {
+            "file": "pngrutil.c",
+            "name": "png_crc_error",
+            "line_range": [
+                251,
+                285
+            ],
+            "LOC": 17
+        },
+        {
+            "file": "pngset.c",
+            "name": "png_set_IHDR",
+            "line_range": [
+                254,
+                291
+            ],
+            "LOC": 26
+        },
+        {
+            "file": "pngrutil.c",
+            "name": "png_handle_IEND",
+            "line_range": [
+                1099,
+                1115
+            ],
+            "LOC": 10
+        },
+        {
+            "file": "pngpread.c",
+            "name": "png_push_have_end",
+            "line_range": [
+                1042,
+                1046
+            ],
+            "LOC": 4
+        },
+        {
+            "file": "pngrutil.c",
+            "name": "png_handle_unknown",
+            "line_range": [
+                2918,
+                3115
+            ],
+            "LOC": 51
+        },
+        {
+            "file": "pngrutil.c",
+            "name": "png_cache_unknown_chunk",
+            "line_range": [
+                2859,
+                2913
+            ],
+            "LOC": 26
+        },
+        {
+            "file": "pngset.c",
+            "name": "png_set_unknown_chunks",
+            "line_range": [
+                1201,
+                1297
+            ],
+            "LOC": 32
+        },
+        {
+            "file": "pngset.c",
+            "name": "check_location",
+            "line_range": [
+                1164,
+                1197
+            ],
+            "LOC": 11
+        },
+        {
+            "file": "pngrutil.c",
+            "name": "png_handle_PLTE",
+            "line_range": [
+                913,
+                1096
+            ],
+            "LOC": 48
+        },
+        {
+            "file": "pngset.c",
+            "name": "png_set_PLTE",
+            "line_range": [
+                572,
+                635
+            ],
+            "LOC": 26
+        },
+        {
+            "file": "pngpread.c",
+            "name": "png_push_have_info",
+            "line_range": [
+                1035,
+                1039
+            ],
+            "LOC": 4
+        },
+        {
+            "file": "pngrutil.c",
+            "name": "png_handle_gAMA",
+            "line_range": [
+                1119,
+                1152
+            ],
+            "LOC": 20
+        },
+        {
+            "file": "pngrutil.c",
+            "name": "png_get_fixed_point",
+            "line_range": [
+                41,
+                53
+            ],
+            "LOC": 8
+        },
+        {
+            "file": "pngrutil.c",
+            "name": "png_handle_sBIT",
+            "line_range": [
+                1157,
+                1234
+            ],
+            "LOC": 46
+        },
+        {
+            "file": "pngset.c",
+            "name": "png_set_sBIT",
+            "line_range": [
+                639,
+                649
+            ],
+            "LOC": 7
+        },
+        {
+            "file": "pngrutil.c",
+            "name": "png_handle_cHRM",
+            "line_range": [
+                1239,
+                1306
+            ],
+            "LOC": 45
+        },
+        {
+            "file": "pngrutil.c",
+            "name": "png_handle_sRGB",
+            "line_range": [
+                1311,
+                1356
+            ],
+            "LOC": 25
+        },
+        {
+            "file": "pngrutil.c",
+            "name": "png_handle_iCCP",
+            "line_range": [
+                1361,
+                1634
+            ],
+            "LOC": 129
+        },
+        {
+            "file": "pngrutil.c",
+            "name": "png_inflate_claim",
+            "line_range": [
+                342,
+                438
+            ],
+            "LOC": 27
+        },
+        {
+            "file": "pngrutil.c",
+            "name": "png_inflate_read",
+            "line_range": [
+                774,
+                833
+            ],
+            "LOC": 34
+        },
+        {
+            "file": "pngrutil.c",
+            "name": "png_zlib_inflate",
+            "line_range": [
+                454,
+                468
+            ],
+            "LOC": 9
+        },
+        {
+            "file": "pngrutil.c",
+            "name": "png_read_buffer",
+            "line_range": [
+                298,
+                332
+            ],
+            "LOC": 23
+        },
+        {
+            "file": "pngrutil.c",
+            "name": "png_handle_sPLT",
+            "line_range": [
+                1639,
+                1811
+            ],
+            "LOC": 73
+        },
+        {
+            "file": "pngset.c",
+            "name": "png_set_sPLT",
+            "line_range": [
+                1063,
+                1159
+            ],
+            "LOC": 41
+        },
+        {
+            "file": "pngrutil.c",
+            "name": "png_handle_tRNS",
+            "line_range": [
+                1816,
+                1915
+            ],
+            "LOC": 57
+        },
+        {
+            "file": "pngset.c",
+            "name": "png_set_tRNS",
+            "line_range": [
+                995,
+                1058
+            ],
+            "LOC": 23
+        },
+        {
+            "file": "pngrutil.c",
+            "name": "png_handle_bKGD",
+            "line_range": [
+                1920,
+                2033
+            ],
+            "LOC": 65
+        },
+        {
+            "file": "pngset.c",
+            "name": "png_set_bKGD",
+            "line_range": [
+                25,
+                35
+            ],
+            "LOC": 7
+        },
+        {
+            "file": "pngrutil.c",
+            "name": "png_handle_hIST",
+            "line_range": [
+                2098,
+                2145
+            ],
+            "LOC": 29
+        },
+        {
+            "file": "pngset.c",
+            "name": "png_set_hIST",
+            "line_range": [
+                210,
+                250
+            ],
+            "LOC": 19
+        },
+        {
+            "file": "pngrutil.c",
+            "name": "png_handle_pHYs",
+            "line_range": [
+                2150,
+                2191
+            ],
+            "LOC": 26
+        },
+        {
+            "file": "pngset.c",
+            "name": "png_set_pHYs",
+            "line_range": [
+                556,
+                568
+            ],
+            "LOC": 9
+        },
+        {
+            "file": "pngrutil.c",
+            "name": "png_handle_oFFs",
+            "line_range": [
+                2196,
+                2237
+            ],
+            "LOC": 26
+        },
+        {
+            "file": "pngset.c",
+            "name": "png_set_oFFs",
+            "line_range": [
+                295,
+                307
+            ],
+            "LOC": 9
+        },
+        {
+            "file": "pngrutil.c",
+            "name": "png_handle_pCAL",
+            "line_range": [
+                2243,
+                2366
+            ],
+            "LOC": 61
+        },
+        {
+            "file": "pngset.c",
+            "name": "png_set_pCAL",
+            "line_range": [
+                312,
+                425
+            ],
+            "LOC": 52
+        },
+        {
+            "file": "pngrutil.c",
+            "name": "png_handle_sCAL",
+            "line_range": [
+                2372,
+                2460
+            ],
+            "LOC": 47
+        },
+        {
+            "file": "pngset.c",
+            "name": "png_set_sCAL_s",
+            "line_range": [
+                430,
+                493
+            ],
+            "LOC": 31
+        },
+        {
+            "file": "pngrutil.c",
+            "name": "png_handle_tIME",
+            "line_range": [
+                2465,
+                2505
+            ],
+            "LOC": 26
+        },
+        {
+            "file": "pngset.c",
+            "name": "png_set_tIME",
+            "line_range": [
+                969,
+                990
+            ],
+            "LOC": 14
+        },
+        {
+            "file": "pngrutil.c",
+            "name": "png_handle_tEXt",
+            "line_range": [
+                2511,
+                2586
+            ],
+            "LOC": 41
+        },
+        {
+            "file": "pngset.c",
+            "name": "png_set_text_2",
+            "line_range": [
+                774,
+                964
+            ],
+            "LOC": 85
+        },
+        {
+            "file": "pngrutil.c",
+            "name": "png_handle_zTXt",
+            "line_range": [
+                2592,
+                2703
+            ],
+            "LOC": 56
+        },
+        {
+            "file": "pngrutil.c",
+            "name": "png_decompress_chunk",
+            "line_range": [
+                610,
+                765
+            ],
+            "LOC": 66
+        },
+        {
+            "file": "pngrutil.c",
+            "name": "png_inflate",
+            "line_range": [
+                485,
+                600
+            ],
+            "LOC": 47
+        },
+        {
+            "file": "pngrutil.c",
+            "name": "png_handle_iTXt",
+            "line_range": [
+                2709,
+                2853
+            ],
+            "LOC": 76
+        },
+        {
+            "file": "pngpread.c",
+            "name": "png_push_read_IDAT",
+            "line_range": [
+                534,
+                624
+            ],
+            "LOC": 52
+        },
+        {
+            "file": "pngpread.c",
+            "name": "png_process_IDAT_data",
+            "line_range": [
+                627,
+                736
+            ],
+            "LOC": 40
+        },
+        {
+            "file": "pngpread.c",
+            "name": "png_push_process_row",
+            "line_range": [
+                739,
+                966
+            ],
+            "LOC": 128
+        },
+        {
+            "file": "pngrutil.c",
+            "name": "png_read_filter_row",
+            "line_range": [
+                4131,
+                4145
+            ],
+            "LOC": 8
+        },
+        {
+            "file": "pngrutil.c",
+            "name": "png_init_filter_functions",
+            "line_range": [
+                4094,
+                4128
+            ],
+            "LOC": 9
+        },
+        {
+            "file": "pngrtran.c",
+            "name": "png_do_read_transformations",
+            "line_range": [
+                4738,
+                5039
+            ],
+            "LOC": 107
+        },
+        {
+            "file": "pngrtran.c",
+            "name": "png_do_expand_palette",
+            "line_range": [
+                4207,
+                4375
+            ],
+            "LOC": 97
+        },
+        {
+            "file": "pngrtran.c",
+            "name": "png_do_expand",
+            "line_range": [
+                4381,
+                4603
+            ],
+            "LOC": 149
+        },
+        {
+            "file": "pngtrans.c",
+            "name": "png_do_strip_channel",
+            "line_range": [
+                495,
+                613
+            ],
+            "LOC": 53
+        },
+        {
+            "file": "pngrtran.c",
+            "name": "png_do_rgb_to_gray",
+            "line_range": [
+                2997,
+                3187
+            ],
+            "LOC": 111
+        },
+        {
+            "file": "pngrtran.c",
+            "name": "png_do_gray_to_rgb",
+            "line_range": [
+                2858,
+                2940
+            ],
+            "LOC": 57
+        },
+        {
+            "file": "pngrtran.c",
+            "name": "png_do_compose",
+            "line_range": [
+                3198,
+                3931
+            ],
+            "LOC": 444
+        },
+        {
+            "file": "pngrtran.c",
+            "name": "png_do_gamma",
+            "line_range": [
+                3942,
+                4134
+            ],
+            "LOC": 126
+        },
+        {
+            "file": "pngrtran.c",
+            "name": "png_do_encode_alpha",
+            "line_range": [
+                4143,
+                4199
+            ],
+            "LOC": 29
+        },
+        {
+            "file": "pngrtran.c",
+            "name": "png_do_scale_16_to_8",
+            "line_range": [
+                2387,
+                2440
+            ],
+            "LOC": 14
+        },
+        {
+            "file": "pngrtran.c",
+            "name": "png_do_chop",
+            "line_range": [
+                2448,
+                2468
+            ],
+            "LOC": 13
+        },
+        {
+            "file": "pngrtran.c",
+            "name": "png_do_quantize",
+            "line_range": [
+                4641,
+                4730
+            ],
+            "LOC": 61
+        },
+        {
+            "file": "pngrtran.c",
+            "name": "png_do_expand_16",
+            "line_range": [
+                4611,
+                4636
+            ],
+            "LOC": 12
+        },
+        {
+            "file": "pngtrans.c",
+            "name": "png_do_invert",
+            "line_range": [
+                262,
+                312
+            ],
+            "LOC": 32
+        },
+        {
+            "file": "pngrtran.c",
+            "name": "png_do_read_invert_alpha",
+            "line_range": [
+                2569,
+                2665
+            ],
+            "LOC": 45
+        },
+        {
+            "file": "pngrtran.c",
+            "name": "png_do_unshift",
+            "line_range": [
+                2248,
+                2381
+            ],
+            "LOC": 64
+        },
+        {
+            "file": "pngrtran.c",
+            "name": "png_do_unpack",
+            "line_range": [
+                2150,
+                2238
+            ],
+            "LOC": 50
+        },
+        {
+            "file": "pngtrans.c",
+            "name": "png_do_check_palette_indexes",
+            "line_range": [
+                699,
+                795
+            ],
+            "LOC": 46
+        },
+        {
+            "file": "pngtrans.c",
+            "name": "png_do_bgr",
+            "line_range": [
+                619,
+                692
+            ],
+            "LOC": 51
+        },
+        {
+            "file": "pngtrans.c",
+            "name": "png_do_packswap",
+            "line_range": [
+                455,
+                481
+            ],
+            "LOC": 16
+        },
+        {
+            "file": "pngrtran.c",
+            "name": "png_do_read_filler",
+            "line_range": [
+                2671,
+                2852
+            ],
+            "LOC": 125
+        },
+        {
+            "file": "pngrtran.c",
+            "name": "png_do_read_swap_alpha",
+            "line_range": [
+                2473,
+                2564
+            ],
+            "LOC": 59
+        },
+        {
+            "file": "pngtrans.c",
+            "name": "png_do_swap",
+            "line_range": [
+                319,
+                343
+            ],
+            "LOC": 12
+        },
+        {
+            "file": "pngrutil.c",
+            "name": "png_do_read_interlace",
+            "line_range": [
+                3684,
+                3927
+            ],
+            "LOC": 146
+        },
+        {
+            "file": "pngpread.c",
+            "name": "png_push_have_row",
+            "line_range": [
+                1049,
+                1054
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "pngpread.c",
+            "name": "png_read_push_finish_row",
+            "line_range": [
+                969,
+                1032
+            ],
+            "LOC": 30
+        },
+        {
+            "file": "pngpread.c",
+            "name": "png_process_data_pause",
+            "line_range": [
+                51,
+                75
+            ],
+            "LOC": 11
+        },
+        {
+            "file": "pngpread.c",
+            "name": "png_process_data_skip",
+            "line_range": [
+                78,
+                87
+            ],
+            "LOC": 3
+        },
+        {
+            "file": "pngpread.c",
+            "name": "png_progressive_combine_row",
+            "line_range": [
+                1058,
+                1070
+            ],
+            "LOC": 7
+        },
+        {
+            "file": "pngrutil.c",
+            "name": "png_combine_row",
+            "line_range": [
+                3199,
+                3680
+            ],
+            "LOC": 162
+        },
+        {
+            "file": "pngpread.c",
+            "name": "png_set_progressive_read_fn",
+            "line_range": [
+                1074,
+                1086
+            ],
+            "LOC": 10
+        },
+        {
+            "file": "pngpread.c",
+            "name": "png_get_progressive_ptr",
+            "line_range": [
+                1089,
+                1095
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "pngread.c",
+            "name": "png_create_read_struct",
+            "line_range": [
+                25,
+                34
+            ],
+            "LOC": 3
+        },
+        {
+            "file": "pngread.c",
+            "name": "png_create_read_struct_2",
+            "line_range": [
+                40,
+                78
+            ],
+            "LOC": 10
+        },
+        {
+            "file": "pngread.c",
+            "name": "png_read_info",
+            "line_range": [
+                92,
+                262
+            ],
+            "LOC": 77
+        },
+        {
+            "file": "pngrutil.c",
+            "name": "png_read_sig",
+            "line_range": [
+                121,
+                150
+            ],
+            "LOC": 17
+        },
+        {
+            "file": "pngrutil.c",
+            "name": "png_read_chunk_header",
+            "line_range": [
+                156,
+                191
+            ],
+            "LOC": 13
+        },
+        {
+            "file": "pngrutil.c",
+            "name": "png_handle_eXIf",
+            "line_range": [
+                2038,
+                2093
+            ],
+            "LOC": 34
+        },
+        {
+            "file": "pngset.c",
+            "name": "png_set_eXIf_1",
+            "line_range": [
+                148,
+                181
+            ],
+            "LOC": 19
+        },
+        {
+            "file": "pngread.c",
+            "name": "png_read_update_info",
+            "line_range": [
+                267,
+                289
+            ],
+            "LOC": 9
+        },
+        {
+            "file": "pngrutil.c",
+            "name": "png_read_start_row",
+            "line_range": [
+                4391,
+                4681
+            ],
+            "LOC": 116
+        },
+        {
+            "file": "pngrtran.c",
+            "name": "png_init_read_transformations",
+            "line_range": [
+                1291,
+                1933
+            ],
+            "LOC": 265
+        },
+        {
+            "file": "pngrtran.c",
+            "name": "png_gamma_threshold",
+            "line_range": [
+                1092,
+                1103
+            ],
+            "LOC": 4
+        },
+        {
+            "file": "pngrtran.c",
+            "name": "png_init_palette_transformations",
+            "line_range": [
+                1117,
+                1203
+            ],
+            "LOC": 39
+        },
+        {
+            "file": "pngrtran.c",
+            "name": "png_init_rgb_transformations",
+            "line_range": [
+                1206,
+                1288
+            ],
+            "LOC": 33
+        },
+        {
+            "file": "pngrtran.c",
+            "name": "png_read_transform_info",
+            "line_range": [
+                1940,
+                2140
+            ],
+            "LOC": 74
+        },
+        {
+            "file": "pngread.c",
+            "name": "png_start_read_image",
+            "line_range": [
+                298,
+                312
+            ],
+            "LOC": 7
+        },
+        {
+            "file": "pngread.c",
+            "name": "png_read_row",
+            "line_range": [
+                383,
+                616
+            ],
+            "LOC": 98
+        },
+        {
+            "file": "pngrutil.c",
+            "name": "png_read_finish_row",
+            "line_range": [
+                4326,
+                4387
+            ],
+            "LOC": 28
+        },
+        {
+            "file": "pngrutil.c",
+            "name": "png_read_finish_IDAT",
+            "line_range": [
+                4278,
+                4323
+            ],
+            "LOC": 16
+        },
+        {
+            "file": "pngrutil.c",
+            "name": "png_read_IDAT_data",
+            "line_range": [
+                4149,
+                4275
+            ],
+            "LOC": 60
+        },
+        {
+            "file": "pngread.c",
+            "name": "png_do_read_intrapixel",
+            "line_range": [
+                321,
+                379
+            ],
+            "LOC": 39
+        },
+        {
+            "file": "pngread.c",
+            "name": "png_read_rows",
+            "line_range": [
+                645,
+                683
+            ],
+            "LOC": 28
+        },
+        {
+            "file": "pngread.c",
+            "name": "png_read_image",
+            "line_range": [
+                700,
+                757
+            ],
+            "LOC": 25
+        },
+        {
+            "file": "pngtrans.c",
+            "name": "png_set_interlace_handling",
+            "line_range": [
+                99,
+                110
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "pngread.c",
+            "name": "png_read_end",
+            "line_range": [
+                766,
+                935
+            ],
+            "LOC": 77
+        },
+        {
+            "file": "pngread.c",
+            "name": "png_set_read_status_fn",
+            "line_range": [
+                1037,
+                1043
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "pngread.c",
+            "name": "png_read_png",
+            "line_range": [
+                1049,
+                1248
+            ],
+            "LOC": 53
+        },
+        {
+            "file": "pngrtran.c",
+            "name": "png_set_scale_16",
+            "line_range": [
+                183,
+                191
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "pngrtran.c",
+            "name": "png_rtran_ok",
+            "line_range": [
+                110,
+                131
+            ],
+            "LOC": 11
+        },
+        {
+            "file": "pngrtran.c",
+            "name": "png_set_strip_16",
+            "line_range": [
+                197,
+                205
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "pngrtran.c",
+            "name": "png_set_strip_alpha",
+            "line_range": [
+                210,
+                218
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "pngtrans.c",
+            "name": "png_set_packing",
+            "line_range": [
+                50,
+                64
+            ],
+            "LOC": 7
+        },
+        {
+            "file": "pngtrans.c",
+            "name": "png_set_packswap",
+            "line_range": [
+                70,
+                79
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "pngrtran.c",
+            "name": "png_set_expand",
+            "line_range": [
+                872,
+                880
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "pngtrans.c",
+            "name": "png_set_invert_mono",
+            "line_range": [
+                250,
+                258
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "pngtrans.c",
+            "name": "png_set_shift",
+            "line_range": [
+                84,
+                93
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "pngtrans.c",
+            "name": "png_set_bgr",
+            "line_range": [
+                21,
+                29
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "pngtrans.c",
+            "name": "png_set_swap_alpha",
+            "line_range": [
+                223,
+                231
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "pngtrans.c",
+            "name": "png_set_swap",
+            "line_range": [
+                35,
+                44
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "pngtrans.c",
+            "name": "png_set_invert_alpha",
+            "line_range": [
+                237,
+                245
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "pngrtran.c",
+            "name": "png_set_gray_to_rgb",
+            "line_range": [
+                955,
+                965
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "pngrtran.c",
+            "name": "png_set_expand_gray_1_2_4_to_8",
+            "line_range": [
+                914,
+                922
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "pngrtran.c",
+            "name": "png_set_expand_16",
+            "line_range": [
+                942,
+                950
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "pngread.c",
+            "name": "png_image_begin_read_from_memory",
+            "line_range": [
+                1570,
+                1602
+            ],
+            "LOC": 17
+        },
+        {
+            "file": "pngread.c",
+            "name": "png_image_read_init",
+            "line_range": [
+                1306,
+                1351
+            ],
+            "LOC": 23
+        },
+        {
+            "file": "pngread.c",
+            "name": "png_image_memory_read",
+            "line_range": [
+                1541,
+                1568
+            ],
+            "LOC": 17
+        },
+        {
+            "file": "pngread.c",
+            "name": "png_image_read_header",
+            "line_range": [
+                1407,
+                1467
+            ],
+            "LOC": 26
+        },
+        {
+            "file": "pngset.c",
+            "name": "png_set_benign_errors",
+            "line_range": [
+                1672,
+                1689
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "pngread.c",
+            "name": "png_image_format",
+            "line_range": [
+                1355,
+                1379
+            ],
+            "LOC": 13
+        },
+        {
+            "file": "pngread.c",
+            "name": "png_image_finish_read",
+            "line_range": [
+                4108,
+                4222
+            ],
+            "LOC": 45
+        },
+        {
+            "file": "pngread.c",
+            "name": "png_image_read_colormap",
+            "line_range": [
+                2090,
+                2939
+            ],
+            "LOC": 338
+        },
+        {
+            "file": "pngread.c",
+            "name": "png_create_colormap_entry",
+            "line_range": [
+                1762,
+                1980
+            ],
+            "LOC": 109
+        },
+        {
+            "file": "pngread.c",
+            "name": "set_file_encoding",
+            "line_range": [
+                1666,
+                1683
+            ],
+            "LOC": 11
+        },
+        {
+            "file": "pngread.c",
+            "name": "png_gamma_not_sRGB",
+            "line_range": [
+                1388,
+                1400
+            ],
+            "LOC": 7
+        },
+        {
+            "file": "pngread.c",
+            "name": "make_gray_colormap",
+            "line_range": [
+                1994,
+                2001
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "pngrtran.c",
+            "name": "png_set_background_fixed",
+            "line_range": [
+                137,
+                163
+            ],
+            "LOC": 18
+        },
+        {
+            "file": "pngread.c",
+            "name": "make_ga_colormap",
+            "line_range": [
+                2006,
+                2055
+            ],
+            "LOC": 13
+        },
+        {
+            "file": "pngrtran.c",
+            "name": "png_set_rgb_to_gray_fixed",
+            "line_range": [
+                970,
+                1051
+            ],
+            "LOC": 30
+        },
+        {
+            "file": "pngread.c",
+            "name": "make_gray_file_colormap",
+            "line_range": [
+                1983,
+                1990
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "pngread.c",
+            "name": "make_rgb_colormap",
+            "line_range": [
+                2061,
+                2080
+            ],
+            "LOC": 11
+        },
+        {
+            "file": "pngread.c",
+            "name": "png_colormap_compose",
+            "line_range": [
+                1725,
+                1755
+            ],
+            "LOC": 13
+        },
+        {
+            "file": "pngread.c",
+            "name": "decode_gamma",
+            "line_range": [
+                1686,
+                1721
+            ],
+            "LOC": 17
+        },
+        {
+            "file": "pngrtran.c",
+            "name": "png_set_tRNS_to_alpha",
+            "line_range": [
+                926,
+                934
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "pngrtran.c",
+            "name": "png_set_alpha_mode_fixed",
+            "line_range": [
+                287,
+                396
+            ],
+            "LOC": 43
+        },
+        {
+            "file": "pngrtran.c",
+            "name": "translate_gamma_flags",
+            "line_range": [
+                223,
+                257
+            ],
+            "LOC": 16
+        },
+        {
+            "file": "pngread.c",
+            "name": "png_image_read_colormapped",
+            "line_range": [
+                3133,
+                3261
+            ],
+            "LOC": 63
+        },
+        {
+            "file": "pngread.c",
+            "name": "png_image_skip_unused_chunks",
+            "line_range": [
+                1609,
+                1651
+            ],
+            "LOC": 4
+        },
+        {
+            "file": "pngset.c",
+            "name": "png_set_keep_unknown_chunks",
+            "line_range": [
+                1373,
+                1527
+            ],
+            "LOC": 67
+        },
+        {
+            "file": "pngset.c",
+            "name": "add_one_chunk",
+            "line_range": [
+                1345,
+                1370
+            ],
+            "LOC": 14
+        },
+        {
+            "file": "pngread.c",
+            "name": "png_image_read_direct",
+            "line_range": [
+                3672,
+                4105
+            ],
+            "LOC": 183
+        },
+        {
+            "file": "pngtrans.c",
+            "name": "png_set_add_alpha",
+            "line_range": [
+                205,
+                216
+            ],
+            "LOC": 7
+        },
+        {
+            "file": "pngtrans.c",
+            "name": "png_set_filler",
+            "line_range": [
+                120,
+                201
+            ],
+            "LOC": 13
+        },
+        {
+            "file": "pngread.c",
+            "name": "png_image_read_composite",
+            "line_range": [
+                3265,
+                3375
+            ],
+            "LOC": 60
+        },
+        {
+            "file": "pngread.c",
+            "name": "png_image_read_background",
+            "line_range": [
+                3392,
+                3667
+            ],
+            "LOC": 142
+        },
+        {
+            "file": "pngread.c",
+            "name": "png_image_read_and_map",
+            "line_range": [
+                2944,
+                3129
+            ],
+            "LOC": 88
+        },
+        {
+            "file": "pngrio.c",
+            "name": "png_read_data",
+            "line_range": [
+                32,
+                41
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "pngrio.c",
+            "name": "png_set_read_fn",
+            "line_range": [
+                87,
+                119
+            ],
+            "LOC": 7
+        },
+        {
+            "file": "pngrtran.c",
+            "name": "png_set_crc_action",
+            "line_range": [
+                36,
+                101
+            ],
+            "LOC": 28
+        },
+        {
+            "file": "pngrtran.c",
+            "name": "png_set_background",
+            "line_range": [
+                167,
+                173
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "pngrtran.c",
+            "name": "png_set_alpha_mode",
+            "line_range": [
+                400,
+                404
+            ],
+            "LOC": 4
+        },
+        {
+            "file": "pngrtran.c",
+            "name": "convert_gamma_value",
+            "line_range": [
+                262,
+                280
+            ],
+            "LOC": 7
+        },
+        {
+            "file": "pngrtran.c",
+            "name": "png_set_quantize",
+            "line_range": [
+                428,
+                813
+            ],
+            "LOC": 228
+        },
+        {
+            "file": "pngrtran.c",
+            "name": "png_set_gamma_fixed",
+            "line_range": [
+                818,
+                854
+            ],
+            "LOC": 14
+        },
+        {
+            "file": "pngrtran.c",
+            "name": "png_set_gamma",
+            "line_range": [
+                858,
+                862
+            ],
+            "LOC": 4
+        },
+        {
+            "file": "pngrtran.c",
+            "name": "png_set_palette_to_rgb",
+            "line_range": [
+                902,
+                910
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "pngrtran.c",
+            "name": "png_set_rgb_to_gray",
+            "line_range": [
+                1059,
+                1065
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "pngrtran.c",
+            "name": "png_set_read_user_transform_fn",
+            "line_range": [
+                1073,
+                1082
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "pngrutil.c",
+            "name": "png_get_uint_32",
+            "line_range": [
+                68,
+                76
+            ],
+            "LOC": 7
+        },
+        {
+            "file": "pngrutil.c",
+            "name": "png_get_int_32",
+            "line_range": [
+                85,
+                99
+            ],
+            "LOC": 9
+        },
+        {
+            "file": "pngrutil.c",
+            "name": "png_get_uint_16",
+            "line_range": [
+                103,
+                114
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "pngrutil.c",
+            "name": "png_read_filter_row_sub",
+            "line_range": [
+                3931,
+                3946
+            ],
+            "LOC": 12
+        },
+        {
+            "file": "pngrutil.c",
+            "name": "png_read_filter_row_up",
+            "line_range": [
+                3949,
+                3962
+            ],
+            "LOC": 11
+        },
+        {
+            "file": "pngrutil.c",
+            "name": "png_read_filter_row_avg",
+            "line_range": [
+                3965,
+                3989
+            ],
+            "LOC": 18
+        },
+        {
+            "file": "pngrutil.c",
+            "name": "png_read_filter_row_paeth_1byte_pixel",
+            "line_range": [
+                3992,
+                4040
+            ],
+            "LOC": 24
+        },
+        {
+            "file": "pngrutil.c",
+            "name": "png_read_filter_row_paeth_multibyte_pixel",
+            "line_range": [
+                4043,
+                4091
+            ],
+            "LOC": 25
+        },
+        {
+            "file": "pngset.c",
+            "name": "png_set_cHRM_fixed",
+            "line_range": [
+                40,
+                66
+            ],
+            "LOC": 20
+        },
+        {
+            "file": "pngset.c",
+            "name": "png_set_cHRM_XYZ_fixed",
+            "line_range": [
+                69,
+                98
+            ],
+            "LOC": 23
+        },
+        {
+            "file": "pngset.c",
+            "name": "png_set_cHRM",
+            "line_range": [
+                102,
+                115
+            ],
+            "LOC": 13
+        },
+        {
+            "file": "pngset.c",
+            "name": "png_set_cHRM_XYZ",
+            "line_range": [
+                118,
+                132
+            ],
+            "LOC": 14
+        },
+        {
+            "file": "pngset.c",
+            "name": "png_set_eXIf",
+            "line_range": [
+                139,
+                145
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "pngset.c",
+            "name": "png_set_gAMA_fixed",
+            "line_range": [
+                186,
+                196
+            ],
+            "LOC": 7
+        },
+        {
+            "file": "pngset.c",
+            "name": "png_set_gAMA",
+            "line_range": [
+                200,
+                204
+            ],
+            "LOC": 3
+        },
+        {
+            "file": "pngset.c",
+            "name": "png_set_sCAL",
+            "line_range": [
+                497,
+                522
+            ],
+            "LOC": 12
+        },
+        {
+            "file": "pngset.c",
+            "name": "png_set_sCAL_fixed",
+            "line_range": [
+                527,
+                550
+            ],
+            "LOC": 12
+        },
+        {
+            "file": "pngset.c",
+            "name": "png_set_sRGB",
+            "line_range": [
+                654,
+                663
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "pngset.c",
+            "name": "png_set_sRGB_gAMA_and_cHRM",
+            "line_range": [
+                666,
+                683
+            ],
+            "LOC": 10
+        },
+        {
+            "file": "pngset.c",
+            "name": "png_set_iCCP",
+            "line_range": [
+                689,
+                758
+            ],
+            "LOC": 35
+        },
+        {
+            "file": "pngset.c",
+            "name": "png_set_text",
+            "line_range": [
+                763,
+                771
+            ],
+            "LOC": 7
+        },
+        {
+            "file": "pngset.c",
+            "name": "png_set_unknown_chunk_location",
+            "line_range": [
+                1300,
+                1325
+            ],
+            "LOC": 14
+        },
+        {
+            "file": "pngset.c",
+            "name": "png_permit_mng_features",
+            "line_range": [
+                1330,
+                1340
+            ],
+            "LOC": 6
+        },
+        {
+            "file": "pngset.c",
+            "name": "png_set_read_user_chunk_fn",
+            "line_range": [
+                1532,
+                1542
+            ],
+            "LOC": 7
+        },
+        {
+            "file": "pngset.c",
+            "name": "png_set_rows",
+            "line_range": [
+                1547,
+                1563
+            ],
+            "LOC": 11
+        },
+        {
+            "file": "pngset.c",
+            "name": "png_set_compression_buffer_size",
+            "line_range": [
+                1567,
+                1624
+            ],
+            "LOC": 9
+        },
+        {
+            "file": "pngset.c",
+            "name": "png_set_invalid",
+            "line_range": [
+                1627,
+                1631
+            ],
+            "LOC": 4
+        },
+        {
+            "file": "pngset.c",
+            "name": "png_set_user_limits",
+            "line_range": [
+                1637,
+                1649
+            ],
+            "LOC": 7
+        },
+        {
+            "file": "pngset.c",
+            "name": "png_set_chunk_cache_max",
+            "line_range": [
+                1653,
+                1657
+            ],
+            "LOC": 4
+        },
+        {
+            "file": "pngset.c",
+            "name": "png_set_chunk_malloc_max",
+            "line_range": [
+                1661,
+                1666
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "pngset.c",
+            "name": "png_set_check_for_invalid_index",
+            "line_range": [
+                1702,
+                1711
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "pngset.c",
+            "name": "png_check_keyword",
+            "line_range": [
+                1727,
+                1801
+            ],
+            "LOC": 30
+        },
+        {
+            "file": "pngtrans.c",
+            "name": "png_set_user_transform_info",
+            "line_range": [
+                802,
+                823
+            ],
+            "LOC": 12
+        },
+        {
+            "file": "pngtrans.c",
+            "name": "png_get_user_transform_ptr",
+            "line_range": [
+                833,
+                839
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "pngtrans.c",
+            "name": "png_get_current_row_number",
+            "line_range": [
+                844,
+                853
+            ],
+            "LOC": 5
+        },
+        {
+            "file": "pngtrans.c",
+            "name": "png_get_current_pass_number",
+            "line_range": [
+                856,
+                861
+            ],
+            "LOC": 5
+        }
+    ]
+}

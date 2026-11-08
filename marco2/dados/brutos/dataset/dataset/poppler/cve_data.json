@@ -1,0 +1,312 @@
+{
+    "CVE-2019-14494": {
+        "cwe": "CWE-369",
+        "functions": [
+            {
+                "file": "poppler/SplashOutputDev.cc",
+                "name": "_ZN15SplashOutputDev17tilingPatternFillEP8GfxStateP3GfxP7CatalogP6ObjectPKdiiP4DictS9_S9_iiiidd",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2019-9959": {
+        "cwe": "CWE-190",
+        "functions": [
+            {
+                "file": "poppler/JPEG2000Stream.cc",
+                "name": "_ZN9JPXStream4initEv",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2017-9865": {
+        "cwe": "CWE-125",
+        "functions": [
+            {
+                "file": "utils/HtmlOutputDev.cc",
+                "name": "_ZN13HtmlOutputDev12drawPngImageEP8GfxStateP6StreamiiP16GfxImageColorMapb",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            },
+            {
+                "file": "utils/ImageOutputDev.cc",
+                "name": "_ZN14ImageOutputDev14writeImageFileEP9ImgWriterNS_11ImageFormatEPKcP6StreamiiP16GfxImageColorMap",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2019-10873": {
+        "cwe": "CWE-476",
+        "functions": [
+            {
+                "file": "splash/SplashXPathScanner.cc",
+                "name": "_ZN18SplashXPathScanner10clipAALineEP12SplashBitmapPiS2_i",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2019-12293": {
+        "cwe": "CWE-125",
+        "functions": [
+            {
+                "file": "poppler/JPEG2000Stream.cc",
+                "name": "_ZN9JPXStream4initEv",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2019-10872": {
+        "cwe": "CWE-125",
+        "functions": [
+            {
+                "file": "splash/Splash.cc",
+                "name": "_ZN6Splash15blitTransparentEP12SplashBitmapiiiiii",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2019-9200": {
+        "cwe": "CWE-787",
+        "functions": [
+            {
+                "file": "poppler/Stream.cc",
+                "name": "_ZN11ImageStream7getLineEv",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2019-7310": {
+        "cwe": "CWE-125",
+        "functions": [
+            {
+                "file": "poppler/XRef.cc",
+                "name": "_ZN4XRef8getEntryEib",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2018-21009": {
+        "cwe": "CWE-190",
+        "functions": [
+            {
+                "file": "poppler/Parser.cc",
+                "name": "_ZN6Parser10makeStreamEO6ObjectPKh14CryptAlgorithmiiiib",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2018-20650": {
+        "cwe": "CWE-20",
+        "functions": [
+            {
+                "file": "poppler/FileSpec.cc",
+                "name": "_ZN8FileSpecC2EPK6Object",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2018-20481": {
+        "cwe": "CWE-476",
+        "functions": [
+            {
+                "file": "poppler/XRef.cc",
+                "name": "_ZN4XRef8getEntryEib",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2018-19058": {
+        "cwe": "CWE-670",
+        "functions": [
+            {
+                "file": "poppler/FileSpec.cc",
+                "name": "_ZN7EmbFile5save2EP8_IO_FILE",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2018-13988": {
+        "cwe": "CWE-125",
+        "functions": [
+            {
+                "file": "poppler/Parser.cc",
+                "name": "_ZN6Parser6getObjEbPKh14CryptAlgorithmiiiib",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2019-12360": {
+        "cwe": "CWE-125",
+        "functions": [
+            {
+                "file": "fofi/FoFiTrueType.cc",
+                "name": "_ZNK12FoFiTrueType8cvtSfntsEPFvPvPKciES0_PK9GooStringbPi",
+                "magma_info": {
+                    "fix_count": 2,
+                    "canary_count": 2
+                }
+            }
+        ]
+    },
+    "CVE-2018-10768": {
+        "cwe": "CWE-476",
+        "functions": [
+            {
+                "file": "poppler/Annot.cc",
+                "name": "_ZN8AnnotInk4drawEP3Gfxb",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2017-9776": {
+        "cwe": "CWE-190",
+        "functions": [
+            {
+                "file": "poppler/JBIG2Stream.cc",
+                "name": "_ZN11JBIG2Bitmap7combineEPS_iij",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "CVE-2017-18267": {
+        "cwe": "CWE-835",
+        "functions": [
+            {
+                "file": "fofi/FoFiType1C.cc",
+                "name": "_ZN10FoFiType1C8cvtGlyphEiiP9GooStringPK11Type1CIndexPK17Type1CPrivateDictb",
+                "magma_info": {
+                    "fix_count": 2,
+                    "canary_count": 2
+                }
+            }
+        ]
+    },
+    "CVE-2017-14617": {
+        "cwe": "CWE-20",
+        "functions": [
+            {
+                "file": "poppler/Stream.cc",
+                "name": "_ZN11ImageStreamC2EP6Streamiii",
+                "magma_info": {
+                    "fix_count": 2,
+                    "canary_count": 2
+                }
+            }
+        ]
+    },
+    "CVE-2019-12493": {
+        "cwe": "CWE-125",
+        "functions": [
+            {
+                "file": "poppler/GfxState.cc",
+                "name": "_ZNK23GfxSeparationColorSpace7getGrayEPK8GfxColorPi",
+                "magma_info": {
+                    "fix_count": 2,
+                    "canary_count": 1
+                }
+            },
+            {
+                "file": "poppler/GfxState.cc",
+                "name": "_ZNK23GfxSeparationColorSpace6getRGBEPK8GfxColorP6GfxRGB",
+                "magma_info": {
+                    "fix_count": 2,
+                    "canary_count": 1
+                }
+            },
+            {
+                "file": "poppler/GfxState.cc",
+                "name": "_ZNK23GfxSeparationColorSpace7getCMYKEPK8GfxColorP7GfxCMYK",
+                "magma_info": {
+                    "fix_count": 2,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "ossfuzz_8499": {
+        "cwe": "CWE-190",
+        "functions": [
+            {
+                "file": "poppler/Parser.cc",
+                "name": "_ZN6Parser10makeStreamEO6ObjectPKh14CryptAlgorithmiiiib",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "bug_101366": {
+        "cwe": "CWE-476",
+        "functions": [
+            {
+                "file": "poppler/SplashOutputDev.cc",
+                "name": "_ZN15SplashOutputDev7type3D1EP8GfxStatedddddd",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    },
+    "bug_106061": {
+        "cwe": "CWE-369",
+        "functions": [
+            {
+                "file": "poppler/GfxState.cc",
+                "name": "_ZN25GfxGouraudTriangleShading5parseEP12GfxResourcesiP4DictP6StreamP9OutputDevP8GfxState",
+                "magma_info": {
+                    "fix_count": 1,
+                    "canary_count": 1
+                }
+            }
+        ]
+    }
+}
