@@ -1,13 +1,15 @@
-#!/usr/bin/env python3
 """
-MCEQ 12576 - PUC-Campinas - Projeto Final - Marco 2 (10/11/2026)
+MCEQ 12576 - PUC-Campinas - Projeto Final - Marco 2
 Combinacao de analisadores estaticos e falsos negativos em CVEs reais em C.
 
 Fluxo (dados brutos -> dados limpos -> descritiva -> figura):
-    python src/marco2.py baixar        # baixa os arquivos brutos e registra SHA-256
-    python src/marco2.py inspecionar   # mostra o esquema real dos JSON/CSV (rodar 1x)
-    python src/marco2.py limpar        # gera dados/limpos/ e o diario de limpeza
-    python src/marco2.py descrever     # tabelas descritivas + figura
+    python src/marco2.py baixar         # baixa os arquivos brutos e registra SHA-256
+    python src/marco2.py inspecionar    # mostra o esquema real dos JSON/CSV
+    python src/marco2.py limpar         # gera dados/limpos/ e o diario de limpeza (+ conferencias)
+    python src/marco2.py descrever      # tabelas descritivas + figura
+Comandos de conferencia (nao alteram os dados limpos):
+    python src/marco2.py diagnosticar   # CWE dos alertas, evidencias, intervalos de funcao suspeitos
+    python src/marco2.py mapeamento     # compara 12 regras alerta->funcao com os CSV dos autores
 
 REGRAS DO PROTOCOLO (registrado em 02/11/2026) QUE ESTE SCRIPT SEGUE
   - Nao executamos analisadores (R4): so usamos os resultados publicados.
@@ -15,8 +17,14 @@ REGRAS DO PROTOCOLO (registrado em 02/11/2026) QUE ESTE SCRIPT SEGUE
     (nao exige a CWE correta).
   - Estrategia A = analisador individual com MAIOR taxa de deteccao em S1-1
     (regra fixada antes de ver os dados). Estrategia B = uniao dos 6.
-  - Classe CWE = hierarquia dos autores (buckets.json): CWE-664 x demais.
+  - Classe CWE: CWE-664 x demais, pela hierarquia dos autores (cwe_distr.csv: tipo -> classe).
   - Os dados brutos nunca sao editados; toda transformacao esta aqui.
+
+DECISOES POSTERIORES AO PROTOCOLO (a registrar no adendo datado; ver diario_limpeza.csv)
+  - LL_AJUSTE: reclassificacao de 4 CWE brutas, inferida de cwe_distr.csv.
+  - EXCLUIR_REF_AUSENTE: exclui CVE que cita funcao ausente de functions.json (1 CVE).
+  - BORDA/MODO: regra alerta->funcao escolhida por reproduzir melhor sca_data_1.csv e
+    fct_stats_2.csv (comando `mapeamento`), nunca pelo efeito sobre H1.
 """
 import hashlib
 import json
@@ -47,8 +55,6 @@ BRUTOS, LIMPOS = RAIZ / "dados" / "brutos", RAIZ / "dados" / "limpos"
 FIGS, TABS = RAIZ / "figuras", RAIZ / "tabelas"
 
 FERRAMENTAS = ["flawfinder", "cppcheck", "infer", "codechecker", "codeql", "commsca"]
-PROGRAMAS = ["binutils", "ffmpeg", "libpng", "libtiff", "libxml2",
-             "openssl", "php", "poppler", "sqlite3"]
 
 # Valores que o PROTOCOLO/README afirmam (usados em assert de conferencia)
 ESPERADO = {"n_cve": 192, "n_cwe664": 117, "n_demais": 75,

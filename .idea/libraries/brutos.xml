@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="brutos">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/marco2/dados/brutos/dataset.zip!/" />
+      <root url="jar://$PROJECT_DIR$/marco2/dados/brutos/cwe_mapping.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

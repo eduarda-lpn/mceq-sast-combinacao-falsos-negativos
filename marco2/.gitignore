@@ -1,0 +1,3 @@
+__pycache__/
+dados/brutos/*
+!dados/brutos/SHA256SUMS.txt
