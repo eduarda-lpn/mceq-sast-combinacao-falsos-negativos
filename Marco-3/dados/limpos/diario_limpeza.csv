@@ -31,3 +31,4 @@ n,decisao,efeito
 30,"Conferencia com sca_data_1.csv (S1-1, individuais): linhas que batem",42 de 54
 31,Conferencia de funcoes marcadas com fct_stats_2.csv: linhas que batem,36 de 63
 32,Conferencia de funcoes com fct_stats_1.csv: programas que batem (n e vulneraveis),5 de 9
+33,Conferencia JSON x fct_stats_2.csv: autores marcam MAIS funcoes do que ha linhas com alerta no sca_results.json publicado (irreproduzivel a partir do JSON),"[['cppcheck', 'ffmpeg', 127, 761], ['cppcheck', 'libxml2', 10, 13], ['cppcheck', 'openssl', 254, 277], ['cppcheck', 'sqlite3', 44, 52]]"

@@ -1,0 +1,6 @@
+# Versoes com que o pipeline foi reexecutado em 09/11/2026 (Python 3.14, Windows 11)
+# e reproduziu exatamente as tabelas do Marco 3.
+numpy==2.5.4
+pandas==3.1.1
+matplotlib==3.11.2
+scipy==1.18.1

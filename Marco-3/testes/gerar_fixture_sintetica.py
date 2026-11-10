@@ -1,5 +1,7 @@
 """Gera dados SINTETICOS (inventados) no ESQUEMA REAL dos arquivos (conferido com `inspecionar`),
 so para testar se o codigo roda ponta a ponta. NUNCA usar a saida no artigo.
+Uso (de dentro de Marco-3/):  python testes/gerar_fixture_sintetica.py /tmp/fx
+                              MCEQ_FIXTURE=/tmp/fx python src/analise.py limpar   (e descrever)
 Formatos ainda nao vistos (itens de cve_data['functions'] e line_range) sao variados de proposito."""
 import json, sys
 from pathlib import Path

@@ -1,0 +1,16 @@
+EQUIPE: RA: 24014979 NOME: Jhenifer Laís Barbosa | RA: 24002529 NOME: Eduarda Luiza Pinheiro Nepomuceno
+ 
+
+LINK PARA O ARTIGO SELECIONADO: https://dl.acm.org/doi/10.1145/3533767.3534380
+PROJETO: Impacto da Combinação de Múltiplas Ferramentas de Análise Estática na Taxa de Detecção de Vulnerabilidades Reais em Código C
+PROBLEMA (lacuna de conhecimento): O artigo mostra que ferramentas de análise estática de última geração, embora tenham bom desempenho em benchmarks sintéticos, deixam de detectar entre 47% e 80% das vulnerabilidades em programas C do mundo real, e que essa taxa de falso negativo cai para 30%–69% quando os resultados de múltiplos analisadores são combinados, ao custo de mais ruído/falsos positivos. Falta, porém, uma investigação sistemática sobre até que ponto esse ganho de detecção compensa o custo adicional de triagem gerado pelo aumento de falsos positivos, ou seja, se combinar ferramentas é uma estratégia praticamente vantajosa ou se apenas desloca o problema. 
+PERGUNTA DE PESQUISA: Em programas C do mundo real, a combinação de múltiplos analisadores estáticos (SAST) reduz a taxa de falsos negativos na detecção de vulnerabilidades em comparação ao uso de um único analisador, e essa redução se mantém vantajosa quando ponderada pelo aumento no volume de funções sinalizadas (falsos positivos)?
+H0 (hipótese nula): combinada = individual (Não há diferença na taxa de falsos negativos entre o uso de um único analisador estático e a combinação de múltiplos analisadores.)
+H1 (hipótese alternativa): [X] unilateral [ ] bilateral
+combinada < individual (A combinação de múltiplos analisadores estáticos apresenta taxa de falsos negativos significativamente menor do que o uso de um único analisador.)
+VI: Estratégia de análise estática empregada (níveis: Analisador Único vs. Combinação de Analisadores — ex.: Cppcheck, Clang Static Analyzer, Infer, combinados).
+VD: Taxa de falsos negativos na detecção de vulnerabilidades (% de CVEs conhecidas em programas reais que não são detectadas), medida por CWE.
+VD secundária (custo associado)
+Número/percentual de funções sinalizadas incorretamente (falso positivo), para avaliar o trade-off do ganho de detecção.
+CONTROLE: Linguagem de programação (C), mesmo conjunto de programas-alvo (dataset com CVEs reais, ex. baseado no MAGMA), mesma versão dos analisadores, mesmas configurações de execução (sem customização de regras entre grupos).
+MODERADORA: Categoria da vulnerabilidade (CWE relacionado à memória vs. CWE não relacionado à memória), já que o artigo original aponta que vulnerabilidades fora do escopo clássico de memória são as mais negligenciadas, essa variável pode moderar o efeito da combinação de ferramentas.

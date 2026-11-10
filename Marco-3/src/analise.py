@@ -1,15 +1,18 @@
 """
-MCEQ 12576 - PUC-Campinas - Projeto Final - Marco 2
+MCEQ 12576 - PUC-Campinas - Projeto Final - Marco 3 (encontro de 10/11/2026)
 Combinacao de analisadores estaticos e falsos negativos em CVEs reais em C.
 
-Fluxo (dados brutos -> dados limpos -> descritiva -> figura):
-    python src/marco2.py baixar         # baixa os arquivos brutos e registra SHA-256
-    python src/marco2.py inspecionar    # mostra o esquema real dos JSON/CSV
-    python src/marco2.py limpar         # gera dados/limpos/ e o diario de limpeza (+ conferencias)
-    python src/marco2.py descrever      # tabelas descritivas + figura
+Os dados brutos ficam em ../Marco-2/dados/brutos/ (base escolhida e baixada no Marco 2).
+Este script nunca os edita; tudo o que ele gera fica dentro de Marco-3/.
+
+Fluxo (dados brutos -> dados limpos -> descritiva -> figura), rodando de dentro de Marco-3/:
+    python src/analise.py baixar         # (re)baixa os brutos e confere o SHA-256 do Marco 2
+    python src/analise.py inspecionar    # mostra o esquema real dos JSON/CSV
+    python src/analise.py limpar         # gera dados/limpos/ e o diario de limpeza (+ conferencias)
+    python src/analise.py descrever      # tabelas descritivas + figura
 Comandos de conferencia (nao alteram os dados limpos):
-    python src/marco2.py diagnosticar   # CWE dos alertas, evidencias, intervalos de funcao suspeitos
-    python src/marco2.py mapeamento     # compara 12 regras alerta->funcao com os CSV dos autores
+    python src/analise.py diagnosticar   # CWE dos alertas, evidencias, intervalos de funcao suspeitos
+    python src/analise.py mapeamento     # compara 12 regras alerta->funcao com os CSV dos autores
 
 REGRAS DO PROTOCOLO (registrado em 02/11/2026) QUE ESTE SCRIPT SEGUE
   - Nao executamos analisadores (R4): so usamos os resultados publicados.
@@ -28,6 +31,7 @@ DECISOES POSTERIORES AO PROTOCOLO (a registrar no adendo datado; ver diario_limp
 """
 import hashlib
 import json
+import os
 import re
 import sys
 import urllib.request
@@ -50,20 +54,26 @@ ARQUIVOS = ["dataset.zip", "cwe_mapping.zip",
             "data/cwe_distr.csv", "data/fct_stats_1.csv", "data/fct_stats_2.csv",
             "data/sca_data_1.csv", "data/sca_data_2.csv"]
 
-RAIZ = Path(__file__).resolve().parent.parent
-BRUTOS, LIMPOS = RAIZ / "dados" / "brutos", RAIZ / "dados" / "limpos"
+RAIZ = Path(__file__).resolve().parent.parent            # .../Marco-3
+BRUTOS = RAIZ.parent / "Marco-2" / "dados" / "brutos"     # base baixada no Marco 2 (somente leitura)
+# Teste com dados SINTETICOS (testes/gerar_fixture_sintetica.py <pasta>): MCEQ_FIXTURE=<pasta>
+# faz o script ler <pasta>/dados/brutos e escrever tudo em <pasta>, sem tocar nos dados reais.
+if os.environ.get("MCEQ_FIXTURE"):
+    RAIZ = Path(os.environ["MCEQ_FIXTURE"]).resolve()
+    BRUTOS = RAIZ / "dados" / "brutos"
+LIMPOS = RAIZ / "dados" / "limpos"
 FIGS, TABS = RAIZ / "figuras", RAIZ / "tabelas"
 
 FERRAMENTAS = ["flawfinder", "cppcheck", "infer", "codechecker", "codeql", "commsca"]
+NOMES = {"flawfinder": "Flawfinder", "cppcheck": "Cppcheck", "infer": "Infer",
+         "codechecker": "CodeChecker", "codeql": "CodeQL", "commsca": "CommSCA"}
 
 # Valores que o PROTOCOLO/README afirmam (usados em assert de conferencia)
 ESPERADO = {"n_cve": 192, "n_cwe664": 117, "n_demais": 75,
             "n_funcoes": 55203, "n_funcoes_vuln": 223}
 
-# Nomes de campos dos JSON. Eu NAO tinha acesso aos arquivos ao escrever este
-# script: cada lista abaixo traz os nomes candidatos; o primeiro que existir no
+# Nomes de campos dos JSON: cada lista traz nomes candidatos; o primeiro que existir no
 # registro e usado. Se nenhum existir, o script para e mostra as chaves reais.
-# Depois de rodar `inspecionar`, ajuste aqui (e registre no diario).
 CAMPOS = {
     # Esquema conferido com a saida real de `inspecionar` (06/11/2026):
     # functions.json = {"functions": [{file, name, line_range, LOC}]}
@@ -120,7 +130,7 @@ def pegar(reg, chave, obrigatorio=True, contexto=""):
         chaves = list(reg.keys()) if isinstance(reg, dict) else type(reg).__name__
         raise KeyError(f"Campo '{chave}' nao encontrado {contexto}. Candidatos: "
                        f"{CAMPOS[chave]}. Chaves reais: {chaves}. "
-                       f"Ajuste CAMPOS em src/marco2.py.")
+                       f"Ajuste CAMPOS em src/analise.py.")
     return None
 
 
@@ -137,13 +147,26 @@ def sha256(caminho):
 
 def baixar():
     BRUTOS.mkdir(parents=True, exist_ok=True)
+    somas = BRUTOS / "SHA256SUMS.txt"
+    registradas = {}
+    if somas.exists():                                 # hashes gravados no Marco 2
+        for ln in somas.read_text().splitlines():
+            if ln.strip():
+                h, nome = ln.split(maxsplit=1)
+                registradas[nome.strip()] = h
     linhas = []
     for rel in ARQUIVOS:
         destino = BRUTOS / Path(rel).name
         if not destino.exists():                       # dado bruto, intocado
             urllib.request.urlretrieve(URL_BASE + rel, destino)
-        linhas.append(f"{sha256(destino)}  {destino.name}")
-    (BRUTOS / "SHA256SUMS.txt").write_text("\n".join(linhas) + "\n")
+        h = sha256(destino)
+        if destino.name in registradas and registradas[destino.name] != h:
+            sys.exit(f"SHA-256 de {destino.name} difere do registrado no Marco 2: arquivo alterado?")
+        linhas.append(f"{h}  {destino.name}")
+    if registradas:
+        print("SHA-256 conferidos com dados/brutos/SHA256SUMS.txt do Marco 2: OK")
+    else:
+        somas.write_text("\n".join(linhas) + "\n")
     for zname in ("dataset.zip", "cwe_mapping.zip"):
         alvo = BRUTOS / zname.replace(".zip", "")
         if not alvo.exists():
@@ -443,6 +466,42 @@ def conferir_csv(cve, fun, m):
               f"{int(((cmp_['n_nosso']==cmp_['n_autores'])&(cmp_['v_nosso']==cmp_['v_autores'])).sum())} de {len(cmp_)}")
 
 
+def conferir_json_vs_csv(fun):
+    """Teto do que o JSON publicado permite: n de linhas distintas com alerta (em arquivos de
+    functions.json) por ferramenta e programa, contra as funcoes marcadas em fct_stats_2.csv.
+    Quando os autores contam MAIS funcoes marcadas do que ha linhas com alerta, nenhuma regra de
+    ligacao alerta->funcao reproduz o numero deles (salvo funcoes aninhadas): a divergencia vem do
+    pacote publicado (o sca_results.json nao e exatamente o insumo dos CSV), nao do nosso codigo."""
+    f2 = pd.read_csv(BRUTOS / "fct_stats_2.csv")
+    f2["Target"] = f2["Target"].str.lower(); f2["a"] = f2["Analyzer_Comb"].str.lower()
+    tokens = mapa_tokens()
+    linhas = []
+    for sr in sorted((BRUTOS / "dataset").rglob("sca_results.json")):
+        prog = sr.parent.name.lower()
+        arqs = set(fun.loc[fun["programa"] == prog, "arquivo"])
+        conta = {f: set() for f in FERRAMENTAS}
+        for a in json.loads(sr.read_text())["findings"]:
+            if a["file"] in arqs:
+                for t in (a["found_by"] if isinstance(a["found_by"], list) else [a["found_by"]]):
+                    conta.setdefault(norm_ferr(t, tokens), set()).add((a["file"], int(a["line"])))
+        for f in FERRAMENTAS:
+            ref = f2[(f2["a"] == f) & (f2["Target"] == prog)]
+            if ref.empty:
+                continue
+            aut = int(ref["N_Marked_Fcts"].iloc[0])
+            linhas.append({"ferramenta": f, "programa": prog,
+                           "linhas_com_alerta_json": len(conta[f]),
+                           "funcoes_marcadas_autores": aut,
+                           "autores_acima_do_teto_json": aut > len(conta[f])})
+    t = pd.DataFrame(linhas)
+    t.to_csv(LIMPOS / "conferencia_json_vs_fct_stats_2.csv", index=False)
+    acima = t[t["autores_acima_do_teto_json"]]
+    registrar("Conferencia JSON x fct_stats_2.csv: autores marcam MAIS funcoes do que ha linhas com "
+              "alerta no sca_results.json publicado (irreproduzivel a partir do JSON)",
+              acima[["ferramenta", "programa", "linhas_com_alerta_json",
+                     "funcoes_marcadas_autores"]].values.tolist())
+
+
 def conferir_cwe(cve):
     """Compara contagem de CVEs por (programa, CWE de baixo nivel) com cwe_distr.csv."""
     d = pd.read_csv(BRUTOS / "cwe_distr.csv")
@@ -551,6 +610,7 @@ def limpar():
     try:
         conferir_cwe(cve_todas)
         conferir_csv(cve, fun, m)
+        conferir_json_vs_csv(fun)
     except Exception as e:           # a conferencia nao pode derrubar a limpeza
         registrar("Conferencia com CSV dos autores NAO executada", repr(e))
     pd.DataFrame(DIARIO).to_csv(LIMPOS / "diario_limpeza.csv", index=False)
@@ -701,7 +761,7 @@ def mapeamento():
 
 
 # ----------------------------------------------------------------------------
-# 4) DESCREVER: tabelas + figura (sem teste: o teste e do Marco 3, 17/11)
+# 4) DESCREVER: tabelas + figura (sem teste inferencial: o teste e do encontro de 17/11)
 # ----------------------------------------------------------------------------
 def wilson(k, n, z=1.96):
     if n == 0:
@@ -765,7 +825,7 @@ def descrever():
     fig, ax = plt.subplots(1, 2, figsize=(11, 4.2), gridspec_kw={"width_ratios": [1.1, 1]})
     cats = ["Todas", "CWE-664", "Demais"]
     x = np.arange(len(cats)); w = 0.36
-    for i, (col, rot, cor) in enumerate([("det_melhor_individual", f"A: {melhor}", "#7f7f7f"),
+    for i, (col, rot, cor) in enumerate([("det_melhor_individual", f"A: {NOMES[melhor]}", "#7f7f7f"),
                                          ("det_combinada", "B: combinação dos 6", "#1f77b4")]):
         vals, err = [], []
         for c in cats:
@@ -781,8 +841,8 @@ def descrever():
     p = t3.sort_values("pct_B")
     y = np.arange(len(p))
     ax[1].hlines(y, p["pct_A"], p["pct_B"], color="#bbbbbb")
-    ax[1].scatter(p["pct_A"], y, color="#7f7f7f", label="A", zorder=3)
-    ax[1].scatter(p["pct_B"], y, color="#1f77b4", label="B", zorder=3)
+    ax[1].scatter(p["pct_A"], y, color="#7f7f7f", label=f"A: {NOMES[melhor]}", zorder=3)
+    ax[1].scatter(p["pct_B"], y, color="#1f77b4", label="B: combinação dos 6", zorder=3)
     ax[1].set_yticks(y, p["programa"]); ax[1].set_xlim(left=0)
     ax[1].set_xlabel("Funções sinalizadas (% das funções do programa)")
     ax[1].set_title("Custo: A → B em cada programa"); ax[1].legend(frameon=False)
@@ -795,5 +855,5 @@ if __name__ == "__main__":
               "diagnosticar": diagnosticar, "mapeamento": mapeamento,
               "descrever": descrever}
     if len(sys.argv) != 2 or sys.argv[1] not in etapas:
-        sys.exit("uso: python src/marco2.py {baixar|inspecionar|limpar|diagnosticar|mapeamento|descrever}")
+        sys.exit("uso: python src/analise.py {baixar|inspecionar|limpar|diagnosticar|mapeamento|descrever}")
     etapas[sys.argv[1]]()

@@ -1,0 +1,3 @@
+# Dados brutos: guardar e restaurar byte a byte (sem conversao LF/CRLF).
+# Sem isto, o core.autocrlf=true do Windows altera os CSV e o SHA-256 deixa de bater.
+Marco-2/dados/brutos/** -text
